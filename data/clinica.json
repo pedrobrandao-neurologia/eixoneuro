@@ -72,12 +72,10 @@
   "atendimento": {
     "particular": true,
     "convenios": false,
-    "aviso": "Atendimento particular. Não atendemos convênios.",
-    "reembolso": "A clínica não atende convênios, mas fornece recibo ou nota fiscal e, quando solicitado, relatório médico para que o paciente peça reembolso ao seu plano de saúde."
+    "reembolso": "A clínica fornece recibo ou nota fiscal e, quando solicitado, relatório médico para que o paciente solicite reembolso ao seu plano de saúde, conforme as regras do plano."
   },
   "valores": {
-    "consulta": "[PLACEHOLDER — valor da consulta]",
-    "retorno": "[PLACEHOLDER — valor e prazo do retorno]",
+    "nota": "Os valores de consultas, exames e procedimentos são informados pela secretaria no agendamento, pelo WhatsApp.",
     "formas_pagamento": [
       "Pix",
       "Cartão de débito ou crédito",
@@ -96,8 +94,8 @@
     "instagram": "https://www.instagram.com/eixoneuro/"
   },
   "dpo": {
-    "nome": "[PLACEHOLDER — nome do encarregado de dados (DPO)]",
-    "email": "[PLACEHOLDER — e-mail do DPO]"
+    "nome": "Alessandro Melo",
+    "email": "dpo@eixoneuro.com.br"
   },
   "politica_cancelamento": {
     "prazo_cancelamento_sem_custo": "[PLACEHOLDER — ex.: até 24 horas antes da consulta]",

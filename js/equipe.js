@@ -17,12 +17,6 @@
     origemFoco: null
   };
 
-  function slug(texto) {
-    return String(texto).toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  }
-
   function iniciais(medico) {
     var nome = medico.nome.replace(/^Dra?\.?\s+/i, '');
     var partes = nome.split(/\s+/).filter(Boolean);
@@ -180,68 +174,6 @@
   }
   window.EIXO_MODAL = { abrir: abrirModalGenerico };
 
-  /* ---------- filtros ---------- */
-  function preencherFiltros() {
-    var selQueixa = document.getElementById('filtro-queixa');
-    var selServico = document.getElementById('filtro-servico');
-    if (!selQueixa || !selServico) { return; }
-
-    var queixas = {};
-    estado.medicos.forEach(function (m) {
-      (m.queixas_leigas || []).forEach(function (q) { queixas[slug(q)] = q; });
-    });
-    Object.keys(queixas).sort(function (a, b) {
-      return queixas[a].localeCompare(queixas[b], 'pt-BR');
-    }).forEach(function (s) {
-      selQueixa.insertAdjacentHTML('beforeend',
-        '<option value="' + E.esc(s) + '">' + E.esc(queixas[s]) + '</option>');
-    });
-
-    Object.keys(estado.servicos).forEach(function (id) {
-      selServico.insertAdjacentHTML('beforeend',
-        '<option value="' + E.esc(id) + '">' + E.esc(estado.servicos[id]) + '</option>');
-    });
-
-    var params = new URLSearchParams(location.search);
-    if (params.get('queixa')) { selQueixa.value = params.get('queixa'); }
-    if (params.get('servico')) { selServico.value = params.get('servico'); }
-
-    selQueixa.addEventListener('change', aplicarFiltros);
-    selServico.addEventListener('change', aplicarFiltros);
-    var limpar = document.getElementById('limpar-filtros');
-    if (limpar) {
-      limpar.addEventListener('click', function () {
-        selQueixa.value = ''; selServico.value = ''; aplicarFiltros();
-      });
-    }
-  }
-
-  function aplicarFiltros() {
-    var selQueixa = document.getElementById('filtro-queixa');
-    var selServico = document.getElementById('filtro-servico');
-    var queixa = selQueixa ? selQueixa.value : '';
-    var servico = selServico ? selServico.value : '';
-
-    var visiveis = 0;
-    document.querySelectorAll('#grade-equipe > li').forEach(function (li) {
-      var id = li.querySelector('.card-medico').getAttribute('data-medico');
-      var medico = estado.medicos.find(function (m) { return m.id === id; });
-      var mostra = true;
-      if (queixa) {
-        mostra = (medico.queixas_leigas || []).some(function (q) { return slug(q) === queixa; });
-      }
-      if (mostra && servico) {
-        mostra = (medico.exames_que_realiza || []).indexOf(servico) !== -1 ||
-                 (medico.procedimentos_que_realiza || []).indexOf(servico) !== -1;
-      }
-      li.hidden = !mostra;
-      if (mostra) { visiveis++; }
-    });
-
-    var vazio = document.getElementById('sem-resultados');
-    if (vazio) { vazio.hidden = visiveis > 0; }
-  }
-
   /* ---------- inicialização ---------- */
   document.addEventListener('eixo:pronto', function (evento) {
     estado.clinica = evento.detail.clinica;
@@ -268,8 +200,6 @@
       }
 
       montarModal();
-      preencherFiltros();
-      aplicarFiltros();
 
       // link direto: equipe.html#medico=slug (na carga e em navegação por hash)
       function abrirPeloHash() {

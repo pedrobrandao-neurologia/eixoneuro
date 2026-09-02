@@ -19,7 +19,7 @@ diretor técnico indefinido) que **bloqueiam a publicação** mesmo sem falhar.
 - CNPJ (exigência do CDC)
 
 No site: rodapé de todas as páginas (montado por `js/comum.js` a partir de
-`data/clinica.json`) + faixa de identificação logo abaixo do hero na home.
+`data/clinica.json`).
 
 ### 1.2 De cada médico (art. 4º) — em todo lugar onde for citado
 - Nome completo

@@ -98,9 +98,9 @@
     }).join('');
 
     alvo.innerHTML =
-      '<div class="aviso-topo"><strong>' + esc(clinica.atendimento.aviso) + '</strong> ' +
-      esc(clinica.endereco.edificio) + ', ' + esc(clinica.endereco.bloco) + ' · ' +
-      esc(clinica.endereco.cidade) + '-' + esc(clinica.endereco.uf) + '</div>' +
+      '<div class="aviso-topo">' + esc(clinica.endereco.edificio) + ', ' + esc(clinica.endereco.bloco) +
+      ' · ' + esc(clinica.endereco.bairro) + ', ' + esc(clinica.endereco.cidade) + '-' + esc(clinica.endereco.uf) +
+      ' · ' + esc(clinica.telefone_exibicao) + '</div>' +
       '<header class="topo"><div class="miolo">' +
       '<a class="logo" href="index.html" aria-label="' + esc(clinica.nome_fantasia) + ' — página inicial">' +
       '<img src="https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1-300x101.png" alt="' + esc(clinica.nome_fantasia) + '" width="300" height="101"></a>' +
@@ -154,8 +154,7 @@
     alvo.innerHTML =
       '<footer class="rodape"><div class="miolo">' +
       '<div><img src="https://eixoneuro.com.br/wp-content/uploads/2025/04/favicon2-150x150.png" alt="" width="150" height="150" loading="lazy">' +
-      '<p>' + esc(clinica.nome_fantasia) + '<br>' + esc(clinica.endereco.cidade) + ', ' + esc(clinica.endereco.uf) + '</p>' +
-      '<p style="margin-top:10px"><strong>' + esc(clinica.atendimento.aviso) + '</strong></p></div>' +
+      '<p>' + esc(clinica.nome_fantasia) + '<br>' + esc(clinica.endereco.cidade) + ', ' + esc(clinica.endereco.uf) + '</p></div>' +
       '<div><p class="legenda">Horário</p><p>' + horario + '</p></div>' +
       '<div><p class="legenda">Contato</p>' +
       '<p><a href="' + linkTelefone(clinica) + '">' + esc(clinica.telefone_exibicao) + '</a><br>' +
