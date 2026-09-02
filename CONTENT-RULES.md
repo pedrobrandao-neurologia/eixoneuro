@@ -55,17 +55,25 @@ No site: rodapé de todas as páginas (montado por `js/comum.js` a partir de
 - Qualquer conteúdo que **identifique paciente** (foto, nome, caso clínico
   reconhecível) — mesmo com autorização, evitar
 
-Termos varridos pelo script (erro): `melhor`, `cura(r)`, `garant…`,
-`definitiv…`, `referência`, `prêmi…`, `top`, `ranking`, `médico do ano`,
+Padrões que geram **erro** (bloqueiam): superlativo sobre o serviço
+("a melhor clínica", "melhor neurologista de Brasília"), promessa de cura
+("curamos", "cura da doença" — a negação "não há cura" é permitida),
+garantia de resultado ("garantia de sucesso", "resultado garantido"),
+`definitiv…`, autopromoção "é/somos referência" ou "referência em
+Brasília/neurologia", `prêmi…`, `top`, `ranking`, `médico do ano`,
 `depoimento`, `antes e depois`, `desconto`, `promoção`, `sensacional`.
-Termos de revisão manual (aviso): `excelência`, `eficaz`, `líder`,
+
+Termos ambíguos geram **aviso de revisão manual** (não bloqueiam, mas a
+publicação exige conferência): `melhor` genérico (ex.: "melhores
+resultados quanto mais cedo" — afirmação científica permitida), menções a
+`cura` e `garantir` em contexto clínico, `excelência`, `eficaz`, `líder`,
 `milagr…`, `incrível`.
 
-> Nota: o script ignora código (`<script>`, `<style>`, atributos `style=`);
-> “melhora” (evolução de sintoma) e “procure um pronto-socorro” não disparam
-> os padrões, que usam limite de palavra. “Centro de Referência …” (nome
-> próprio de instituição pública em que o médico atua) é permitido e não
-> dispara o padrão de “referência”.
+> Nota: o script ignora código (`<script>`, `<style>`, atributos `style=`)
+> e, nos JSON, os nomes das chaves (ex.: `"referencias":`); “melhora”
+> (evolução de sintoma), “procure um pronto-socorro”, a seção
+> bibliográfica “Referências” e “Centro de Referência …” (nome próprio de
+> instituição) não disparam os padrões.
 
 ## 4. Outras obrigações
 - **LGPD**: política de privacidade com DPO identificado; dados de saúde são

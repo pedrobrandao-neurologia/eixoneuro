@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A prematuridade (nascimento antes de 37 semanas de gestação) é muito frequente: cerca de 15 milhões de bebês nascem prematuros a cada ano no mundo — aproximadamente 1 em cada 10 nascimentos — e o Brasil está entre os países com maior número absoluto.¹ O cérebro do prematuro ainda está em plena formação, e quanto menor a idade gestacional e o peso ao nascer, maior o risco de complicações: hemorragia peri-intraventricular, lesão da substância branca (leucomalácia periventricular) e, a longo prazo, paralisia cerebral, atrasos do desenvolvimento, dificuldades de aprendizagem, de atenção (incluindo TDAH), de coordenação motora e de comportamento, além de déficits visuais e auditivos e maior risco de epilepsia. É importante saber, porém, que a maioria dos prematuros — sobretudo os \"tardios\", nascidos entre 34 e 36 semanas — se desenvolve bem, e que mesmo entre os muito prematuros muitos não terão sequelas importantes."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O seguimento estruturado é a chave: nos primeiros 2 anos, o desenvolvimento deve ser avaliado pela idade corrigida (descontando as semanas que faltaram para 40), com consultas regulares de puericultura e, quando indicado, avaliação neurológica com instrumentos padronizados — exames como a ultrassonografia/ressonância cerebral e a avaliação dos movimentos do bebê permitem identificar precocemente os que precisam de intervenção. Ao menor sinal de atraso, deve-se iniciar sem demora estimulação precoce, fisioterapia, fonoaudiologia e terapia ocupacional. Triagem auditiva e oftalmológica (incluindo o exame para retinopatia da prematuridade) são obrigatórias. Aleitamento materno, método canguru, vacinação em dia e um ambiente afetivo e estimulante contribuem de forma comprovada para o melhor desenvolvimento possível."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Blencowe H, et al. National, regional, and worldwide estimates of preterm birth rates in the year 2010 with time trends since 1990. Lancet. 2012;379(9832):2162-2172.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S0140-6736(12)60820-4",
+          "url": "https://doi.org/10.1016/S0140-6736(12)60820-4"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22682464/"
+        }
+      ]
+    }
+  ]
+}

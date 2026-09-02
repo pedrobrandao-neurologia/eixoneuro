@@ -1,0 +1,35 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O acidente vascular cerebral (AVC), conhecido como derrame, acontece quando uma área do cérebro deixa de receber sangue — por entupimento (AVC isquêmico) ou rompimento (AVC hemorrágico) de um vaso. É uma emergência médica: quanto antes o atendimento, maiores as chances de recuperação."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Reconheça os sinais — e ligue 192"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Fraqueza ou dormência súbita em um lado do corpo (rosto, braço ou perna)",
+        "Boca torta ao sorrir",
+        "Dificuldade súbita para falar ou entender",
+        "Perda súbita de visão em um ou nos dois olhos",
+        "Desequilíbrio, tontura intensa ou dor de cabeça súbita e muito forte"
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante de qualquer um desses sinais, anote a hora em que começaram e ligue imediatamente para o SAMU (192). Não espere passar e não vá dirigindo: os tratamentos da fase aguda dependem do tempo e são feitos em hospital."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Depois do susto: prevenção"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Sintomas que desaparecem em minutos (ataque isquêmico transitório) também exigem investigação — eles indicam risco aumentado de um AVC nos dias seguintes. O acompanhamento neurológico após o evento serve para identificar a causa e controlar os fatores de risco: pressão alta, diabetes, colesterol, fibrilação atrial, tabagismo e sedentarismo."
+    }
+  ],
+  "referencias": []
+}

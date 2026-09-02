@@ -1,0 +1,40 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A esclerose múltipla é uma doença inflamatória autoimune em que o sistema de defesa ataca a bainha de mielina do cérebro, da medula espinhal e dos nervos ópticos. Cerca de 2,8 milhões de pessoas vivem com a doença no mundo (35,9 por 100.000 habitantes), com prevalência crescente; ela atinge duas vezes mais mulheres e é tipicamente diagnosticada por volta dos 32 anos.¹ Na forma mais comum (remitente-recorrente), ocorrem surtos: sintomas neurológicos que se instalam ao longo de horas a dias e duram mais de 24 horas — como perda ou embaçamento visual em um olho com dor à movimentação (neurite óptica), dormência ou fraqueza em membros, visão dupla, desequilíbrio, alterações urinárias — seguidos de recuperação parcial ou total. O diagnóstico segue os critérios de McDonald 2017: demonstração de disseminação das lesões no espaço (diferentes regiões do sistema nervoso) e no tempo (lesões novas ou de idades diferentes), por meio da clínica e da ressonância magnética, podendo o exame do líquor (bandas oligoclonais) substituir o critério temporal — o que permite diagnóstico e tratamento cada vez mais precoces.²"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento mudou radicalmente o curso da doença. Os surtos são tratados com corticoide em altas doses (metilprednisolona). Para modificar a evolução existem hoje muitas opções, das injetáveis clássicas (interferonas beta, acetato de glatirâmer) aos comprimidos (fumarato de dimetila, teriflunomida, fingolimode, cladribina) e aos anticorpos monoclonais de alta eficácia (natalizumabe, ocrelizumabe, ofatumumabe, alentuzumabe) — quanto mais cedo iniciado o tratamento, menor o acúmulo de incapacidade. Complementam o cuidado: não fumar (o tabagismo piora a doença), manter vitamina D adequada, exercício físico regular, tratamento da fadiga, da depressão e dos sintomas urinários, e reabilitação quando necessária. Com acompanhamento regular e adesão ao tratamento, a maioria das pessoas mantém vida ativa, produtiva e independente."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Walton C, et al. Rising prevalence of multiple sclerosis worldwide: insights from the Atlas of MS, third edition. Mult Scler. 2020;26(14):1816-1821.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1177/1352458520970841",
+          "url": "https://doi.org/10.1177/1352458520970841"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33174475/"
+        }
+      ]
+    },
+    {
+      "texto": "Thompson AJ, et al. Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria. Lancet Neurol. 2018;17(2):162-173.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S1474-4422(17)30470-2",
+          "url": "https://doi.org/10.1016/S1474-4422(17)30470-2"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29275977/"
+        }
+      ]
+    }
+  ]
+}

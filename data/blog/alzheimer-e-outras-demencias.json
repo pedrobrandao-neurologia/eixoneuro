@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Demência é o nome dado a um conjunto de doenças que causam declínio progressivo da memória e de outras funções mentais — linguagem, raciocínio, orientação, comportamento — a ponto de comprometer as atividades do dia a dia. Estima-se que cerca de 57 milhões de pessoas viviam com demência no mundo em 2019, número que deve quase triplicar até 2050 com o envelhecimento populacional.¹ A doença de Alzheimer é a causa mais comum e costuma começar com esquecimento de fatos recentes, repetição de perguntas e dificuldade para encontrar palavras; outras formas incluem a demência vascular (ligada a AVCs e à doença dos pequenos vasos), a demência com corpos de Lewy (com alucinações visuais, flutuações e parkinsonismo) e a demência frontotemporal (com mudanças precoces de comportamento ou de linguagem). O diagnóstico é clínico, apoiado em testes cognitivos, exames de sangue e neuroimagem (ressonância magnética), para caracterizar o padrão e excluir causas tratáveis; nem todo esquecimento é demência."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ainda não há cura, mas há tratamentos que ajudam: os inibidores da colinesterase (donepezila, rivastigmina, galantamina) e a memantina podem melhorar sintomas e funcionalidade no Alzheimer, e as terapias anti-amiloide (lecanemabe, donanemabe), aprovadas em alguns países, mostraram reduzir modestamente a progressão em fases iniciais.¹ Tão importante quanto os remédios é agir sobre os 14 fatores de risco modificáveis identificados pela Comissão Lancet — que, juntos, respondem por cerca de 45% do risco de demência —, entre eles hipertensão, diabetes, obesidade, tabagismo, sedentarismo, perda auditiva e visual não tratadas, isolamento social, depressão e baixa escolaridade.¹ Rotinas estruturadas, estimulação cognitiva e social, adaptação do ambiente e o cuidado com a saúde e o suporte dos familiares e cuidadores são partes essenciais do tratamento."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Livingston G, et al. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. Lancet. 2024;404(10452):572-628.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S0140-6736(24)01296-0",
+          "url": "https://doi.org/10.1016/S0140-6736(24)01296-0"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39096926/"
+        }
+      ]
+    }
+  ]
+}

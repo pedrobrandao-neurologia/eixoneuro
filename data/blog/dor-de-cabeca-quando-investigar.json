@@ -1,0 +1,36 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Dor de cabeça (cefaleia) é uma das queixas mais comuns nos consultórios. Na maior parte das vezes trata-se de cefaleia tensional ou enxaqueca — condições que incomodam, mas têm tratamento e não indicam lesão no cérebro."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Sinais de alarme: procure atendimento"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Dor de cabeça súbita e muito intensa, diferente de tudo o que você já sentiu — nesse caso, ligue 192 (SAMU) ou vá ao pronto-socorro",
+        "Dor acompanhada de febre e rigidez na nuca",
+        "Dor com fraqueza, dificuldade para falar, visão dupla ou desequilíbrio",
+        "Dor que começa após os 50 anos ou muda completamente de padrão",
+        "Dor que piora progressivamente ao longo de semanas",
+        "Dor desencadeada por esforço, tosse ou mudança de posição"
+      ]
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Enxaqueca tem tratamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A enxaqueca costuma causar dor latejante de um lado da cabeça, piora com luz e barulho e pode vir com náuseas. Quando as crises são frequentes, existem tratamentos preventivos — de medicamentos diários a aplicações de toxina botulínica em casos selecionados de enxaqueca crônica — definidos caso a caso na consulta."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Um diário de dor (quando dói, quanto dura, o que estava fazendo, o que aliviou) ajuda muito a consulta. Anote também os medicamentos que usa: o uso excessivo de analgésicos pode, por si só, perpetuar a dor."
+    }
+  ],
+  "referencias": []
+}

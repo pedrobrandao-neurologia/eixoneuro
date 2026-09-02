@@ -5,6 +5,7 @@
   "description": "Site institucional da Eixo — Neurologia Especializada (Brasília-DF). Estático, sem build.",
   "scripts": {
     "check-content": "node scripts/check-content.js",
+    "gerar-sitemap": "node scripts/gerar-sitemap.js",
     "servir": "python3 -m http.server 8080"
   }
 }

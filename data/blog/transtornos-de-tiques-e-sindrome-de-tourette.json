@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Tiques são movimentos ou vocalizações súbitos, rápidos, recorrentes e não ritmados — piscar, fazer caretas, encolher os ombros, pigarrear, fungar, emitir sons — precedidos por uma sensação premonitória de \"necessidade\" e parcialmente supressíveis por algum tempo, à custa de desconforto crescente. São muito comuns na infância: tiques transitórios ocorrem em uma parcela expressiva das crianças em idade escolar e desaparecem sozinhos. Quando tiques motores múltiplos e pelo menos um tique vocal estão presentes por mais de um ano, com início antes dos 18 anos, configura-se a síndrome de Tourette; tiques só motores ou só vocais por mais de um ano caracterizam o transtorno de tique crônico. Os tiques flutuam, pioram com ansiedade, cansaço e excitação, e tipicamente atingem seu pico no início da adolescência, melhorando substancialmente na maioria dos casos até o início da vida adulta.¹ É muito frequente a associação com TDAH, transtorno obsessivo-compulsivo e ansiedade — que muitas vezes causam mais prejuízo que os próprios tiques."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A diretriz da American Academy of Neurology orienta o tratamento em degraus.¹ Quando os tiques são leves, bastam a psicoeducação da criança, da família e da escola (não repreender nem chamar atenção para os tiques) e a vigilância ativa. Quando causam dor, prejuízo funcional ou sofrimento social, a primeira linha é a terapia comportamental específica — a Intervenção Comportamental Abrangente para Tiques (CBIT), que inclui o treino de reversão de hábito. Se necessário, associam-se medicamentos: agonistas alfa-2 (clonidina, guanfacina), especialmente úteis quando há TDAH junto; antipsicóticos (aripiprazol, risperidona, haloperidol) para tiques mais graves; e aplicações de toxina botulínica para tiques focais incômodos. Tratar o TDAH, o TOC e a ansiedade associados frequentemente melhora também os tiques. Para adultos com tiques graves e refratários, a estimulação cerebral profunda (DBS) pode ser considerada em centros especializados.¹"
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Pringsheim T, et al. Practice guideline recommendations summary: treatment of tics in people with Tourette syndrome and chronic tic disorders. Neurology. 2019;92(19):896-906.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1212/WNL.0000000000007466",
+          "url": "https://doi.org/10.1212/WNL.0000000000007466"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31061208/"
+        }
+      ]
+    }
+  ]
+}

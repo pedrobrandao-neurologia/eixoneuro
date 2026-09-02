@@ -1,0 +1,40 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A enxaqueca (migrânea) é uma doença neurológica que afeta cerca de 1 bilhão de pessoas no mundo — aproximadamente 1 em cada 7 — sendo duas a três vezes mais comum em mulheres e uma das maiores causas de anos vividos com incapacidade, especialmente entre os 15 e os 49 anos.¹ Pelos critérios da ICHD-3, as crises duram de 4 a 72 horas e apresentam pelo menos duas destas características: dor de um lado só, pulsátil (latejante), de intensidade moderada a forte e que piora com esforço físico; além disso, vêm acompanhadas de enjoo ou vômito, ou de sensibilidade à luz e ao barulho.² Cerca de um quarto dos pacientes apresenta aura: sintomas visuais (pontos brilhantes, linhas em zigue-zague) ou sensitivos que se desenvolvem gradualmente em 5 a 60 minutos antes da dor. Estresse, alterações do sono, jejum, bebidas alcoólicas e variações hormonais são gatilhos comuns."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento das crises deve ser tomado logo no início da dor e inclui anti-inflamatórios (ibuprofeno, naproxeno), dipirona e os triptanos (sumatriptano, naratriptano, zolmitriptano), específicos para enxaqueca; medicamentos contra o enjoo, como a metoclopramida, ajudam quando há vômitos. Quando as crises são frequentes (em geral 4 ou mais dias por mês) ou muito incapacitantes, indica-se tratamento preventivo diário: propranolol, topiramato, amitriptilina, candesartana ou flunarizina, entre outros; para casos refratários ou enxaqueca crônica existem os anticorpos monoclonais anti-CGRP (erenumabe, galcanezumabe, fremanezumabe) e a aplicação de toxina botulínica (onabotulinumtoxinA). Limitar o uso de analgésicos a menos de 10 dias por mês, manter rotina de sono, alimentação e exercícios e registrar as crises em um diário são partes essenciais do tratamento."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "GBD 2016 Neurology Collaborators. Global, regional, and national burden of neurological disorders, 1990–2016. Lancet Neurol. 2019;18(5):459-480.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S1474-4422(18)30499-X",
+          "url": "https://doi.org/10.1016/S1474-4422(18)30499-X"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30879893/"
+        }
+      ]
+    },
+    {
+      "texto": "Headache Classification Committee of the IHS. The International Classification of Headache Disorders, 3rd edition. Cephalalgia. 2018;38(1):1-211.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1177/0333102417738202",
+          "url": "https://doi.org/10.1177/0333102417738202"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29368949/"
+        }
+      ]
+    }
+  ]
+}

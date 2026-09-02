@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A distonia é definida, pelo consenso internacional de 2013, como um distúrbio do movimento caracterizado por contrações musculares sustentadas ou intermitentes que causam movimentos e/ou posturas anormais, frequentemente repetitivos e em torção, tipicamente desencadeados ou agravados pela ação voluntária.¹ Nas distonias primárias (isoladas), a distonia é a única manifestação — não há outra doença neurológica por trás — e muitas têm base genética. Ela é classificada pela distribuição corporal: focal, quando afeta uma só região — como o pescoço (distonia cervical, a forma focal mais comum no adulto), as pálpebras (blefaroespasmo), a mão durante a escrita (cãibra do escrivão) ou as cordas vocais (distonia laríngea); segmentar, multifocal ou generalizada, esta última mais comum quando a doença começa na infância.¹ Um traço curioso e útil ao diagnóstico é o \"truque sensorial\": tocar levemente o queixo ou a face pode reduzir temporariamente a distonia cervical. Estresse e fadiga pioram os sintomas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nas distonias focais, o tratamento de escolha são as aplicações periódicas (a cada 3 a 4 meses) de toxina botulínica nos músculos envolvidos, com boa resposta na maioria dos pacientes. Nas formas generalizadas e de início precoce, usam-se medicamentos orais — triexifenidil (anticolinérgico), baclofeno, benzodiazepínicos — e, muito importante: toda distonia de início na infância ou adolescência merece um teste terapêutico com levodopa, pois a distonia responsiva à dopa (síndrome de Segawa) melhora de forma dramática e sustentada com doses baixas. Para os casos graves e refratários, a estimulação cerebral profunda (DBS) do globo pálido interno é eficaz, especialmente nas distonias generalizadas genéticas (como a associada ao gene DYT1/TOR1A). Fisioterapia especializada e suporte psicológico complementam o cuidado."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Albanese A, et al. Phenomenology and classification of dystonia: a consensus update. Mov Disord. 2013;28(7):863-873.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1002/mds.25475",
+          "url": "https://doi.org/10.1002/mds.25475"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23649720/"
+        }
+      ]
+    }
+  ]
+}

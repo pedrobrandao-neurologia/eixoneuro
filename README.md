@@ -56,15 +56,25 @@ python3 -m http.server 8080        # ou: npx serve .
   (o campo `icone` escolhe o ícone do design system em `js/inicio.js`).
 - **`especialidades.json`** — as áreas neurológicas da home, com descrição e
   `medicos[]` (ids de `medicos.json`) para a linha "quem atende".
-- **`blog.json`** — artigos do blog. Cada post tem `slug` (vira a URL
-  `post.html?post=slug`), `titulo`, `resumo`, `data` (AAAA-MM-DD), `autor`
-  (id de `medicos.json` — o site exibe o autor com CRM/RQE, como exige o
-  CFM), `tags[]`, `revisado` e `corpo[]`: blocos
-  `{"tipo": "paragrafo"|"subtitulo"|"lista", "texto"|"itens"}`. Escreva em
-  tom informativo e sóbrio — sem promessa de resultado, sem "melhor/cura"
-  (o `check-content` bloqueia) — e rode `npm run check-content` após cada
-  post. Todo artigo recebe automaticamente o aviso "conteúdo informativo,
-  não substitui consulta".
+- **Blog** — dois arquivos por publicação (estrutura leve, boa para
+  Core Web Vitals):
+  1. Uma entrada em **`blog-indice.json`**: `slug` (vira a URL
+     `post.html?post=slug`), `titulo`, `resumo` (≤160 caracteres — vira a
+     meta description), `data` (AAAA-MM-DD), `autor` (id de `medicos.json`,
+     exibido com CRM/RQE, ou `null` para material assinado pela equipe),
+     `tags[]`, `condicao` (nome da doença para o schema
+     `MedicalCondition`) e `revisado`.
+  2. Um arquivo **`blog/<slug>.json`** com `corpo[]` — blocos
+     `{"tipo": "paragrafo"|"subtitulo"|"lista", "texto"|"itens"}` — e
+     `referencias[]` (`{texto, links: [{rotulo, url}]}` com DOI/PubMed;
+     citações fortalecem o E-E-A-T e viram `citation` no JSON-LD).
+
+  Depois de publicar ou editar um post: `npm run check-content` e
+  `npm run gerar-sitemap` (o sitemap lista cada artigo), e solicite a
+  indexação da URL no Google Search Console. Escreva em tom informativo e
+  sóbrio; todo artigo recebe automaticamente o aviso "conteúdo
+  informativo, não substitui consulta", a caixa de autor e os dados
+  estruturados (`MedicalWebPage` + `BreadcrumbList`).
 
 Depois de qualquer edição, rode a verificação:
 
@@ -129,6 +139,37 @@ e envie no Google Search Console.
 7. Lembrete de conformidade: **não** solicite nem responda avaliações com
    conteúdo clínico; o site não exibe notas/avaliações (vedado pela
    Res. CFM 2.336/2023).
+
+## SEO para saúde (YMYL) — rotina recomendada
+
+Sites de saúde são avaliados pelo Google com critérios reforçados (YMYL /
+E-E-A-T). O que este site já implementa: autoria médica identificada com
+CRM/RQE e mini currículo em cada artigo, referências científicas com
+DOI/PubMed, dados estruturados (`MedicalClinic`, `Physician`,
+`MedicalWebPage` + `MedicalCondition`, `BreadcrumbList`, `FAQPage` na
+página de documentos), canonical e meta description por artigo, sitemap
+com todos os posts, mobile-first (barra fixa de WhatsApp/telefone) e
+nenhum rastreador sem consentimento (LGPD).
+
+Rotina após o lançamento:
+
+1. **HTTPS obrigatório** — confirme o certificado SSL no domínio.
+2. **Google Search Console** — cadastre a propriedade, envie o
+   `sitemap.xml` e solicite indexação de cada artigo novo; monitore
+   erros de rastreamento e as consultas que trazem pacientes.
+3. **Google Business Profile** — seção própria abaixo.
+4. **PageSpeed Insights / Lighthouse mobile** — meta ≥ 90; os pontos que
+   dependem de vocês: hospedar as imagens em `/img/` como WebP
+   comprimido (hoje o logo e as fotos vêm do WordPress antigo) e as
+   fontes em `/fonts/`.
+5. **Google Analytics 4** (opcional) — só carregue dentro de
+   `carregarScriptsDeMedicao()` em `js/comum.js`, que roda apenas após o
+   consentimento do banner (LGPD).
+6. **Pautas novas** — parta das perguntas reais dos pacientes
+   (AnswerThePublic, caixa "as pessoas também perguntam" do Google) e
+   responda em linguagem simples, como nos artigos atuais.
+7. **Screaming Frog** (opcional) — varredura periódica de links
+   quebrados e títulos duplicados.
 
 ## Regras de conteúdo
 

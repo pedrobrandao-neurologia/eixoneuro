@@ -1,0 +1,40 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A encefalite é a inflamação do próprio tecido cerebral. As causas mais importantes são as virais — destacando-se o vírus herpes simples, a principal causa tratável — e as autoimunes, em que anticorpos atacam proteínas dos neurônios (como a encefalite anti-receptor NMDA, mais comum em mulheres jovens). Pelo consenso do International Encephalitis Consortium, suspeita-se de encefalite diante de alteração do estado mental (rebaixamento da consciência, letargia ou mudança de personalidade) com duração de pelo menos 24 horas, acompanhada de dois ou mais achados: febre, crises epilépticas novas, sinais neurológicos focais, alterações no líquor (aumento de células), na ressonância magnética ou no eletroencefalograma.¹ A encefalite herpética é tratada com aciclovir intravenoso — iniciado o quanto antes, pois o atraso piora o prognóstico —, e as autoimunes com imunoterapia: corticoides, imunoglobulina intravenosa ou plasmaférese em primeira linha e rituximabe ou ciclofosfamida em segunda linha, além da busca de tumores associados.²"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Mesmo com tratamento, muitas pessoas ficam com sequelas, que dependem do agente e das áreas afetadas: dificuldades de memória (típicas da encefalite herpética, que atinge os lobos temporais), alterações de comportamento e humor, epilepsia, dificuldades de linguagem, atenção e fadiga persistente; nas autoimunes, a recuperação costuma ser lenta (meses a mais de um ano), mas frequentemente substancial, e recaídas podem ocorrer, exigindo vigilância.² Após a alta, o acompanhamento neurológico serve para tratar as crises epilépticas, ajustar a imunoterapia quando indicada e monitorar a recuperação. Reabilitação neuropsicológica, fonoaudiologia e apoio psicológico ajudam a recuperar as funções cognitivas; estratégias compensatórias — agendas, lembretes, rotinas estruturadas — e o suporte da família, da escola e do trabalho facilitam o retorno às atividades."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Venkatesan A, et al. Case definitions, diagnostic algorithms, and priorities in encephalitis: consensus statement of the International Encephalitis Consortium. Clin Infect Dis. 2013;57(8):1114-1128.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1093/cid/cit458",
+          "url": "https://doi.org/10.1093/cid/cit458"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23861361/"
+        }
+      ]
+    },
+    {
+      "texto": "Graus F, et al. A clinical approach to diagnosis of autoimmune encephalitis. Lancet Neurol. 2016;15(4):391-404.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S1474-4422(15)00401-9",
+          "url": "https://doi.org/10.1016/S1474-4422(15)00401-9"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26906964/"
+        }
+      ]
+    }
+  ]
+}

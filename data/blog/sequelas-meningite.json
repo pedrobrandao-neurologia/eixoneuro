@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A meningite é a inflamação das membranas que envolvem o cérebro e a medula, causada mais frequentemente por vírus (formas em geral benignas) ou bactérias (formas graves, como as causadas por pneumococo, meningococo e hemófilo tipo b). Mesmo com tratamento antibiótico adequado, a meningite bacteriana pode deixar sequelas: uma metanálise global estimou que cerca de 20% dos sobreviventes ficam com pelo menos uma sequela, sendo cerca de 13% com sequela maior — e o risco chega a 25% após meningite pneumocócica.¹ A sequela mais comum é a perda auditiva, presente em cerca de um terço dos casos com sequelas maiores, seguida de crises epilépticas, déficits cognitivos e de aprendizagem, atraso do desenvolvimento, alterações motoras, déficits visuais e hidrocefalia.¹ Crianças pequenas e populações de países de baixa renda são as mais afetadas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após a alta, toda criança (e adulto) que teve meningite bacteriana deve realizar avaliação auditiva o quanto antes — a surdez pós-meningite pode evoluir rapidamente para ossificação da cóclea, e a detecção precoce permite indicar aparelhos auditivos ou implante coclear em tempo hábil, o que é decisivo para o desenvolvimento da linguagem. O acompanhamento neurológico permite tratar a epilepsia quando presente (com medicamentos anticrise), monitorar o desenvolvimento e encaminhar precocemente para fisioterapia, fonoaudiologia, estimulação e apoio pedagógico. A hidrocefalia pode exigir cirurgia (derivação). A prevenção é altamente eficaz: as vacinas conjugadas contra pneumococo, meningococo e Haemophilus influenzae tipo b — disponíveis no calendário do SUS — evitam a maior parte dos casos e de suas sequelas.¹"
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Edmond K, et al. Global and regional risk of disabling sequelae from bacterial meningitis: a systematic review and meta-analysis. Lancet Infect Dis. 2010;10(5):317-328.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S1473-3099(10)70048-7",
+          "url": "https://doi.org/10.1016/S1473-3099(10)70048-7"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20417414/"
+        }
+      ]
+    }
+  ]
+}

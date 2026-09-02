@@ -35,8 +35,16 @@
 
   <section class="faixa" aria-label="Lista de artigos">
     <div class="miolo">
+      <div class="filtros" style="align-items:center">
+        <label for="filtro-tema" style="display:grid;gap:6px;font-size:.9rem">Filtrar por tema
+          <select id="filtro-tema" style="font:inherit;color:var(--tinta);background:rgba(255,255,255,.6);border:1px solid var(--linha);border-radius:10px;padding:.65em .9em;min-width:240px">
+            <option value="">Todos os temas</option>
+          </select>
+        </label>
+        <span id="contador-posts" class="legenda" style="margin-bottom:.4em" aria-live="polite"></span>
+      </div>
       <ul class="grade-posts" id="lista-posts"></ul>
-      <p style="margin-top:40px;font-size:.9rem;opacity:.85">Os textos do blog têm caráter informativo e não substituem consulta médica. Em caso de sintomas, agende uma avaliação; em emergências, ligue 192 (SAMU).</p>
+      <p style="margin-top:40px;font-size:.9rem;opacity:.85">Os textos do blog têm caráter informativo e não substituem consulta médica. Em caso de sintomas, agende uma avaliação; em emergências, ligue 192 (SAMU). Material elaborado com base na literatura científica indexada, com referências citadas em cada artigo.</p>
     </div>
   </section>
 

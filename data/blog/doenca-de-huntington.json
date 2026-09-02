@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A doença de Huntington é uma doença neurodegenerativa hereditária causada pela expansão de repetições CAG no gene HTT, que produz a proteína huntingtina com uma cauda anormalmente longa de glutaminas; a herança é autossômica dominante — cada filho de uma pessoa afetada tem 50% de chance de herdar a mutação — e quanto maior o número de repetições, mais cedo tende a começar a doença.¹ Sua prevalência é maior do que se pensava, geograficamente variável e crescente, da ordem de 10 casos por 100 mil pessoas em populações de origem europeia.¹ Os sintomas geralmente se iniciam entre os 30 e 50 anos e formam uma tríade: movimentos involuntários — a coreia, movimentos rápidos, irregulares e \"dançantes\" da face, tronco e membros —, declínio cognitivo (dificuldade de planejamento, atenção, flexibilidade mental e, depois, memória) e alterações psiquiátricas (irritabilidade, depressão, apatia, ansiedade, comportamento obsessivo), que muitas vezes precedem em anos os sintomas motores.¹ Com a progressão, surgem dificuldade para falar, engolir e caminhar. O diagnóstico é confirmado pelo teste genético, que conta as repetições CAG."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ainda não há tratamento que interrompa a progressão — terapias para reduzir a huntingtina mutante estão em pesquisa clínica —, mas os sintomas podem e devem ser tratados: para a coreia, tetrabenazina ou deutetrabenazina (e, alternativamente, antipsicóticos como risperidona e olanzapina, úteis também quando há irritabilidade ou sintomas psicóticos); antidepressivos (ISRS) para depressão e ansiedade; e manejo do sono e do comportamento.¹ Fisioterapia, fonoaudiologia (com atenção especial à deglutição, para prevenir engasgos e pneumonia aspirativa), terapia ocupacional e acompanhamento nutricional — a doença aumenta o gasto calórico e a perda de peso é comum — mantêm função e segurança. O aconselhamento genético é essencial para toda a família, e o teste preditivo em pessoas sem sintomas só deve ser feito por livre escolha, com protocolo especializado e suporte psicológico. O apoio contínuo aos familiares e cuidadores é parte central do cuidado."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Bates GP, et al. Huntington disease. Nat Rev Dis Primers. 2015;1:15005.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1038/nrdp.2015.5",
+          "url": "https://doi.org/10.1038/nrdp.2015.5"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27188817/"
+        }
+      ]
+    }
+  ]
+}

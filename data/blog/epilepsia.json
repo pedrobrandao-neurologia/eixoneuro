@@ -1,0 +1,40 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A epilepsia é uma das doenças neurológicas crônicas mais comuns: a prevalência de epilepsia ativa é de cerca de 6,4 por 1.000 pessoas e surgem aproximadamente 61 novos casos por 100.000 pessoas ao ano, com números maiores em países de baixa e média renda.¹ Ela se caracteriza pela predisposição do cérebro a gerar crises epilépticas — descargas elétricas anormais e excessivas dos neurônios. Pela definição da Liga Internacional contra a Epilepsia (ILAE), o diagnóstico é feito quando ocorrem duas crises não provocadas com intervalo maior que 24 horas, ou após uma única crise quando o risco de recorrência é alto (por exemplo, quando há lesão cerebral visível na ressonância ou alterações típicas no eletroencefalograma), ou ainda quando se identifica uma síndrome epiléptica.² As crises podem ser muito variadas: convulsões com queda e abalos generalizados, mas também breves desligamentos do olhar (ausências), sensações estranhas, movimentos automáticos ou comportamentos repetitivos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Cerca de dois terços das pessoas com epilepsia ficam livres de crises com medicamentos anticrise, tomados diariamente e sem interrupções — entre os mais usados estão levetiracetam, lamotrigina, valproato de sódio, carbamazepina, oxcarbazepina e lacosamida, escolhidos conforme o tipo de crise, idade e comorbidades. Para os casos que não respondem a dois medicamentos adequados (epilepsia farmacorresistente), a avaliação em centro especializado pode indicar cirurgia de epilepsia, dieta cetogênica ou neuroestimulação. Dormir bem, evitar álcool e tomar a medicação nos horários certos reduzem as crises. Diante de uma crise convulsiva: deite a pessoa de lado, proteja a cabeça, afaste objetos, não coloque nada na boca e cronometre — chame o SAMU (192) se durar mais de 5 minutos. Direção veicular, gravidez e atividades de risco devem ser discutidas individualmente com o neurologista."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Fiest KM, et al. Prevalence and incidence of epilepsy: a systematic review and meta-analysis of international studies. Neurology. 2017;88(3):296-303.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1212/WNL.0000000000003509",
+          "url": "https://doi.org/10.1212/WNL.0000000000003509"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27986877/"
+        }
+      ]
+    },
+    {
+      "texto": "Fisher RS, et al. ILAE official report: a practical clinical definition of epilepsy. Epilepsia. 2014;55(4):475-482.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1111/epi.12550",
+          "url": "https://doi.org/10.1111/epi.12550"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24730690/"
+        }
+      ]
+    }
+  ]
+}
