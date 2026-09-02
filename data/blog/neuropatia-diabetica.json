@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "A neuropatia diabética é a complicação neurológica mais comum do diabetes: até metade das pessoas com a doença desenvolve algum grau de lesão dos nervos ao longo da vida, segundo o posicionamento da American Diabetes Association.¹ A forma mais frequente é a polineuropatia sensitivo-motora distal, em que os sintomas começam nos dedos dos pés e sobem lentamente em padrão de \"bota e luva\": formigamento, dormência, queimação, agulhadas e dor, tipicamente piores à noite. O diagnóstico é essencialmente clínico, feito no consultório com testes simples de sensibilidade — como o monofilamento de 10 g e o diapasão de 128 Hz — que devem ser realizados anualmente em todo paciente diabético; a eletroneuromiografia é reservada para casos atípicos. A perda de sensibilidade faz com que pequenos machucados nos pés passem despercebidos, aumentando muito o risco de úlceras e amputações. O diabetes também pode afetar os nervos autonômicos, causando tontura ao levantar, alterações digestivas, urinárias e da sudorese."
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "A base do tratamento é o controle rigoroso da glicemia, da pressão arterial e do colesterol, junto com atividade física e alimentação adequada — no diabetes tipo 1, o bom controle glicêmico comprovadamente previne a neuropatia. Para a dor neuropática, os medicamentos de primeira linha são a pregabalina, a gabapentina e a duloxetina; a amitriptilina e a venlafaxina são alternativas frequentes, e analgésicos comuns costumam ter pouco efeito.¹ O cuidado diário com os pés é obrigatório: examiná-los todos os dias (inclusive entre os dedos), usar calçados adequados, nunca andar descalço, hidratar a pele e procurar atendimento imediato diante de qualquer ferida. Evitar álcool e cigarro também protege os nervos."
+      "texto": "A neuropatia diabética é a complicação neurológica mais comum do diabetes: até metade das pessoas com a doença desenvolve algum grau de lesão dos nervos ao longo da vida, segundo o posicionamento da American Diabetes Association.¹ A forma mais frequente é a polineuropatia sensitivo-motora distal, em que os sintomas começam nos dedos dos pés e sobem lentamente em padrão de \"bota e luva\": formigamento, dormência, queimação, agulhadas e dor, tipicamente piores à noite."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico é essencialmente clínico, feito no consultório com testes simples de sensibilidade — como o monofilamento de 10 g e o diapasão de 128 Hz — que devem ser realizados anualmente em todo paciente diabético; a eletroneuromiografia é reservada para casos atípicos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A perda de sensibilidade faz com que pequenos machucados nos pés passem despercebidos, aumentando muito o risco de úlceras e amputações. O diabetes também pode afetar os nervos autonômicos, causando tontura ao levantar, alterações digestivas, urinárias e da sudorese."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A base do tratamento é o controle rigoroso da glicemia, da pressão arterial e do colesterol, junto com atividade física e alimentação adequada — no diabetes tipo 1, o bom controle glicêmico comprovadamente previne a neuropatia."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para a dor neuropática, os medicamentos de primeira linha são a pregabalina, a gabapentina e a duloxetina; a amitriptilina e a venlafaxina são alternativas frequentes, e analgésicos comuns costumam ter pouco efeito.¹ O cuidado diário com os pés é obrigatório: examiná-los todos os dias (inclusive entre os dedos), usar calçados adequados, nunca andar descalço, hidratar a pele e procurar atendimento imediato diante de qualquer ferida."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Evitar álcool e cigarro também protege os nervos."
     }
   ],
   "referencias": [

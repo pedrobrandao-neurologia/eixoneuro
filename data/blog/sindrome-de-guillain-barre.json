@@ -1,12 +1,40 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "A síndrome de Guillain-Barré é a causa mais comum de paralisia flácida aguda no mundo. É uma doença autoimune rara em que o sistema de defesa, geralmente ativado por uma infecção nas semanas anteriores — intestinal (destacando-se o Campylobacter jejuni), respiratória ou por arbovírus como o zika —, ataca os nervos periféricos.¹ O quadro típico é de fraqueza progressiva e razoavelmente simétrica que começa nas pernas e ascende, acompanhada de diminuição ou perda dos reflexos, formigamento e, com frequência, dor; a piora atinge seu máximo em até 4 semanas (em geral, em 2). Podem ocorrer paralisia facial bilateral, dificuldade para engolir e falar e, nos casos graves (cerca de 20-25%), comprometimento dos músculos respiratórios, exigindo ventilação mecânica — por isso todo paciente com suspeita deve ser internado e monitorado de perto, inclusive quanto a alterações da pressão arterial e do ritmo cardíaco (disautonomia). O diagnóstico é clínico, apoiado pelo exame do líquor (proteína elevada com poucas células, a \"dissociação albuminocitológica\") e pela eletroneuromiografia.¹"
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O tratamento imunológico deve ser iniciado precocemente nos pacientes que não conseguem andar sem ajuda ou que pioram rapidamente: imunoglobulina intravenosa (0,4 g/kg/dia por 5 dias) ou plasmaférese, igualmente eficazes — não há benefício em combiná-las, e corticoides não funcionam nesta doença.¹ Junto vêm os cuidados de suporte: monitorização respiratória e cardíaca, prevenção de trombose, controle da dor e fisioterapia desde o início. A maioria dos pacientes se recupera bem ao longo de semanas a meses, embora a recuperação possa ser lenta; uma parcela permanece com fraqueza residual, dormência, dor ou fadiga persistente, e a reabilitação prolongada faz diferença nesses casos. Recaídas verdadeiras são raras. Após a fase aguda, o seguimento com o neurologista acompanha a recuperação e trata os sintomas residuais."
+      "texto": "A síndrome de Guillain-Barré é a causa mais comum de paralisia flácida aguda no mundo."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É uma doença autoimune rara em que o sistema de defesa, geralmente ativado por uma infecção nas semanas anteriores — intestinal (destacando-se o Campylobacter jejuni), respiratória ou por arbovírus como o zika —, ataca os nervos periféricos.¹ O quadro típico é de fraqueza progressiva e razoavelmente simétrica que começa nas pernas e ascende, acompanhada de diminuição ou perda dos reflexos, formigamento e, com frequência, dor; a piora atinge seu máximo em até 4 semanas (em geral, em 2)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Podem ocorrer paralisia facial bilateral, dificuldade para engolir e falar e, nos casos graves (cerca de 20-25%), comprometimento dos músculos respiratórios, exigindo ventilação mecânica — por isso todo paciente com suspeita deve ser internado e monitorado de perto, inclusive quanto a alterações da pressão arterial e do ritmo cardíaco (disautonomia)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico é clínico, apoiado pelo exame do líquor (proteína elevada com poucas células, a \"dissociação albuminocitológica\") e pela eletroneuromiografia.¹"
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento imunológico deve ser iniciado precocemente nos pacientes que não conseguem andar sem ajuda ou que pioram rapidamente: imunoglobulina intravenosa (0,4 g/kg/dia por 5 dias) ou plasmaférese, igualmente eficazes — não há benefício em combiná-las, e corticoides não funcionam nesta doença.¹ Junto vêm os cuidados de suporte: monitorização respiratória e cardíaca, prevenção de trombose, controle da dor e fisioterapia desde o início."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A maioria dos pacientes se recupera bem ao longo de semanas a meses, embora a recuperação possa ser lenta; uma parcela permanece com fraqueza residual, dormência, dor ou fadiga persistente, e a reabilitação prolongada faz diferença nesses casos. Recaídas verdadeiras são raras."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após a fase aguda, o seguimento com o neurologista acompanha a recuperação e trata os sintomas residuais."
     }
   ],
   "referencias": [

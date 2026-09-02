@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "A doença de Parkinson é a segunda doença neurodegenerativa mais comum e a que mais cresce no mundo: o número de pessoas afetadas mais que dobrou em uma geração, ultrapassando 6 milhões, principalmente pelo envelhecimento populacional.¹ Ela resulta da perda progressiva dos neurônios produtores de dopamina. Pelos critérios diagnósticos da International Parkinson and Movement Disorder Society (MDS), o elemento central é o parkinsonismo: bradicinesia (lentidão e redução progressiva da amplitude dos movimentos) combinada com tremor de repouso — tipicamente iniciado em uma das mãos, como se estivesse \"contando dinheiro\" — e/ou rigidez muscular; o diagnóstico de doença de Parkinson é reforçado por critérios de suporte, como a resposta clara à levodopa, e pela ausência de sinais de alerta que sugiram outros diagnósticos.² Sintomas não motores são muito frequentes e podem preceder os motores em anos: perda do olfato, constipação intestinal, transtorno comportamental do sono REM (agitação e \"atuação\" dos sonhos), depressão e ansiedade."
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O tratamento sintomático é muito eficaz, sobretudo nos primeiros anos. A levodopa (associada a benserazida ou carbidopa) é o medicamento mais potente; agonistas dopaminérgicos (pramipexol, rotigotina), inibidores da MAO-B (rasagilina, selegilina, safinamida), inibidores da COMT (entacapona, opicapona) e amantadina são usados isoladamente ou em combinação, com ajustes ao longo do tempo conforme surgem flutuações do efeito (\"liga-desliga\") e discinesias. O exercício físico regular é considerado parte do tratamento, com benefício sobre mobilidade, equilíbrio e possivelmente sobre a progressão; fisioterapia, fonoaudiologia (incluindo voz e deglutição) e terapia ocupacional complementam o cuidado. Em casos selecionados com flutuações refratárias, a cirurgia de estimulação cerebral profunda (DBS) do núcleo subtalâmico ou do globo pálido traz grande melhora. Tomar os remédios em horários rigorosos e relatar as flutuações ao neurologista fazem diferença real no dia a dia."
+      "texto": "A doença de Parkinson é a segunda doença neurodegenerativa mais comum e a que mais cresce no mundo: o número de pessoas afetadas mais que dobrou em uma geração, ultrapassando 6 milhões, principalmente pelo envelhecimento populacional.¹ Ela resulta da perda progressiva dos neurônios produtores de dopamina."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Pelos critérios diagnósticos da International Parkinson and Movement Disorder Society (MDS), o elemento central é o parkinsonismo: bradicinesia (lentidão e redução progressiva da amplitude dos movimentos) combinada com tremor de repouso — tipicamente iniciado em uma das mãos, como se estivesse \"contando dinheiro\" — e/ou rigidez muscular; o diagnóstico de doença de Parkinson é reforçado por critérios de suporte, como a resposta clara à levodopa, e pela ausência de sinais de alerta que sugiram outros diagnósticos.² Sintomas não motores são muito frequentes e podem preceder os motores em anos: perda do olfato, constipação intestinal, transtorno comportamental do sono REM (agitação e \"atuação\" dos sonhos), depressão e ansiedade."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento sintomático é muito eficaz, sobretudo nos primeiros anos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A levodopa (associada a benserazida ou carbidopa) é o medicamento mais potente; agonistas dopaminérgicos (pramipexol, rotigotina), inibidores da MAO-B (rasagilina, selegilina, safinamida), inibidores da COMT (entacapona, opicapona) e amantadina são usados isoladamente ou em combinação, com ajustes ao longo do tempo conforme surgem flutuações do efeito (\"liga-desliga\") e discinesias."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O exercício físico regular é considerado parte do tratamento, com benefício sobre mobilidade, equilíbrio e possivelmente sobre a progressão; fisioterapia, fonoaudiologia (incluindo voz e deglutição) e terapia ocupacional complementam o cuidado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em casos selecionados com flutuações refratárias, a cirurgia de estimulação cerebral profunda (DBS) do núcleo subtalâmico ou do globo pálido traz grande melhora. Tomar os remédios em horários rigorosos e relatar as flutuações ao neurologista fazem diferença real no dia a dia."
     }
   ],
   "referencias": [

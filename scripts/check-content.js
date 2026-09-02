@@ -211,6 +211,9 @@ if (fs.existsSync(caminhoIndice)) {
     if (post.autor && !ids.has(post.autor)) {
       erros.push(`data/blog-indice.json (${post.slug}) — autor "${post.autor}" não existe em medicos.json`);
     }
+    if (post.revisado_por && !ids.has(post.revisado_por)) {
+      erros.push(`data/blog-indice.json (${post.slug}) — revisor "${post.revisado_por}" não existe em medicos.json`);
+    }
     if (!fs.existsSync(path.join(RAIZ, 'data', 'blog', post.slug + '.json'))) {
       erros.push(`data/blog-indice.json (${post.slug}) — arquivo data/blog/${post.slug}.json não encontrado`);
     }

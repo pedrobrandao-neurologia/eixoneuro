@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "A síndrome das pernas inquietas (doença de Willis-Ekbom) afeta, em suas formas clinicamente relevantes, cerca de 2% a 3% dos adultos, sendo mais comum em mulheres e com a idade. O diagnóstico é clínico e segue os cinco critérios essenciais do International RLS Study Group: (1) necessidade irresistível de mover as pernas, geralmente acompanhada de sensação desconfortável (formigamento, agitação, \"algo se mexendo por dentro\"); (2) que surge ou piora no repouso; (3) melhora, ao menos parcialmente, com o movimento; (4) predomina no fim do dia e à noite; e (5) não é explicada por outra condição, como cãibras ou desconforto posicional.¹ Por atrapalhar o adormecer e fragmentar o sono, causa insônia, cansaço e sonolência diurna. Pode ser primária (frequentemente familiar) ou associada à deficiência de ferro, gravidez, doença renal crônica e ao uso de certos medicamentos, como antidepressivos e antialérgicos."
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O primeiro passo do tratamento é dosar a ferritina: quando está baixa (em geral abaixo de 75 ng/mL), a reposição de ferro pode melhorar substancialmente os sintomas. Medidas comportamentais ajudam: horários regulares de sono, evitar cafeína, álcool e nicotina à noite, exercício moderado e revisão dos medicamentos em uso. Quando os sintomas são frequentes e intensos, os gabapentinoides (gabapentina, pregabalina) são hoje preferidos como primeira linha farmacológica; os agonistas dopaminérgicos (pramipexol, rotigotina) também são eficazes, mas exigem doses baixas e vigilância, pois com o tempo podem causar \"aumentação\" — piora paradoxal e antecipação dos sintomas. O acompanhamento com o neurologista permite ajustar o tratamento e evitar esse fenômeno."
+      "texto": "A síndrome das pernas inquietas (doença de Willis-Ekbom) afeta, em suas formas clinicamente relevantes, cerca de 2% a 3% dos adultos, sendo mais comum em mulheres e com a idade."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico é clínico e segue os cinco critérios essenciais do International RLS Study Group: (1) necessidade irresistível de mover as pernas, geralmente acompanhada de sensação desconfortável (formigamento, agitação, \"algo se mexendo por dentro\"); (2) que surge ou piora no repouso; (3) melhora, ao menos parcialmente, com o movimento; (4) predomina no fim do dia e à noite; e (5) não é explicada por outra condição, como cãibras ou desconforto posicional.¹ Por atrapalhar o adormecer e fragmentar o sono, causa insônia, cansaço e sonolência diurna."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Pode ser primária (frequentemente familiar) ou associada à deficiência de ferro, gravidez, doença renal crônica e ao uso de certos medicamentos, como antidepressivos e antialérgicos."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O primeiro passo do tratamento é dosar a ferritina: quando está baixa (em geral abaixo de 75 ng/mL), a reposição de ferro pode melhorar substancialmente os sintomas. Medidas comportamentais ajudam: horários regulares de sono, evitar cafeína, álcool e nicotina à noite, exercício moderado e revisão dos medicamentos em uso."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Quando os sintomas são frequentes e intensos, os gabapentinoides (gabapentina, pregabalina) são hoje preferidos como primeira linha farmacológica; os agonistas dopaminérgicos (pramipexol, rotigotina) também são eficazes, mas exigem doses baixas e vigilância, pois com o tempo podem causar \"aumentação\" — piora paradoxal e antecipação dos sintomas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O acompanhamento com o neurologista permite ajustar o tratamento e evitar esse fenômeno."
     }
   ],
   "referencias": [

@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "A encefalopatia neonatal é a alteração da função cerebral do recém-nascido a termo (ou quase a termo) nos primeiros dias de vida, manifestada por dificuldade para iniciar e manter a respiração, sucção débil, alteração do tônus (bebê muito \"molinho\" ou muito rígido), rebaixamento do nível de consciência ou irritabilidade e, com frequência, crises epilépticas. Sua incidência é estimada em cerca de 3 casos por 1.000 nascidos vivos, e a forma associada à falta de oxigênio e fluxo sanguíneo em torno do parto — a encefalopatia hipóxico-isquêmica — ocorre em cerca de 1,5 por 1.000, com números maiores em países em desenvolvimento.¹ Outras causas incluem infecções, alterações metabólicas, AVC perinatal e doenças genéticas. Nos casos moderados e graves de origem hipóxico-isquêmica, a hipotermia terapêutica (resfriamento corporal controlado a cerca de 33,5 °C por 72 horas), iniciada nas primeiras 6 horas de vida, é o tratamento padrão: a revisão Cochrane mostrou redução significativa de morte ou incapacidade grave (é preciso tratar apenas 7 bebês para evitar um desfecho grave).²"
+      "tipo": "subtitulo",
+      "texto": "O que são e como se manifestam"
     },
     {
       "tipo": "paragrafo",
-      "texto": "A evolução é variável: muitos bebês se recuperam completamente, enquanto outros podem desenvolver paralisia cerebral, epilepsia, atrasos do desenvolvimento, déficits visuais, auditivos e dificuldades de aprendizagem que só se manifestam na idade escolar. Por isso, todo bebê que teve encefalopatia neonatal deve manter seguimento regular com pediatra e neurologista infantil, com avaliações padronizadas do desenvolvimento, exames de visão e audição, e encaminhamento imediato para estimulação precoce, fisioterapia e fonoaudiologia ao menor sinal de atraso — a intervenção precoce aproveita a maior plasticidade do cérebro nos primeiros anos. Crises epilépticas devem ser tratadas com medicamentos anticrise, e a família deve receber orientação e suporte contínuos."
+      "texto": "A encefalopatia neonatal é a alteração da função cerebral do recém-nascido a termo (ou quase a termo) nos primeiros dias de vida, manifestada por dificuldade para iniciar e manter a respiração, sucção débil, alteração do tônus (bebê muito \"molinho\" ou muito rígido), rebaixamento do nível de consciência ou irritabilidade e, com frequência, crises epilépticas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Sua incidência é estimada em cerca de 3 casos por 1.000 nascidos vivos, e a forma associada à falta de oxigênio e fluxo sanguíneo em torno do parto — a encefalopatia hipóxico-isquêmica — ocorre em cerca de 1,5 por 1.000, com números maiores em países em desenvolvimento.¹ Outras causas incluem infecções, alterações metabólicas, AVC perinatal e doenças genéticas."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nos casos moderados e graves de origem hipóxico-isquêmica, a hipotermia terapêutica (resfriamento corporal controlado a cerca de 33,5 °C por 72 horas), iniciada nas primeiras 6 horas de vida, é o tratamento padrão: a revisão Cochrane mostrou redução significativa de morte ou incapacidade grave (é preciso tratar apenas 7 bebês para evitar um desfecho grave).²"
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Reabilitação e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A evolução é variável: muitos bebês se recuperam completamente, enquanto outros podem desenvolver paralisia cerebral, epilepsia, atrasos do desenvolvimento, déficits visuais, auditivos e dificuldades de aprendizagem que só se manifestam na idade escolar."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Por isso, todo bebê que teve encefalopatia neonatal deve manter seguimento regular com pediatra e neurologista infantil, com avaliações padronizadas do desenvolvimento, exames de visão e audição, e encaminhamento imediato para estimulação precoce, fisioterapia e fonoaudiologia ao menor sinal de atraso — a intervenção precoce aproveita a maior plasticidade do cérebro nos primeiros anos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Crises epilépticas devem ser tratadas com medicamentos anticrise, e a família deve receber orientação e suporte contínuos."
     }
   ],
   "referencias": [

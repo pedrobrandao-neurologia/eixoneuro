@@ -57,28 +57,73 @@
       '</a></li>';
   }
 
-  function blocoHTML(bloco) {
+  /* Notas de rodapé interativas: os sobrescritos ¹²³ do texto viram
+     âncoras discretas para a bibliografia no fim do artigo. */
+  var SOBRESCRITOS = { '¹': 1, '²': 2, '³': 3, '⁴': 4, '⁵': 5, '⁶': 6, '⁷': 7, '⁸': 8, '⁹': 9 };
+  function ligarNotas(textoEscapado) {
+    return textoEscapado.replace(/[¹²³⁴⁵⁶⁷⁸⁹]/g, function (ch) {
+      var n = SOBRESCRITOS[ch];
+      return '<sup class="nota-ref"><a href="#ref-' + n + '" aria-label="Referência ' + n + '">' + n + '</a></sup>';
+    });
+  }
+
+  function idSecao(indice) { return 'secao-' + indice; }
+
+  function blocoHTML(bloco, indiceSecao) {
     if (bloco.tipo === 'subtitulo') {
-      return '<h2>' + E.esc(bloco.texto) + '</h2>';
+      return '<h2 id="' + idSecao(indiceSecao) + '">' + E.esc(bloco.texto) + '</h2>';
     }
     if (bloco.tipo === 'lista') {
       return '<ul>' + (bloco.itens || []).map(function (i) {
-        return '<li>' + E.esc(i) + '</li>';
+        return '<li>' + ligarNotas(E.esc(i)) + '</li>';
       }).join('') + '</ul>';
     }
-    return '<p>' + E.esc(bloco.texto) + '</p>';
+    if (bloco.tipo === 'faq') {
+      return '<div class="accordion" style="margin-top:12px">' + (bloco.itens || []).map(function (item) {
+        return '<details><summary>' + E.esc(item.pergunta) +
+          '<span class="mais" aria-hidden="true"></span></summary>' +
+          '<div class="conteudo"><p>' + E.esc(item.resposta) + '</p></div></details>';
+      }).join('') + '</div>';
+    }
+    return '<p>' + ligarNotas(E.esc(bloco.texto)) + '</p>';
+  }
+
+  /* Índice clicável (<nav>) gerado dos H2 do artigo */
+  function indiceHTML(corpo, temReferencias) {
+    var secoes = [];
+    var contador = 0;
+    (corpo || []).forEach(function (b) {
+      if (b.tipo === 'subtitulo') {
+        contador++;
+        secoes.push({ id: idSecao(contador), titulo: b.texto });
+      }
+    });
+    if (secoes.length < 2) { return ''; }
+    if (temReferencias) { secoes.push({ id: 'referencias', titulo: 'Referências científicas' }); }
+    return '<nav class="indice-post" aria-label="Neste artigo"><p class="legenda">Neste artigo</p><ol>' +
+      secoes.map(function (s) {
+        return '<li><a href="#' + s.id + '">' + E.esc(s.titulo) + '</a></li>';
+      }).join('') + '</ol></nav>';
+  }
+
+  function corpoHTML(corpo) {
+    var contadorSecao = 0;
+    return (corpo || []).map(function (b) {
+      if (b.tipo === 'subtitulo') { contadorSecao++; }
+      return blocoHTML(b, contadorSecao);
+    }).join('');
   }
 
   function referenciasHTML(referencias) {
     if (!referencias || !referencias.length) { return ''; }
-    return '<h2>Referências científicas</h2>' +
+    return '<h2 id="referencias">Referências científicas</h2>' +
       '<p style="font-size:.9rem;opacity:.85">Material elaborado com base na literatura científica indexada (PubMed).</p>' +
       '<ol style="padding-left:1.3em;display:grid;gap:.6em;font-size:.92rem">' +
-      referencias.map(function (r) {
+      referencias.map(function (r, i) {
         var links = (r.links || []).map(function (l) {
           return '<a href="' + E.esc(l.url) + '" target="_blank" rel="noopener" style="border-bottom:1px solid currentColor">' + E.esc(l.rotulo) + '</a>';
         }).join(' · ');
-        return '<li>' + E.esc(r.texto) + (links ? ' ' + links : '') + '</li>';
+        return '<li id="ref-' + (i + 1) + '">' + E.esc(r.texto) + (links ? ' ' + links : '') + '</li>';
       }).join('') + '</ol>';
   }
 
@@ -164,36 +209,60 @@
         return '<p class="registro legenda">' + l + '</p>';
       }).join('') : '';
 
+      var lattes = autor && autor.lattes
+        ? '<p style="margin-top:4px"><a href="' + E.esc(autor.lattes) + '" target="_blank" rel="noopener" style="border-bottom:1px solid currentColor">Currículo Lattes</a></p>'
+        : '';
+
+      // biografia do autor em <aside> (E-E-A-T)
       var caixaAutor = autor
-        ? '<div class="autor-caixa"><p class="legenda">Escrito por</p>' +
+        ? '<aside class="autor-caixa" aria-label="Sobre o autor"><p class="legenda">Escrito por</p>' +
           '<p class="nome-autor">' + E.esc(autor.nome) + '</p>' +
           '<p class="registro legenda">' + E.linhaRegistro(autor) + '</p>' +
           especialidades +
           (autor.nao_especialista ? '<p class="nao-esp legenda">Não especialista</p>' : '') +
-          '<p style="margin-top:8px"><a href="equipe.html#medico=' + E.esc(autor.id) + '" style="border-bottom:1px solid currentColor">Ver mini currículo e agendar</a></p>' +
-          '</div>'
-        : '<div class="autor-caixa"><p class="legenda">Material da equipe</p>' +
+          '<p style="font-size:.92rem;margin-top:6px">' + E.esc(autor.mini_cv || '') + '</p>' +
+          lattes +
+          '<p style="margin-top:8px"><a href="equipe.html#medico=' + E.esc(autor.id) + '" style="border-bottom:1px solid currentColor">Ver formação completa e agendar</a></p>' +
+          '</aside>'
+        : '<aside class="autor-caixa" aria-label="Sobre a autoria"><p class="legenda">Material da equipe</p>' +
           '<p class="nome-autor">' + E.esc(clinica.nome_fantasia) + '</p>' +
           '<p style="font-size:.92rem">Material informativo para pacientes, elaborado pela equipe médica com base na literatura científica indexada. Responsável técnica da clínica: ' +
           E.esc(clinica.diretor_tecnico.nome) + ' — CRM-DF ' + E.esc(clinica.diretor_tecnico.crm) + '.</p>' +
           '<p style="margin-top:8px"><a href="equipe.html" style="border-bottom:1px solid currentColor">Conheça a equipe</a></p>' +
-          '</div>';
+          '</aside>';
+
+      // "Revisado clinicamente por ..." quando um médico revisor é indicado
+      var revisor = post.revisado_por ? medicos.find(function (m) { return m.id === post.revisado_por; }) : null;
+      var caixaRevisor = revisor
+        ? '<p class="revisao-clinica">Revisado clinicamente por <a href="equipe.html#medico=' + E.esc(revisor.id) + '">' +
+          E.esc(revisor.nome) + '</a> — ' + E.linhaRegistro(revisor) +
+          (revisor.rqe ? ' · RQE nº ' + E.esc(revisor.rqe) : '') + '</p>'
+        : '';
 
       var revisao = post.revisado === false
         ? '<p class="banner-revisao" style="margin-top:24px">Conteúdo em revisão pela equipe médica.</p>'
         : '';
 
+      var atualizado = post.atualizado && post.atualizado !== post.data
+        ? ' · Atualizado em ' + E.esc(dataLegivel(post.atualizado))
+        : '';
+      var nomeAutorMeta = autor
+        ? '<a href="equipe.html#medico=' + E.esc(autor.id) + '" style="border-bottom:1px solid currentColor">' + E.esc(autor.nome) + '</a>'
+        : 'Equipe Eixo';
+
       alvo.innerHTML =
         '<p class="legenda">' + (post.tags || []).map(E.esc).join(' · ') + '</p>' +
         '<h1>' + E.esc(post.titulo) + '</h1>' +
-        '<p class="meta">Publicado em ' + E.esc(dataLegivel(post.data)) +
-        (autor ? ' · ' + E.esc(autor.nome) : ' · Equipe Eixo') + '</p>' +
+        '<p class="meta">Publicado em ' + E.esc(dataLegivel(post.data)) + atualizado +
+        ' · ' + nomeAutorMeta + '</p>' +
+        caixaRevisor +
         revisao +
+        indiceHTML(conteudo.corpo, (conteudo.referencias || []).length > 0) +
         '<div class="post-corpo">' +
-        (conteudo.corpo || []).map(blocoHTML).join('') +
+        corpoHTML(conteudo.corpo) +
         referenciasHTML(conteudo.referencias) +
         '</div>' +
-        '<div class="aviso-conteudo"><strong>Aviso:</strong> este conteúdo é informativo e não substitui consulta, diagnóstico ou tratamento médico. Em caso de sintomas, procure um médico. Em emergências, ligue 192 (SAMU).</div>' +
+        '<div class="aviso-conteudo"><strong>Aviso:</strong> as informações deste texto têm caráter informativo e não substituem uma consulta médica. Em caso de sintomas ou dúvidas, procure um médico. Em emergências, ligue 192 (SAMU).</div>' +
         caixaAutor +
         '<p style="margin-top:36px"><a class="botao botao--vazado" href="blog.html">← Todos os artigos</a></p>';
 
@@ -208,7 +277,7 @@
         headline: post.titulo,
         description: post.resumo,
         datePublished: post.data,
-        dateModified: post.data,
+        dateModified: post.atualizado || post.data,
         inLanguage: 'pt-BR',
         url: urlArtigo,
         mainEntityOfPage: urlArtigo,
@@ -225,6 +294,28 @@
         ld.about = { '@type': 'MedicalCondition', name: post.condicao };
       }
       if (citacoes.length) { ld.citation = citacoes; }
+      if (revisor) {
+        ld.reviewedBy = { '@type': 'Physician', name: revisor.nome, url: clinica.site_url + '/equipe.html#medico=' + revisor.id, medicalSpecialty: 'Neurology' };
+      }
+      // FAQPage quando o artigo traz blocos de perguntas de consultório
+      var perguntasFaq = [];
+      (conteudo.corpo || []).forEach(function (b) {
+        if (b.tipo === 'faq') {
+          (b.itens || []).forEach(function (item) {
+            perguntasFaq.push({
+              '@type': 'Question',
+              name: item.pergunta,
+              acceptedAnswer: { '@type': 'Answer', text: item.resposta }
+            });
+          });
+        }
+      });
+      if (perguntasFaq.length) {
+        var faqLd = document.createElement('script');
+        faqLd.type = 'application/ld+json';
+        faqLd.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: perguntasFaq });
+        document.head.appendChild(faqLd);
+      }
       var migalhas = {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',

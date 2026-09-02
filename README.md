@@ -59,15 +59,26 @@ python3 -m http.server 8080        # ou: npx serve .
 - **Blog** — dois arquivos por publicação (estrutura leve, boa para
   Core Web Vitals):
   1. Uma entrada em **`blog-indice.json`**: `slug` (vira a URL
-     `post.html?post=slug`), `titulo`, `resumo` (≤160 caracteres — vira a
-     meta description), `data` (AAAA-MM-DD), `autor` (id de `medicos.json`,
-     exibido com CRM/RQE, ou `null` para material assinado pela equipe),
+     `post.html?post=slug`), `titulo` (H1 — inclua a intenção de busca,
+     ex.: "Doença de Parkinson: sintomas, diagnóstico e tratamento"),
+     `resumo` (≤160 caracteres — vira a meta description), `data` e
+     `atualizado` (AAAA-MM-DD — **atualize `atualizado` a cada revisão**;
+     o site mostra "Atualizado em..." e envia `dateModified` ao Google),
+     `autor` (id de `medicos.json`, exibido com CRM/RQE, ou `null` para
+     material da equipe), `revisado_por` (opcional — id do médico
+     revisor: exibe o selo "Revisado clinicamente por…" e o
+     `reviewedBy` no schema; use nos posts sem autor individual),
      `tags[]`, `condicao` (nome da doença para o schema
      `MedicalCondition`) e `revisado`.
   2. Um arquivo **`blog/<slug>.json`** com `corpo[]` — blocos
-     `{"tipo": "paragrafo"|"subtitulo"|"lista", "texto"|"itens"}` — e
+     `{"tipo": "paragrafo"|"subtitulo"|"lista"|"faq", ...}`. Use
+     `subtitulo` como H2 respondendo a uma pergunta de busca; parágrafos
+     de 2 a 4 linhas; `faq` (`itens: [{pergunta, resposta}]`) para as
+     dúvidas reais de consultório — vira accordion + schema `FAQPage`.
+     Sobrescritos ¹²³ no texto viram âncoras clicáveis para
      `referencias[]` (`{texto, links: [{rotulo, url}]}` com DOI/PubMed;
-     citações fortalecem o E-E-A-T e viram `citation` no JSON-LD).
+     citações fortalecem o E-E-A-T e viram `citation` no JSON-LD). Com
+     dois ou mais H2, o artigo ganha índice clicável automático.
 
   Depois de publicar ou editar um post: `npm run check-content` e
   `npm run gerar-sitemap` (o sitemap lista cada artigo), e solicite a
