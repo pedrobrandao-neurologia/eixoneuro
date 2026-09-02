@@ -68,12 +68,15 @@
         };
       }),
       physician: medicos.filter(function (m) { return !m.nao_especialista; }).map(function (m) {
-        return {
+        var medico = {
           '@type': 'Physician',
           name: m.nome,
           medicalSpecialty: 'Neurology',
           url: clinica.site_url + '/equipe.html#medico=' + m.id
         };
+        var perfis = [m.lattes, m.orcid].filter(Boolean);
+        if (perfis.length) { medico.sameAs = perfis; }
+        return medico;
       }),
       sameAs: clinica.redes_sociais && clinica.redes_sociais.instagram
         ? [clinica.redes_sociais.instagram] : []
