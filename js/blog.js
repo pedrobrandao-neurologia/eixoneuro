@@ -210,7 +210,7 @@
       }).join('') : '';
 
       var lattes = autor && autor.lattes
-        ? '<p style="margin-top:4px"><a href="' + E.esc(autor.lattes) + '" target="_blank" rel="noopener" style="border-bottom:1px solid currentColor">Currículo Lattes</a></p>'
+        ? '<p style="margin-top:8px">' + E.linkLattes(autor.lattes) + '</p>'
         : '';
 
       // biografia do autor em <aside> (E-E-A-T)

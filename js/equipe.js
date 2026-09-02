@@ -112,7 +112,7 @@
     var dias = (medico.dias_atendimento || []).map(function (d) { return E.esc(DIAS[d] || d); });
 
     var lattes = medico.lattes
-      ? '<p style="margin-top:16px"><a href="' + E.esc(medico.lattes) + '" target="_blank" rel="noopener" style="border-bottom:1px solid currentColor">Currículo Lattes</a></p>'
+      ? '<p style="margin-top:16px">' + E.linkLattes(medico.lattes) + '</p>'
       : '';
 
     var revisao = medico.revisado === false

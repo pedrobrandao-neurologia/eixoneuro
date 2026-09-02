@@ -481,6 +481,15 @@ sup.nota-ref{font-size:.72em;line-height:0}
 sup.nota-ref a{padding:0 .1em;border-bottom:1px dotted currentColor}
 :target{scroll-margin-top:110px}
 
+/* link do currículo Lattes com ícone */
+.link-lattes{
+  display:inline-flex;align-items:center;gap:.5em;
+  font-size:.95rem;
+}
+.link-lattes span{border-bottom:1px solid currentColor;padding-bottom:1px}
+.link-lattes .icone-lattes{width:20px;height:20px;flex:none;opacity:.9}
+.link-lattes:hover .icone-lattes{opacity:1}
+
 /* selo "revisado clinicamente por" */
 .revisao-clinica{
   margin-top:20px;border-left:4px solid var(--menta);
