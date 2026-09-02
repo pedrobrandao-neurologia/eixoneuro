@@ -163,6 +163,18 @@
     estado.origemFoco = null;
   }
 
+  /* Modal genérico (usado também pelos profissionais de outras
+     especialidades na home, via window.EIXO_MODAL) */
+  function abrirModalGenerico(html) {
+    var modal = montarModal();
+    modal.querySelector('.modal__conteudo').innerHTML = html;
+    estado.origemFoco = document.activeElement;
+    modal.classList.add('aberto');
+    document.body.style.overflow = 'hidden';
+    modal.querySelector('.modal__fechar').focus();
+  }
+  window.EIXO_MODAL = { abrir: abrirModalGenerico };
+
   /* ---------- filtros ---------- */
   function preencherFiltros() {
     var selQueixa = document.getElementById('filtro-queixa');
