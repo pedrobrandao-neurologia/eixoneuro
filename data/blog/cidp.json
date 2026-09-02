@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A CIDP é uma doença autoimune crônica dos nervos periféricos, na qual o sistema imunológico ataca a bainha de mielina das raízes e dos nervos. É rara (da ordem de poucos casos por 100 mil habitantes), mas importante reconhecê-la porque é tratável. Diferentemente da síndrome de Guillain-Barré, que é aguda, a CIDP evolui de forma progressiva ou em surtos ao longo de mais de 8 semanas. Na forma típica, definida pela diretriz conjunta da Academia Europeia de Neurologia e da Peripheral Nerve Society (EAN/PNS 2021), há fraqueza simétrica proximal e distal dos quatro membros (dificuldade para subir escadas e levantar de cadeiras, além de dificuldade com as mãos), perda de sensibilidade, desequilíbrio e redução ou abolição difusa dos reflexos; existem também variantes focais, distais, motoras e sensitivas puras.¹ O diagnóstico é confirmado pela eletroneuromiografia, que demonstra desmielinização (condução nervosa lentificada, bloqueios de condução), com apoio do líquor (proteína elevada), da ultrassonografia/ressonância dos plexos e, em casos selecionados, da resposta ao tratamento."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A CIDP responde ao tratamento na maioria dos pacientes. A diretriz EAN/PNS recomenda como primeira linha a imunoglobulina (intravenosa ou subcutânea) ou os corticoides (prednisona ou pulsos de dexametasona); a plasmaférese é indicada quando ambos falham, e a imunoglobulina é preferida na variante motora.¹ O tratamento de manutenção é ajustado à menor dose e ao maior intervalo que mantenham a resposta — muitos pacientes conseguem, com o tempo, reduzir ou até suspender a medicação —, e imunossupressores adicionais podem ser associados nos casos de difícil controle. Fisioterapia regular ajuda a preservar força, equilíbrio e função; a dor neuropática, quando presente, é tratada com medicamentos específicos (pregabalina, gabapentina, duloxetina). O acompanhamento regular com o neurologista permite detectar recaídas precocemente e evitar o acúmulo de incapacidade."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Van den Bergh PYK, et al. EAN/PNS guideline on diagnosis and treatment of chronic inflammatory demyelinating polyradiculoneuropathy: second revision. J Peripher Nerv Syst. 2021;26(3):242-268.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1111/jns.12455",
+          "url": "https://doi.org/10.1111/jns.12455"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34085743/"
+        }
+      ]
+    }
+  ]
+}

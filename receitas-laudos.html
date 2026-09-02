@@ -116,6 +116,32 @@
 
 <div id="rodape-site"></div>
 
+<script>
+// Dados estruturados FAQPage gerados do próprio accordion (SEO).
+document.addEventListener('DOMContentLoaded', function () {
+  var perguntas = Array.prototype.map.call(
+    document.querySelectorAll('.accordion details'),
+    function (d) {
+      var pergunta = d.querySelector('summary').textContent.replace(/\s+/g, ' ').trim();
+      var resposta = d.querySelector('.conteudo').textContent.replace(/\s+/g, ' ').trim();
+      return {
+        '@type': 'Question',
+        name: pergunta,
+        acceptedAnswer: { '@type': 'Answer', text: resposta }
+      };
+    }
+  );
+  var script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: perguntas
+  });
+  document.head.appendChild(script);
+});
+</script>
+
 <noscript>
   <div style="padding:24px;max-width:800px;margin:0 auto;font-family:system-ui,sans-serif">
     <p><strong>Eixo — Neurologia Especializada</strong> · Centro Clínico Lúcio Costa — Bloco 2, Salas 136 a 138, SGAS 610, Asa Sul, Brasília-DF. Telefone: <a href="tel:+5561991246115">(61) 99124-6115</a>.</p>

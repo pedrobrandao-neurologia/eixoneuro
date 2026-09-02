@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O traumatismo raquimedular é a lesão da medula espinhal por trauma — quedas e acidentes de trânsito são as duas principais causas no mundo, seguidos de mergulhos em água rasa e ferimentos. Estima-se que cerca de 20,6 milhões de pessoas vivam com sequelas de lesão medular no mundo e que ocorram cerca de 900 mil novos casos por ano, com predomínio em homens; as lesões cervicais são as mais frequentes.¹ A medula transmite as mensagens entre o cérebro e o corpo: quando lesada, há perda de força e de sensibilidade abaixo do nível da lesão — completa ou incompleta (classificada pela escala ASIA, de A a E, conforme haja ou não função preservada abaixo da lesão). Lesões cervicais causam tetraplegia (braços, tronco e pernas); lesões torácicas e lombares, paraplegia. Além da parte motora e sensitiva, são afetados o controle da bexiga (bexiga neurogênica) e do intestino, a função sexual, a pressão arterial e a regulação da temperatura; espasticidade e dor neuropática são comuns."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento agudo envolve estabilização da coluna e, quando indicada, cirurgia de descompressão precoce. Depois, a reabilitação intensiva e precoce é o que mais devolve função e independência: fisioterapia, terapia ocupacional, treino de transferências e cadeira de rodas, e adaptações do ambiente. O cuidado contínuo previne as complicações que mais ameaçam a saúde: mudanças de posição e inspeção da pele para evitar lesões por pressão; programa de cateterismo intermitente e manejo intestinal; prevenção de infecções urinárias e de trombose venosa; e reconhecimento imediato da disreflexia autonômica (elevação súbita e perigosa da pressão arterial, com dor de cabeça e sudorese, nas lesões acima de T6) — uma emergência que exige identificar e remover o estímulo desencadeante, geralmente bexiga ou intestino cheios. Medicamentos ajudam na espasticidade (baclofeno, tizanidina, toxina botulínica) e na dor neuropática (pregabalina, gabapentina, amitriptilina). Suporte psicológico, reintegração social e profissional e seguimento médico regular completam o cuidado."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "GBD Spinal Cord Injuries Collaborators. Global, regional, and national burden of spinal cord injury, 1990–2019. Lancet Neurol. 2023;22(11):1026-1047.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S1474-4422(23)00287-9",
+          "url": "https://doi.org/10.1016/S1474-4422(23)00287-9"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37863591/"
+        }
+      ]
+    }
+  ]
+}

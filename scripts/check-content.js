@@ -32,14 +32,24 @@ const avisos = [];
 // legítimas: "melhora" (evolução do sintoma) não casa com \bmelhor\b,
 // "procure um pronto-socorro" não casa com \bcura\b, "topo" não casa
 // com \btop\b.
+// Erros: padrões inequivocamente promocionais/vedados. Afirmações
+// científicas legítimas ("melhor sobrevida", "ainda não há cura",
+// "garantir alimentação segura", "Referências" bibliográficas) NÃO
+// disparam erro — caem, quando ambíguas, na lista de revisão manual.
 const PROIBIDOS = [
-  [/\bmelhor(es)?\b/gi, 'superlativo/comparação ("melhor") — vedado (autopromoção)'],
-  [/\bcura(r|s|do|da|dos|das)?\b/gi, 'promessa de cura — vedada'],
-  [/garant/gi, 'garantia de resultado — vedada'],
+  // superlativo sobre o serviço/prestador ("a melhor clínica", "melhor neurologista de Brasília")
+  [/\bmelhor(es)?\s+(cl[íi]nica|consult[óo]rio|m[ée]dic[oa]s?|equipe|atendimento|hospital|neurologistas?|profissiona(l|is))\b/gi, 'superlativo sobre o serviço — autopromoção vedada'],
+  [/\bmelhor(es)?\s+d[aoe]s?\s+(cidade|df|bras[íi]lia|regi[ãa]o|pa[íi]s)\b/gi, 'superlativo comparativo — autopromoção vedada'],
+  // promessa de cura (nega­ções como "não há cura" são permitidas)
+  [/(?<!n[ãa]o\s+h[áa]\s+|n[ãa]o\s+tem\s+|n[ãa]o\s+t[êe]m\s+|sem\s+|ainda\s+n[ãa]o\s+existe\s+)\bcura(mos)?\b/gi, 'promessa de cura — vedada'],
+  [/\bcura(r|do|da|dos|das)\b/gi, 'promessa de cura — vedada'],
+  // garantia de resultado
+  [/\bgarant\w*\s+(de\s+)?(resultado|sucesso|cura|melhora|recupera[çc])/gi, 'garantia de resultado — vedada'],
+  [/resultado(s)?\s+garantido(s)?/gi, 'garantia de resultado — vedada'],
   [/definitiv/gi, '"definitivo" sugere promessa de resultado — vedado'],
-  // Exceção: "Centro de Referência …" é nome próprio de instituição pública
-  // (permitido); a vedação é a autopromoção ("referência em Brasília").
-  [/(?<!centro de )\brefer[êe]ncia(s)?\b/gi, '"referência em..." — autopromoção vedada'],
+  // autopromoção "referência" (uso bibliográfico e "Centro de Referência" são permitidos)
+  [/\b([ée]|somos|seja|sendo|considerad[oa]s?|torn(a|ou)-se)\s+(uma\s+|um\s+|a\s+|o\s+)?refer[êe]ncia\b/gi, '"é/somos referência" — autopromoção vedada'],
+  [/(?<!centro\s+de\s+)\brefer[êe]ncia\s+(em|no|na)\s+(bras[íi]lia|neurologia|sa[úu]de|df)\b/gi, '"referência em..." — autopromoção vedada'],
   [/pr[êe]mi/gi, 'prêmios/selos promocionais — vedados'],
   [/\btop\b/gi, 'ranking/"top" — vedado'],
   [/\branking(s)?\b/gi, 'rankings — vedados'],
@@ -51,8 +61,13 @@ const PROIBIDOS = [
   [/sensacional/gi, 'tom sensacionalista — vedado'],
 ];
 
-// Termos de tom promocional que merecem revisão manual (não bloqueiam).
+// Termos ambíguos que merecem revisão manual (não bloqueiam): em texto
+// educativo podem ser legítimos ("melhores resultados quanto mais cedo",
+// "tratamento eficaz" com referência), mas nunca em página promocional.
 const SUSPEITOS = [
+  [/\bmelhor(es)?\b/gi, 'comparativo "melhor" — confirmar que é afirmação científica, não autopromoção'],
+  [/\bcura(r|s|do|da|dos|das)?\b/gi, 'menção a cura — confirmar contexto (negação/estado da ciência)'],
+  [/\bgarant\w*/gi, 'menção a garantia — confirmar que não promete resultado'],
   [/excel[êe]ncia/gi, 'tom promocional ("excelência") — prefira descrição objetiva'],
   [/\befica(z|zes|cia)\b/gi, 'implica resultado ("eficaz") — prefira descrição objetiva'],
   [/\bl[íi]der(es)?\b/gi, 'tom promocional ("líder")'],
@@ -64,7 +79,11 @@ function listarArquivos() {
   const html = fs.readdirSync(RAIZ).filter((a) => a.endsWith('.html'));
   const json = fs.readdirSync(path.join(RAIZ, 'data')).filter((a) => a.endsWith('.json'))
     .map((a) => path.join('data', a));
-  return html.concat(json);
+  const blog = fs.existsSync(path.join(RAIZ, 'data', 'blog'))
+    ? fs.readdirSync(path.join(RAIZ, 'data', 'blog')).filter((a) => a.endsWith('.json'))
+        .map((a) => path.join('data', 'blog', a))
+    : [];
+  return html.concat(json, blog);
 }
 
 function linhaDe(texto, indice) {
@@ -73,7 +92,12 @@ function linhaDe(texto, indice) {
 
 // Em HTML, remove blocos <script>/<style> e atributos style="…" para
 // não confundir código (ex.: margin-top) com conteúdo visível ao leitor.
+// Em JSON, apaga os NOMES das chaves (ex.: "referencias":) para varrer
+// somente os valores de texto, preservando as posições das linhas.
 function textoVerificavel(arquivo, texto) {
+  if (arquivo.endsWith('.json')) {
+    return texto.replace(/"[A-Za-z0-9_]+"\s*:/g, (m) => ' '.repeat(m.length));
+  }
   if (!arquivo.endsWith('.html')) { return texto; }
   return texto
     .replace(/<script[\s\S]*?<\/script>/gi, (b) => b.replace(/\S/g, ' '))
@@ -172,6 +196,28 @@ for (const item of exames.concat(procedimentos)) {
   }
   if (item.revisado === false) {
     avisos.push(`${rotulo} — conteúdo marcado como "revisado": false (o site exibe o aviso "conteúdo em revisão")`);
+  }
+}
+
+/* ---------- blog: autores válidos e pendências de revisão ---------- */
+const caminhoIndice = path.join(RAIZ, 'data', 'blog-indice.json');
+if (fs.existsSync(caminhoIndice)) {
+  const indiceBlog = JSON.parse(fs.readFileSync(caminhoIndice, 'utf8'));
+  const slugs = new Set();
+  let naoRevisados = 0;
+  for (const post of indiceBlog) {
+    if (slugs.has(post.slug)) { erros.push(`data/blog-indice.json — slug duplicado "${post.slug}"`); }
+    slugs.add(post.slug);
+    if (post.autor && !ids.has(post.autor)) {
+      erros.push(`data/blog-indice.json (${post.slug}) — autor "${post.autor}" não existe em medicos.json`);
+    }
+    if (!fs.existsSync(path.join(RAIZ, 'data', 'blog', post.slug + '.json'))) {
+      erros.push(`data/blog-indice.json (${post.slug}) — arquivo data/blog/${post.slug}.json não encontrado`);
+    }
+    if (post.revisado === false) { naoRevisados++; }
+  }
+  if (naoRevisados) {
+    avisos.push(`data/blog-indice.json — ${naoRevisados} artigo(s) com "revisado": false (validar autoria/conteúdo com os médicos)`);
   }
 }
 

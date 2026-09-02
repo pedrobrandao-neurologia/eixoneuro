@@ -1,0 +1,40 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A doença de Parkinson é uma condição neurológica crônica que afeta principalmente o controle dos movimentos. Ela é causada pela redução progressiva de neurônios que produzem dopamina, um mensageiro químico essencial para movimentos suaves e coordenados."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Sinais que merecem atenção"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Tremor em uma das mãos quando ela está parada (tremor de repouso)",
+        "Lentidão para iniciar movimentos, vestir-se ou caminhar",
+        "Rigidez muscular e dor nos ombros ou nos braços",
+        "Letra que fica menor ao escrever (micrografia)",
+        "Voz mais baixa e rosto menos expressivo",
+        "Redução do olfato, prisão de ventre e alterações do sono que podem surgir anos antes dos sintomas motores"
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nem todo tremor é doença de Parkinson: o tremor essencial, efeitos de medicamentos e outras condições também causam tremores, com características e tratamentos diferentes. Por isso, a avaliação com neurologista é importante para definir o diagnóstico correto."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "O que a consulta pode oferecer"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico é clínico, feito pelo exame neurológico; exames de imagem ajudam a excluir outras causas. Existem medicamentos e terapias que reduzem os sintomas e ajudam a preservar a independência, e o acompanhamento regular permite ajustar o tratamento a cada fase. Atividade física orientada, fisioterapia e fonoaudiologia complementam o cuidado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Se você ou um familiar notou tremor persistente, lentidão ou quedas frequentes, registre em vídeo, se possível, e procure avaliação neurológica."
+    }
+  ],
+  "referencias": []
+}

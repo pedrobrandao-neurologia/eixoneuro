@@ -194,7 +194,7 @@
       E.carregarJSON('data/medicos.json'),
       E.carregarJSON('data/outros-profissionais.json'),
       E.carregarJSON('data/especialidades.json'),
-      E.carregarJSON('data/blog.json')
+      E.carregarJSON('data/blog-indice.json')
     ]).then(function (dados) {
       montarEspecialidades(dados[2], dados[0]);
       montarOutras(dados[1]);

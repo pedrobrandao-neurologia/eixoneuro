@@ -1,0 +1,40 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O transtorno do espectro autista (TEA) é uma condição do neurodesenvolvimento que afeta cerca de 1 em cada 100 crianças no mundo, sendo cerca de 4 vezes mais diagnosticado em meninos; em torno de um terço dos casos há deficiência intelectual associada.¹ O diagnóstico é clínico, baseado nos critérios do DSM-5: déficits persistentes na comunicação e na interação social (dificuldade em reciprocidade socioemocional, na comunicação não verbal, como o contato visual e os gestos, e em desenvolver e manter relacionamentos) somados a padrões restritos e repetitivos de comportamento, interesses ou atividades (movimentos ou falas repetitivas, apego inflexível a rotinas, interesses muito intensos e restritos, reações incomuns a estímulos sensoriais, como sons, texturas e luzes), com início precoce no desenvolvimento.² Fala-se em \"espectro\" porque as manifestações e o nível de suporte necessário variam enormemente entre as pessoas — e sinais como pouco contato visual, não responder ao nome e atraso de fala no segundo ano de vida merecem avaliação especializada precoce."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Não há medicamento que trate o autismo em si; a base do tratamento são as intervenções precoces e estruturadas, com melhores resultados quanto mais cedo iniciadas: terapias comportamentais e naturalísticas do desenvolvimento, fonoaudiologia, terapia ocupacional (incluindo integração sensorial), treino de habilidades sociais, orientação aos pais e adaptações escolares.² Medicamentos como a risperidona e o aripiprazol podem ser usados para irritabilidade e agitação intensas, e condições associadas — TDAH, ansiedade, insônia, epilepsia (presente em parte significativa dos casos) — devem ser identificadas e tratadas. O objetivo do cuidado é ampliar comunicação, autonomia e qualidade de vida, respeitando as características e potencialidades de cada pessoa, com apoio contínuo à família."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Zeidan J, et al. Global prevalence of autism: A systematic review update. Autism Res. 2022;15(5):778-790.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1002/aur.2696",
+          "url": "https://doi.org/10.1002/aur.2696"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35238171/"
+        }
+      ]
+    },
+    {
+      "texto": "Lord C, et al. Autism spectrum disorder. Lancet. 2018;392(10146):508-520.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S0140-6736(18)31129-2",
+          "url": "https://doi.org/10.1016/S0140-6736(18)31129-2"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30078460/"
+        }
+      ]
+    }
+  ]
+}

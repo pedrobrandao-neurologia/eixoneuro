@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A miastenia gravis é a doença autoimune mais comum da junção neuromuscular: anticorpos — na maioria dos casos contra o receptor de acetilcolina (AChR) e, em parte dos pacientes, contra a proteína MuSK — atrapalham a transmissão do sinal do nervo para o músculo.¹ É uma doença rara, que acomete tipicamente mulheres jovens e homens acima dos 50 anos, e sua marca clínica é a fraqueza muscular flutuante e fatigável: piora com o esforço repetido e ao longo do dia, melhora com o repouso. Os sintomas mais comuns são queda das pálpebras (ptose) e visão dupla; a doença pode se restringir aos olhos (forma ocular) ou generalizar-se, afetando mastigação, deglutição, fala, pescoço, braços e pernas. O diagnóstico combina o quadro clínico com a dosagem dos anticorpos no sangue e, quando necessário, a eletroneuromiografia com estimulação repetitiva ou fibra única; a tomografia de tórax é obrigatória, pois cerca de 10% dos pacientes têm timoma (tumor do timo).¹ A crise miastênica — fraqueza rápida com dificuldade para engolir ou respirar — é uma emergência médica."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento sintomático é feito com a piridostigmina, que melhora a transmissão neuromuscular. A maioria dos pacientes precisa também de imunossupressão: prednisona (iniciada com cautela, pois pode piorar transitoriamente a fraqueza) e poupadores de corticoide como azatioprina, micofenolato ou rituximabe (especialmente na forma MuSK); nas crises e nas pioras graves usam-se imunoglobulina intravenosa ou plasmaférese, e a timectomia (retirada cirúrgica do timo) é indicada sempre que há timoma e beneficia também pacientes selecionados sem tumor, com anticorpos anti-AChR.¹ Com tratamento adequado, a grande maioria leva vida normal ou quase normal. Cuidados práticos importantes: tenha sempre à mão a lista de medicamentos que podem agravar a miastenia (certos antibióticos como aminoglicosídeos e fluoroquinolonas, betabloqueadores, relaxantes musculares, entre outros) e informe o diagnóstico a qualquer médico antes de nova prescrição ou cirurgia; procure emergência imediatamente se houver piora rápida da deglutição ou da respiração."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Gilhus NE. Myasthenia Gravis. N Engl J Med. 2016;375(26):2570-2581.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1056/NEJMra1602678",
+          "url": "https://doi.org/10.1056/NEJMra1602678"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28029925/"
+        }
+      ]
+    }
+  ]
+}

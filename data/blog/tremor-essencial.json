@@ -1,0 +1,40 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O tremor essencial é o distúrbio do movimento mais comum do adulto: uma metanálise mundial estimou prevalência de 0,9% na população geral, subindo para cerca de 4,6% acima dos 65 anos e ultrapassando 20% em idosos muito longevos; em cerca de metade dos casos há história familiar.¹ Pela classificação de tremores da International Parkinson and Movement Disorder Society, ele é definido como uma síndrome de tremor de ação (postural e cinético) bilateral dos membros superiores, com pelo menos 3 anos de duração, isolado ou acompanhado de tremor de cabeça ou de voz, sem outros sinais neurológicos como distonia ou parkinsonismo.² Diferentemente do tremor da doença de Parkinson, que ocorre em repouso, o tremor essencial aparece quando a pessoa usa as mãos — segurar um copo, escrever, levar a colher à boca — e costuma piorar com estresse, cansaço e cafeína. Não ameaça a vida, mas pode causar constrangimento e dificultar tarefas diárias, e tende a progredir lentamente."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento é indicado quando o tremor interfere nas atividades ou causa desconforto social. Os medicamentos de primeira linha são o propranolol e a primidona, isolados ou combinados; topiramato e gabapentina são alternativas. Reduzir cafeína, dormir bem e manejar o estresse ajudam, e adaptações práticas — copos com tampa, talheres de cabo pesado, canetas grossas — facilitam o dia a dia. Para os casos graves e refratários aos medicamentos, existem opções cirúrgicas eficazes: a estimulação cerebral profunda (DBS) do tálamo e a talamotomia por ultrassom focalizado guiado por ressonância (MRgFUS), procedimento sem cortes que trata o tremor de um dos lados do corpo. A escolha deve ser individualizada com o neurologista especialista em distúrbios do movimento."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Louis ED, Ferreira JJ. How common is the most common adult movement disorder? Update on the worldwide prevalence of essential tremor. Mov Disord. 2010;25(5):534-541.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1002/mds.22838",
+          "url": "https://doi.org/10.1002/mds.22838"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20175185/"
+        }
+      ]
+    },
+    {
+      "texto": "Bhatia KP, et al. Consensus Statement on the classification of tremors, from the task force of the International Parkinson and Movement Disorder Society. Mov Disord. 2018;33(1):75-87.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1002/mds.27121",
+          "url": "https://doi.org/10.1002/mds.27121"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29193359/"
+        }
+      ]
+    }
+  ]
+}

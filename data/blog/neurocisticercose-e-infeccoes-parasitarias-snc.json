@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A neurocisticercose é a infecção parasitária mais comum do sistema nervoso central e uma das principais causas de epilepsia adquirida nas regiões endêmicas — incluindo áreas do Brasil e da América Latina. Ela ocorre quando a pessoa ingere ovos da tênia Taenia solium (presentes em água ou alimentos contaminados por fezes de um portador do verme intestinal), e as larvas formam cistos no cérebro. As manifestações mais comuns são crises epilépticas e dor de cabeça; cistos nos ventrículos podem bloquear a circulação do líquor e causar hidrocefalia (com vômitos e rebaixamento da consciência), uma situação grave. O diagnóstico segue os critérios revisados de Del Brutto: baseia-se fundamentalmente na neuroimagem (tomografia e ressonância), que pode mostrar cistos — às vezes com o escólex, a \"cabeça\" do parasita, visível dentro, o que é critério absoluto —, lesões captantes de contraste e calcificações, apoiada por exames de sangue e líquor (sorologia) e por dados de exposição, como residência em área endêmica ou contato domiciliar com portador de teníase.¹"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento é individualizado conforme o número, o estágio e a localização dos cistos: cistos viáveis são tratados com antiparasitários — albendazol, isolado ou associado ao praziquantel — sempre acompanhados de corticoide (dexametasona ou prednisona) para controlar a inflamação em torno dos cistos em degeneração; as crises epilépticas são controladas com medicamentos anticrise; e a hidrocefalia pode exigir neurocirurgia (retirada endoscópica do cisto ou derivação).¹ Calcificações antigas não requerem antiparasitário, apenas o controle das crises. A prevenção é sanitária: lavar as mãos e os alimentos, consumir água tratada, cozinhar bem a carne de porco e tratar os portadores de teníase na família — o portador do verme intestinal, e não o porco, é a fonte direta da contaminação humana. Outras parasitoses podem atingir o sistema nervoso, como a neurotoxoplasmose (importante em pessoas com imunidade comprometida) e a neuroesquistossomose, que costuma afetar a medula espinhal."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Del Brutto OH, et al. Revised diagnostic criteria for neurocysticercosis. J Neurol Sci. 2017;372:202-210.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/j.jns.2016.11.045",
+          "url": "https://doi.org/10.1016/j.jns.2016.11.045"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28017213/"
+        }
+      ]
+    }
+  ]
+}

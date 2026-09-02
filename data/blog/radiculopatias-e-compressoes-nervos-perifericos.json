@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "Os nervos podem ser comprimidos em dois pontos principais: na saída da coluna vertebral (radiculopatia) ou ao longo de seu trajeto pelos membros (neuropatias compressivas). Nas radiculopatias, geralmente causadas por hérnia de disco ou desgaste das vértebras (artrose), a dor irradia da coluna para o braço (cervicobraquialgia) ou para a perna (ciática), seguindo o \"mapa\" da raiz nervosa afetada, e pode vir com formigamento, dormência e perda de força ou de reflexos naquele território; tosse e esforço costumam piorar a dor. Já a síndrome do túnel do carpo é a neuropatia compressiva mais comum do mundo: o nervo mediano é apertado no punho, causando formigamento e dormência no polegar, indicador e dedo médio, tipicamente à noite (a pessoa acorda e \"sacode\" a mão para aliviar), com dificuldade progressiva para segurar objetos e, nos casos avançados, atrofia da musculatura da base do polegar.¹ Diabetes, hipotireoidismo, gravidez, obesidade e atividades manuais repetitivas aumentam o risco. O diagnóstico é clínico, confirmado quando necessário por eletroneuromiografia, ultrassonografia do nervo ou ressonância da coluna."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Na maioria dos casos, o tratamento começa conservador. Na síndrome do túnel do carpo: tala noturna em posição neutra do punho, ajuste das atividades, infiltração local com corticoide e, quando há falha do tratamento, perda de sensibilidade importante, fraqueza ou atrofia, a cirurgia de descompressão (secção do ligamento transverso do carpo), que é simples e tem excelentes resultados.¹ Nas radiculopatias: analgésicos e anti-inflamatórios na fase aguda, medicamentos para dor neuropática (pregabalina, gabapentina, duloxetina) quando indicado, fisioterapia e reeducação postural — a grande maioria das hérnias de disco melhora sem cirurgia em semanas a poucos meses. A cirurgia da coluna é reservada para dor refratária, déficit motor progressivo ou sinais de compressão grave. Fraqueza progressiva ou perda do controle da urina/evacuação são sinais de alarme que exigem avaliação imediata."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Padua L, et al. Carpal tunnel syndrome: clinical features, diagnosis, and management. Lancet Neurol. 2016;15(12):1273-1284.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S1474-4422(16)30231-9",
+          "url": "https://doi.org/10.1016/S1474-4422(16)30231-9"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27751557/"
+        }
+      ]
+    }
+  ]
+}

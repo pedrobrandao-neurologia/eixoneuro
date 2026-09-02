@@ -1,0 +1,36 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A paralisia cerebral é a deficiência física mais comum da infância, ocorrendo em cerca de 1 a cada 500 nascidos vivos.¹ Pela definição internacional, é um grupo de distúrbios permanentes do movimento e da postura, que limitam a atividade, atribuídos a uma lesão não progressiva do cérebro em desenvolvimento — ocorrida na gestação, no parto ou nos primeiros anos de vida; a lesão não piora, mas suas manifestações mudam com o crescimento, e os distúrbios motores frequentemente se acompanham de alterações de sensibilidade, cognição, comunicação, comportamento, epilepsia e problemas musculoesqueléticos secundários.² Os sinais incluem rigidez (espasticidade, a forma mais comum) ou hipotonia, atraso para sentar e andar, movimentos involuntários (formas discinéticas) e incoordenação (formas atáxicas). Hoje o diagnóstico pode ser feito antes dos 6 meses de idade corrigida, combinando ressonância magnética, a avaliação dos movimentos generalizados (método de Prechtl) e o exame neurológico de Hammersmith — e o diagnóstico precoce permite iniciar intervenção no período de maior plasticidade cerebral.¹ Dados de países desenvolvidos mostram que 2 em cada 3 pessoas com paralisia cerebral andarão, 3 em 4 falarão e metade terá inteligência normal.¹"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento é multiprofissional e voltado à função: fisioterapia e terapia ocupacional com treino intensivo e orientado a tarefas, fonoaudiologia (fala, comunicação alternativa e deglutição), órteses e equipamentos de mobilidade, e apoio à inclusão escolar. A espasticidade pode ser tratada com aplicações de toxina botulínica, medicamentos orais (baclofeno, diazepam), baclofeno intratecal e, em casos selecionados, rizotomia dorsal seletiva; cirurgias ortopédicas corrigem deformidades e a vigilância do quadril previne luxações. Devem ser cuidados também a epilepsia, a nutrição e o crescimento, a saúde óssea, a dor, o sono e a saúde emocional. O envolvimento da família em todas as decisões e o estabelecimento de metas funcionais realistas são centrais para bons resultados."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Novak I, et al. Early, accurate diagnosis and early intervention in cerebral palsy. JAMA Pediatr. 2017;171(9):897-907.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1001/jamapediatrics.2017.1689",
+          "url": "https://doi.org/10.1001/jamapediatrics.2017.1689"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28715518/"
+        }
+      ]
+    },
+    {
+      "texto": "Rosenbaum P, et al. A report: the definition and classification of cerebral palsy April 2006. Dev Med Child Neurol Suppl. 2007;109:8-14.",
+      "links": [
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17370477/"
+        }
+      ]
+    }
+  ]
+}

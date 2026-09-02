@@ -1,0 +1,27 @@
+{
+  "corpo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "A doença de Charcot-Marie-Tooth (CMT) é a doença neuromuscular hereditária mais comum, com prevalência estimada em cerca de 1 para cada 2.500 pessoas, e reúne dezenas de formas genéticas que afetam os nervos periféricos.¹ A forma mais frequente é a CMT1A, causada pela duplicação do gene PMP22, de herança autossômica dominante (50% de chance de transmissão a cada filho). Os sintomas costumam começar na infância ou adolescência e progridem lentamente ao longo de décadas: fraqueza e atrofia dos músculos dos pés e das pernas (aspecto de \"pernas de cegonha\"), pés cavos (arco muito alto) e dedos em garra ou em martelo, entorses e tropeços frequentes, dificuldade para correr e, mais tarde, fraqueza e atrofia das mãos, com dificuldade para abotoar e manusear objetos pequenos; a perda de sensibilidade nos pés e o desequilíbrio também são característicos, e os reflexos costumam estar abolidos.¹ O diagnóstico combina a história familiar, o exame clínico, a eletroneuromiografia (que separa as formas desmielinizantes, como a CMT1, das axonais, como a CMT2) e o teste genético, hoje capaz de confirmar a causa na maioria dos casos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ainda não existe medicamento que corrija a causa da doença, mas o manejo adequado preserva função e qualidade de vida por muitos anos: fisioterapia regular com alongamentos (especialmente do tendão de Aquiles) e exercícios de baixo impacto, órteses tornozelo-pé (AFO) para o pé caído, calçados adequados e cuidado diário com os pés (a sensibilidade reduzida favorece feridas despercebidas); terapia ocupacional e adaptações para as mãos; e cirurgias ortopédicas para corrigir deformidades importantes dos pés, quando indicadas.¹ É fundamental evitar medicamentos neurotóxicos — em especial a vincristina, que pode causar piora grave — e informar o diagnóstico antes de qualquer novo tratamento. O aconselhamento genético esclarece o padrão de herança e as opções reprodutivas, e o acompanhamento periódico com o neurologista permite ajustar os cuidados ao longo da vida."
+    }
+  ],
+  "referencias": [
+    {
+      "texto": "Pareyson D, Marchesi C. Diagnosis, natural history, and management of Charcot-Marie-Tooth disease. Lancet Neurol. 2009;8(7):654-667.",
+      "links": [
+        {
+          "rotulo": "DOI: 10.1016/S1474-4422(09)70110-3",
+          "url": "https://doi.org/10.1016/S1474-4422(09)70110-3"
+        },
+        {
+          "rotulo": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19539237/"
+        }
+      ]
+    }
+  ]
+}
