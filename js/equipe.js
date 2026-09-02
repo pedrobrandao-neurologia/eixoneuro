@@ -106,6 +106,11 @@
       return '<p class="registro legenda">' + l + '</p>';
     }).join('');
     var naoEsp = medico.nao_especialista ? '<p class="nao-esp">Não especialista</p>' : '';
+    var diretor = medico.diretor_tecnico
+      ? '<p class="registro legenda" style="margin-top:4px">' +
+        (E.generoMedico(medico) === 'MÉDICA' ? 'Diretora técnica' : 'Diretor técnico') +
+        ' da clínica</p>'
+      : '';
 
     var servicos = (medico.exames_que_realiza || []).concat(medico.procedimentos_que_realiza || [])
       .map(function (sid) { return E.esc(estado.servicos[sid] || sid); });
@@ -128,7 +133,7 @@
       avatarHTML(medico, true) +
       '<h2 id="modal-medico-titulo">' + E.esc(medico.nome) + '</h2>' +
       '<p class="registro legenda">' + E.linhaRegistro(medico) + '</p>' +
-      especialidades + naoEsp +
+      especialidades + naoEsp + diretor +
       '<h3>Mini currículo</h3><p>' + E.esc(medico.mini_cv) + '</p>' +
       listaOuNada('Formação e titulação', (medico.formacao || []).map(E.esc)) +
       listaOuNada('O que atende', (medico.queixas_leigas || []).map(E.esc)) +
