@@ -23,25 +23,15 @@
       '<span class="legenda">' + E.esc(horario) + '</span>';
   }
 
-  /* Especialidades neurológicas: descrição + quem atende (link para o
-     mini currículo). Cada médico citado leva CRM + RQE via medicos.json. */
-  function montarEspecialidades(especialidades, medicos) {
+  /* Especialidades neurológicas: só a área e a descrição — a
+     identificação dos médicos (CRM/RQE) fica na seção Equipe. */
+  function montarEspecialidades(especialidades) {
     var alvo = document.getElementById('lista-especialidades');
     if (!alvo) { return; }
-    var porId = {};
-    medicos.forEach(function (m) { porId[m.id] = m; });
     alvo.innerHTML = especialidades.map(function (esp) {
-      var quem = (esp.medicos || []).map(function (id) {
-        var m = porId[id];
-        if (!m) { return E.esc(id); }
-        return '<a href="equipe.html#medico=' + E.esc(m.id) + '">' + E.esc(m.nome) + '</a>' +
-          ' — ' + E.linhaRegistro(m) +
-          (m.rqe ? ' · RQE nº ' + E.esc(m.rqe) : '');
-      }).join('<br>');
       return '<li id="esp-' + E.esc(esp.id) + '">' +
         window.EIXO_ICONES.icone(esp.icone) +
         '<div><h3>' + E.esc(esp.nome) + '</h3><p>' + E.esc(esp.descricao) + '</p></div>' +
-        '<span class="quem legenda">' + quem + '</span>' +
         '</li>';
     }).join('');
   }
@@ -105,7 +95,7 @@
       E.carregarJSON('data/especialidades.json'),
       E.carregarJSON('data/blog-indice.json')
     ]).then(function (dados) {
-      montarEspecialidades(dados[1], dados[0]);
+      montarEspecialidades(dados[1]);
       montarPostsRecentes(dados[2], dados[0]);
       montarJsonLd(clinica, dados[0]);
     }).catch(function (erro) { console.error(erro); });
