@@ -111,8 +111,10 @@
 
     var dias = (medico.dias_atendimento || []).map(function (d) { return E.esc(DIAS[d] || d); });
 
-    var lattes = medico.lattes
-      ? '<p style="margin-top:16px">' + E.linkLattes(medico.lattes) + '</p>'
+    var perfis = [E.linkLattes(medico.lattes), E.linkOrcid(medico.orcid)]
+      .filter(Boolean).join('');
+    var lattes = perfis
+      ? '<p class="links-perfil" style="margin-top:16px">' + perfis + '</p>'
       : '';
 
     var revisao = medico.revisado === false

@@ -209,8 +209,11 @@
         return '<p class="registro legenda">' + l + '</p>';
       }).join('') : '';
 
-      var lattes = autor && autor.lattes
-        ? '<p style="margin-top:8px">' + E.linkLattes(autor.lattes) + '</p>'
+      var perfis = autor
+        ? [E.linkLattes(autor.lattes), E.linkOrcid(autor.orcid)].filter(Boolean).join('')
+        : '';
+      var lattes = perfis
+        ? '<p class="links-perfil" style="margin-top:8px">' + perfis + '</p>'
         : '';
 
       // biografia do autor em <aside> (E-E-A-T)
@@ -290,12 +293,16 @@
           logo: { '@type': 'ImageObject', url: 'https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1.png' }
         }
       };
+      var perfisAutor = autor ? [autor.lattes, autor.orcid].filter(Boolean) : [];
+      if (perfisAutor.length) { ld.author.sameAs = perfisAutor; }
       if (post.condicao) {
         ld.about = { '@type': 'MedicalCondition', name: post.condicao };
       }
       if (citacoes.length) { ld.citation = citacoes; }
       if (revisor) {
         ld.reviewedBy = { '@type': 'Physician', name: revisor.nome, url: clinica.site_url + '/equipe.html#medico=' + revisor.id, medicalSpecialty: 'Neurology' };
+        var perfisRevisor = [revisor.lattes, revisor.orcid].filter(Boolean);
+        if (perfisRevisor.length) { ld.reviewedBy.sameAs = perfisRevisor; }
       }
       // FAQPage quando o artigo traz blocos de perguntas de consultório
       var perguntasFaq = [];

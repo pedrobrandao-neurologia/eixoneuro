@@ -42,6 +42,9 @@
   }
 
   function modalOutroHTML(p) {
+    var foto = p.foto
+      ? '<span class="avatar"><img src="' + E.esc(p.foto) + '" alt="Foto de ' + E.esc(p.nome) + '" loading="lazy" width="88" height="88"></span>'
+      : '';
     var rqe = (p.profissao !== 'Psicóloga' && p.profissao !== 'Psicólogo')
       ? '<p class="registro legenda">' + E.esc(p.especialidade) + ' — RQE nº ' + E.esc(p.rqe || '[PLACEHOLDER — RQE]') + '</p>'
       : '<p class="registro legenda">' + E.esc(p.especialidade) + '</p>';
@@ -53,7 +56,7 @@
     var revisao = p.revisado === false
       ? '<p class="banner-revisao" style="margin-top:20px;margin-bottom:0">Conteúdo em revisão pela equipe.</p>'
       : '';
-    return '<h2 id="modal-medico-titulo">' + E.esc(p.nome) + '</h2>' +
+    return foto + '<h2 id="modal-medico-titulo">' + E.esc(p.nome) + '</h2>' +
       '<p class="registro legenda">' + E.esc(p.conselho) + ' — ' + E.esc(tituloProfissional(p)) + '</p>' +
       rqe +
       '<h3>Mini currículo</h3><p>' + E.esc(p.mini_cv) + '</p>' +

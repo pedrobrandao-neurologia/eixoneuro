@@ -87,6 +87,24 @@
       ICONE_LATTES + '<span>Currículo Lattes</span></a>';
   }
 
+  /* Ícone do ORCID no mesmo estilo: disco em currentColor com o
+     glifo "iD" vazado via máscara. */
+  var ICONE_ORCID = '<svg viewBox="0 0 24 24" class="icone-orcid" aria-hidden="true">' +
+    '<defs><mask id="mascara-orcid">' +
+    '<rect width="24" height="24" fill="#fff"/>' +
+    '<circle cx="7.6" cy="7.7" r="1.35" fill="#000"/>' +
+    '<rect x="6.5" y="10" width="2.2" height="7.3" fill="#000"/>' +
+    '<path d="M10.7 10h3.6a3.65 3.65 0 0 1 0 7.3h-3.6z" fill="#000"/>' +
+    '<path d="M12.9 11.8h1.3a1.85 1.85 0 0 1 0 3.7h-1.3z" fill="#fff"/>' +
+    '</mask></defs>' +
+    '<circle cx="12" cy="12" r="11" fill="currentColor" mask="url(#mascara-orcid)"/></svg>';
+
+  function linkOrcid(url) {
+    if (!url) { return ''; }
+    return '<a class="link-orcid" href="' + esc(url) + '" target="_blank" rel="noopener">' +
+      ICONE_ORCID + '<span>ORCID</span></a>';
+  }
+
   var SIMBOLO_GRAFISMO =
     '<svg width="0" height="0" style="position:absolute" aria-hidden="true">' +
     '<symbol id="eixo-linhas" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">' +
@@ -330,6 +348,7 @@
     linhasEspecialidade: linhasEspecialidade,
     generoMedico: generoMedico,
     linkLattes: linkLattes,
+    linkOrcid: linkOrcid,
     ICONE_WHATS: ICONE_WHATS,
     ICONE_TEL: ICONE_TEL
   };

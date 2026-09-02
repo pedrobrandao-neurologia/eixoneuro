@@ -107,12 +107,19 @@ incompletos, e lista as pendências (`[PLACEHOLDER]`, `"revisado": false`).
    diretora técnica (Dra. Márcia Neiva) já vêm do certificado do CRM-DF.
 2. Validar currículos e textos de exames com os médicos e trocar
    `"revisado": false` para `true`.
-3. Adicionar fotos reais (equipe, fachada e placa do **Bloco 2**, porta da
-   clínica) em `/img/` — WebP com fallback, `loading="lazy"`, `width/height`
-   explícitos e `alt` descritivo (ver `img/README.md`).
-4. Hospedar as fontes licenciadas (Aspekta, Ultra System Sans) em `/fonts/` e
+3. Adicionar fotos reais de fachada, placa do **Bloco 2** e porta da
+   clínica em `/img/` — WebP, `loading="lazy"`, `width/height` explícitos e
+   `alt` descritivo (ver `img/README.md`). As fotos da equipe já estão em
+   `img/equipe/` (WebP 240×240, exibidas no modal de mini currículo);
+   `img/equipe/maria-olivia.webp` aguarda o cadastro da profissional em
+   `data/outros-profissionais.json` (nome completo, profissão, conselho).
+4. ORCID: confirmados e publicados os do Dr. Pedro Brandão e da
+   Dra. Letícia Rebello (campo `orcid` em `data/medicos.json`). Para os
+   demais, nenhum ORCID verificável foi encontrado em fontes públicas —
+   preencher o campo quando cada médico informar o seu (nunca deduzir).
+5. Hospedar as fontes licenciadas (Aspekta, Ultra System Sans) em `/fonts/` e
    descomentar os `@font-face` no topo de `css/estilo.css` (sem CDN).
-5. Rodar Lighthouse mobile: meta ≥ 90 em Performance, Acessibilidade,
+6. Rodar Lighthouse mobile: meta ≥ 90 em Performance, Acessibilidade,
    Boas práticas e SEO.
 
 ## Checklist final de conformidade
