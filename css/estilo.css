@@ -1,0 +1,468 @@
+/* =============================================================
+   EIXO — Neurologia Especializada · Design system do site
+   Paleta: creme / ocre / menta / petróleo (manual da marca)
+   Tipografia: Aspekta (textos) e Ultra System Sans (legendas).
+   Fontes licenciadas: hospede os arquivos em /fonts e descomente
+   os @font-face abaixo. Sem os arquivos, o site usa fontes de
+   sistema (sem dependência de CDN).
+   ============================================================= */
+
+/*
+@font-face{font-family:"Aspekta";src:url("../fonts/Aspekta-300.woff2") format("woff2");font-weight:300;font-display:swap}
+@font-face{font-family:"Aspekta";src:url("../fonts/Aspekta-400.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Aspekta";src:url("../fonts/Aspekta-500.woff2") format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Ultra System Sans";src:url("../fonts/UltraSystemSans-Regular.woff2") format("woff2");font-weight:500;font-display:swap}
+*/
+
+:root{
+  --creme:#EAE8DF;
+  --ocre:#938561;          /* uso decorativo (ícones, filetes) — não usar como cor de texto sobre creme */
+  --ocre-escuro:#6B5E41;   /* variante com contraste AA sobre creme, para texto de apoio */
+  --menta:#CDE5CF;
+  --petroleo:#0D282E;
+  --tinta:#0D282E;
+  --linha:rgba(13,40,46,.28);
+  --linha-clara:rgba(234,232,223,.35);
+
+  --f-texto:"Aspekta",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --f-legenda:"Ultra System Sans","Archivo",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+
+  --margem:clamp(20px,5vw,72px);
+  --largura:1280px;
+}
+
+/* Botão “aumentar fonte” (acessibilidade): escala toda a interface */
+html{font-size:100%}
+html[data-fonte="maior"]{font-size:112.5%}
+html[data-fonte="max"]{font-size:125%}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+body{
+  font-family:var(--f-texto);
+  font-weight:400;
+  font-size:1rem; /* ≥ 16 px */
+  color:var(--tinta);
+  background:var(--creme);
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--petroleo);outline-offset:4px}
+.escuro :focus-visible,.escuro:focus-visible{outline-color:var(--menta)}
+
+/* Link “pular para o conteúdo” */
+.pular-link{
+  position:absolute;left:-9999px;top:0;z-index:100;
+  background:var(--petroleo);color:var(--creme);
+  padding:12px 20px;border-radius:0 0 8px 0;
+  font-family:var(--f-legenda);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;
+}
+.pular-link:focus{left:0}
+
+/* ---------- tipografia ---------- */
+.legenda{
+  font-family:var(--f-legenda);
+  font-stretch:125%;
+  font-weight:500;
+  font-size:.72rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  line-height:1.6;
+}
+h1,h2,h3{font-weight:300;letter-spacing:-.02em;line-height:1.05}
+h1{font-size:clamp(2.4rem,6.5vw,5rem)}
+h2{font-size:clamp(1.9rem,4.2vw,3.2rem)}
+h3{font-size:clamp(1.25rem,1.8vw,1.55rem);letter-spacing:-.01em;line-height:1.2}
+h4{font-weight:500;font-size:1.05rem}
+p{max-width:62ch}
+.prosa p+p,.prosa ul+p,.prosa p+ul{margin-top:1em}
+.prosa ul{list-style:disc;padding-left:1.3em;max-width:62ch}
+.prosa li+li{margin-top:.4em}
+.prosa h2{margin:1.6em 0 .5em;font-size:clamp(1.5rem,2.6vw,2.1rem)}
+.prosa h3{margin:1.4em 0 .4em}
+.prosa a{border-bottom:1px solid var(--linha)}
+
+/* ---------- estrutura ---------- */
+.faixa{padding:clamp(56px,8vw,112px) var(--margem)}
+.faixa--curta{padding-top:clamp(36px,5vw,64px);padding-bottom:clamp(36px,5vw,64px)}
+.miolo{max-width:var(--largura);margin:0 auto}
+.miolo--estreito{max-width:820px;margin:0 auto}
+.escuro{background:var(--petroleo);color:var(--creme)}
+.escuro .legenda{color:var(--menta)}
+.escuro .prosa a{border-bottom-color:var(--linha-clara)}
+.menta{background:var(--menta);color:var(--petroleo)}
+.filete-ocre{height:4px;background:var(--ocre)}
+
+.grafismo{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.grafismo path,.grafismo line{fill:none;stroke:currentColor;stroke-width:1;vector-effect:non-scaling-stroke}
+
+/* ---------- botões ---------- */
+.botao{
+  display:inline-flex;align-items:center;justify-content:center;gap:.6em;
+  font-family:var(--f-legenda);font-stretch:125%;font-weight:500;
+  font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;
+  padding:1.05em 1.7em;border:1px solid currentColor;border-radius:999px;
+  transition:background .2s,color .2s;text-align:center;
+}
+.botao svg{width:16px;height:16px;flex:none}
+.botao--cheio{background:var(--petroleo);color:var(--creme);border-color:var(--petroleo)}
+.botao--cheio:hover{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
+.botao--vazado:hover{background:var(--petroleo);color:var(--creme)}
+.escuro .botao--vazado:hover{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
+.botao--mini{padding:.7em 1.2em;font-size:.68rem}
+
+/* ---------- aviso topo (atendimento particular) ---------- */
+.aviso-topo{
+  background:var(--petroleo);color:var(--creme);
+  font-size:.85rem;text-align:center;
+  padding:8px var(--margem);
+}
+.aviso-topo strong{font-weight:500}
+
+/* ---------- cabeçalho ---------- */
+.topo{
+  position:sticky;top:0;z-index:40;
+  background:rgba(234,232,223,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--linha);
+}
+.topo .miolo{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px var(--margem)}
+.topo .logo{display:inline-flex;align-items:center;gap:12px}
+.topo .logo img{height:44px;width:auto}
+.topo .logo .logo-nome{font-family:var(--f-legenda);font-stretch:125%;font-weight:500;letter-spacing:.18em;text-transform:uppercase;font-size:.85rem}
+.topo nav ul{display:flex;gap:clamp(14px,2.4vw,32px)}
+.topo nav a{
+  font-family:var(--f-legenda);font-stretch:125%;font-weight:500;
+  font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
+  padding:6px 0;border-bottom:1px solid transparent;white-space:nowrap;
+}
+.topo nav a:hover,.topo nav a[aria-current]{border-bottom-color:var(--petroleo)}
+.topo__acoes{display:flex;gap:10px;align-items:center}
+.topo__acoes .botao{padding:.8em 1.3em;font-size:.66rem}
+.hamb{display:none;padding:8px;color:var(--petroleo)}
+.hamb svg{width:26px;height:26px}
+@media (max-width:1080px){
+  .topo nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--creme);border-bottom:1px solid var(--linha);padding:20px var(--margem) 28px}
+  .topo nav.aberto{display:block}
+  .topo nav ul{flex-direction:column;gap:14px}
+  .topo__acoes{display:none}
+  .hamb{display:block}
+}
+
+/* ---------- barra fixa inferior (mobile) ---------- */
+.barra-mobile{
+  display:none;
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:var(--petroleo);color:var(--creme);
+  border-top:1px solid var(--linha-clara);
+  padding:10px calc(var(--margem)/2) calc(10px + env(safe-area-inset-bottom));
+  gap:10px;
+}
+.barra-mobile a{flex:1;border-color:var(--creme)}
+.barra-mobile .botao--cheio{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
+@media (max-width:1080px){
+  .barra-mobile{display:flex}
+  body{padding-bottom:76px}
+  .zap-flutuante{display:none}
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;display:flex;align-items:center;min-height:min(78vh,760px)}
+.hero .miolo{position:relative;width:100%;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero .grafismo{color:var(--petroleo);opacity:.5}
+.hero__texto{position:relative}
+.hero__texto .legenda{margin-bottom:24px}
+.hero__texto h1{margin-bottom:24px}
+.hero__texto p{font-size:clamp(1.05rem,1.4vw,1.25rem);margin-bottom:36px;max-width:44ch}
+.hero__acoes{display:flex;flex-wrap:wrap;gap:12px}
+.hero__simbolo{position:relative;justify-self:end;width:min(100%,360px);aspect-ratio:1}
+.hero__simbolo img{width:100%;height:100%;object-fit:contain}
+@media (max-width:860px){
+  .hero{min-height:auto;padding-top:56px;padding-bottom:56px}
+  .hero .miolo{grid-template-columns:1fr}
+  .hero__simbolo{display:none}
+}
+
+/* faixa de identificação (Res. CFM 2.336/2023) logo após o hero */
+.identificacao-curta{
+  background:var(--petroleo);color:var(--creme);
+  padding:14px var(--margem);
+  font-size:.85rem;line-height:1.6;
+}
+.identificacao-curta .miolo{display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between}
+.identificacao-curta span{opacity:.9}
+
+/* ---------- cabeçalho de página interna ---------- */
+.cabeca-pagina{position:relative;overflow:hidden}
+.cabeca-pagina .grafismo{color:var(--menta);opacity:.6}
+.cabeca-pagina .miolo{position:relative}
+.cabeca-pagina h1{font-size:clamp(2rem,5vw,3.6rem);margin-top:16px;max-width:18ch}
+.cabeca-pagina p.resumo{margin-top:20px;font-size:1.05rem;max-width:56ch}
+
+/* ---------- seções com título em duas colunas ---------- */
+.cabecalho-secao{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;margin-bottom:clamp(36px,5vw,64px)}
+.cabecalho-secao h2{margin-top:16px}
+.cabecalho-secao p{justify-self:end;max-width:44ch;font-size:1.05rem}
+@media (max-width:860px){.cabecalho-secao{grid-template-columns:1fr}.cabecalho-secao p{justify-self:start}}
+
+/* ---------- lista de especialidades / serviços ---------- */
+.lista-esp{display:grid;grid-template-columns:repeat(2,1fr);column-gap:64px}
+.lista-esp li{border-top:1px solid var(--linha);padding:26px 0 30px;display:grid;grid-template-columns:auto 1fr;gap:14px 22px;align-items:start}
+.lista-esp .quem{grid-column:1/-1;margin-bottom:-4px;font-size:.68rem}
+.lista-esp h3{margin-bottom:10px}
+.lista-esp p{font-size:.98rem;opacity:.9}
+.lista-esp .icone{width:36px;height:36px;color:var(--ocre);flex:none;margin-top:6px}
+.lista-esp .icone svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
+.escuro .lista-esp li{border-top-color:var(--linha-clara)}
+.escuro .lista-esp .icone{color:var(--menta)}
+.menta .lista-esp li{border-top-color:rgba(13,40,46,.3)}
+.menta .lista-esp .icone{color:var(--petroleo)}
+@media (max-width:860px){.lista-esp{grid-template-columns:1fr}}
+
+/* ---------- queixas (como podemos ajudar) ---------- */
+.lista-queixas{display:flex;flex-wrap:wrap;gap:12px}
+.lista-queixas a{
+  display:inline-flex;align-items:center;gap:.5em;
+  border:1px solid var(--linha);border-radius:999px;
+  padding:.8em 1.3em;font-size:.95rem;
+  transition:background .2s,color .2s,border-color .2s;
+}
+.lista-queixas a:hover{background:var(--petroleo);color:var(--creme);border-color:var(--petroleo)}
+.escuro .lista-queixas a{border-color:var(--linha-clara)}
+.escuro .lista-queixas a:hover{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
+
+/* ---------- cards (exames, blocos informativos) ---------- */
+.grade-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{
+  border:1px solid var(--linha);border-radius:16px;
+  padding:28px 26px;display:flex;flex-direction:column;gap:14px;
+  background:rgba(234,232,223,.5);
+}
+.escuro .card{border-color:var(--linha-clara);background:rgba(234,232,223,.04)}
+.card .legenda{color:var(--ocre-escuro)}
+.escuro .card .legenda{color:var(--menta)}
+.card p{font-size:.98rem}
+.card .card__acao{margin-top:auto;align-self:flex-start}
+
+/* ---------- equipe ---------- */
+.grade-medicos{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media (max-width:1000px){.grade-medicos{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.grade-medicos{grid-template-columns:1fr}}
+.card-medico{
+  border:1px solid var(--linha-clara);border-radius:16px;
+  padding:26px 24px;text-align:left;width:100%;
+  display:flex;flex-direction:column;gap:12px;align-items:flex-start;
+  color:inherit;background:rgba(234,232,223,.05);
+  transition:background .2s,border-color .2s;
+}
+.card-medico:hover{background:rgba(205,229,207,.12);border-color:var(--menta)}
+.card-medico .registro{font-size:.68rem}
+.card-medico h3{font-size:1.25rem}
+.card-medico .area{font-size:.95rem;opacity:.9;max-width:32ch}
+.card-medico .nao-esp{font-family:var(--f-legenda);font-stretch:125%;letter-spacing:.14em;font-size:.66rem;text-transform:uppercase;opacity:.85}
+.card-medico .ver-cv{margin-top:auto;font-family:var(--f-legenda);font-stretch:125%;font-weight:500;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:2px}
+.avatar{
+  width:72px;height:72px;border-radius:50%;overflow:hidden;flex:none;
+  background:var(--menta);color:var(--petroleo);
+  display:grid;place-items:center;
+  font-family:var(--f-legenda);font-stretch:125%;font-weight:500;font-size:1.3rem;letter-spacing:.05em;
+}
+.avatar img{width:100%;height:100%;object-fit:cover}
+
+/* filtros da página de equipe */
+.filtros{display:flex;flex-wrap:wrap;gap:16px;margin-bottom:36px;align-items:end}
+.filtros label{display:grid;gap:6px;font-size:.9rem}
+.filtros select{
+  font:inherit;color:var(--creme);background:var(--petroleo);
+  border:1px solid var(--linha-clara);border-radius:10px;
+  padding:.65em .9em;min-width:240px;max-width:100%;
+}
+.filtros .limpar{font-size:.85rem;border-bottom:1px solid currentColor;padding-bottom:2px;margin-bottom:.7em}
+
+/* ---------- modal de mini currículo ---------- */
+.modal{
+  position:fixed;inset:0;z-index:80;display:none;
+  align-items:center;justify-content:center;
+  padding:20px;
+}
+.modal.aberto{display:flex}
+.modal__fundo{position:absolute;inset:0;background:rgba(13,40,46,.6)}
+.modal__caixa{
+  position:relative;background:var(--creme);color:var(--tinta);
+  border-radius:20px;max-width:680px;width:100%;
+  max-height:min(86vh,860px);overflow-y:auto;
+  padding:clamp(24px,4vw,44px);
+}
+.modal__fechar{
+  position:sticky;top:0;float:right;margin-left:12px;
+  width:44px;height:44px;border-radius:50%;
+  background:var(--petroleo);color:var(--creme);
+  display:grid;place-items:center;
+}
+.modal__fechar svg{width:18px;height:18px}
+.modal__caixa .avatar{width:88px;height:88px;margin-bottom:16px;background:var(--petroleo);color:var(--creme)}
+.modal__caixa h2{font-size:clamp(1.5rem,3vw,2rem);margin-bottom:8px}
+.modal__caixa .registro{margin-bottom:4px}
+.modal__caixa .nao-esp{font-family:var(--f-legenda);font-stretch:125%;letter-spacing:.14em;font-size:.7rem;text-transform:uppercase;color:var(--ocre-escuro)}
+.modal__caixa h3{font-size:.78rem;font-family:var(--f-legenda);font-stretch:125%;font-weight:500;letter-spacing:.18em;text-transform:uppercase;margin:24px 0 10px;color:var(--ocre-escuro)}
+.modal__caixa ul{list-style:disc;padding-left:1.2em}
+.modal__caixa li+li{margin-top:.35em}
+.modal__caixa .acoes{margin-top:28px;display:flex;flex-wrap:wrap;gap:12px}
+
+/* ---------- accordion (perguntas e respostas) ---------- */
+.accordion{border-top:1px solid var(--linha)}
+.accordion details{border-bottom:1px solid var(--linha)}
+.accordion summary{
+  cursor:pointer;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:20px 4px;font-size:1.08rem;font-weight:400;
+}
+.accordion summary::-webkit-details-marker{display:none}
+.accordion summary .mais{flex:none;width:28px;height:28px;border:1px solid var(--linha);border-radius:50%;display:grid;place-items:center;font-size:1.1rem;line-height:1}
+.accordion details[open] summary .mais{background:var(--petroleo);color:var(--creme);border-color:var(--petroleo)}
+.accordion details[open] summary .mais::before{content:"–"}
+.accordion details:not([open]) summary .mais::before{content:"+"}
+.accordion .conteudo{padding:0 4px 24px;max-width:68ch}
+.accordion .conteudo p+p,.accordion .conteudo ul+p,.accordion .conteudo p+ul{margin-top:.8em}
+.accordion .conteudo ul{list-style:disc;padding-left:1.3em}
+.accordion .conteudo li+li{margin-top:.35em}
+
+/* ---------- banners e caixas ---------- */
+.banner-emergencia{
+  background:var(--petroleo);color:var(--creme);
+  border-left:6px solid var(--menta);
+  padding:22px 26px;border-radius:0 14px 14px 0;
+  display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;
+}
+.banner-emergencia svg{width:28px;height:28px;flex:none;margin-top:2px}
+.banner-emergencia p{max-width:none;font-size:.98rem}
+.banner-emergencia strong{font-weight:500}
+
+.banner-revisao{
+  border:1px dashed var(--ocre-escuro);color:var(--ocre-escuro);
+  border-radius:12px;padding:12px 18px;font-size:.9rem;
+  margin-bottom:28px;
+}
+
+.caixa-destaque{
+  border:2px solid var(--petroleo);border-radius:16px;
+  padding:24px 26px;display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;
+  background:var(--menta);color:var(--petroleo);
+}
+.caixa-destaque svg{width:28px;height:28px;flex:none;margin-top:2px}
+.caixa-destaque p{max-width:none}
+
+/* banner de cookies / privacidade */
+.banner-cookies{
+  position:fixed;left:16px;right:16px;bottom:16px;z-index:90;
+  max-width:560px;margin:0 auto;
+  background:var(--petroleo);color:var(--creme);
+  border:1px solid var(--linha-clara);border-radius:16px;
+  padding:20px 22px;box-shadow:0 12px 40px rgba(13,40,46,.35);
+}
+.banner-cookies p{font-size:.9rem;max-width:none;margin-bottom:14px}
+.banner-cookies p a{border-bottom:1px solid var(--linha-clara)}
+.banner-cookies .acoes{display:flex;gap:10px;flex-wrap:wrap}
+@media (max-width:1080px){.banner-cookies{bottom:88px}}
+
+/* ---------- exames e procedimentos ---------- */
+.bloco-exame{border-top:1px solid var(--linha);padding:clamp(40px,6vw,72px) 0}
+.bloco-exame:first-of-type{border-top:0;padding-top:0}
+.bloco-exame .nome-leigo{font-size:1.05rem;color:var(--ocre-escuro);margin-top:6px}
+.bloco-exame .grade-info{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px 48px;margin-top:32px}
+.bloco-exame h3{font-size:.78rem;font-family:var(--f-legenda);font-stretch:125%;font-weight:500;letter-spacing:.18em;text-transform:uppercase;margin-bottom:10px;color:var(--ocre-escuro)}
+.bloco-exame ul{list-style:disc;padding-left:1.2em}
+.bloco-exame li+li{margin-top:.35em}
+.bloco-exame .fatos{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.bloco-exame .fatos span{border:1px solid var(--linha);border-radius:999px;padding:.5em 1em;font-size:.85rem}
+.bloco-exame .acoes{margin-top:28px;display:flex;flex-wrap:wrap;gap:12px}
+
+/* ---------- checklist / impressão ---------- */
+.checklist{border:1px solid var(--linha);border-radius:16px;padding:28px 26px}
+.checklist ul{list-style:none;padding:0}
+.checklist li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;padding:.45em 0}
+.checklist .quadrado{width:20px;height:20px;border:2px solid var(--petroleo);border-radius:4px;margin-top:2px}
+.so-impressao{display:none}
+
+/* ---------- contato ---------- */
+.grade-contato{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+@media (max-width:860px){.grade-contato{grid-template-columns:1fr}}
+.info{display:grid;gap:22px;margin-bottom:36px}
+.info dt{margin-bottom:6px;opacity:.75}
+.info dd{font-size:1.05rem;line-height:1.5}
+.info dd a{border-bottom:1px solid var(--linha)}
+.mapa-envoltorio{border-radius:16px;overflow:hidden;border:1px solid var(--linha);aspect-ratio:4/3;background:var(--menta)}
+.mapa-envoltorio iframe{width:100%;height:100%;border:0;display:block}
+.botoes-mapa{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+
+/* formulário mínimo (sem backend) */
+.formulario{display:grid;gap:18px;max-width:520px}
+.formulario label{display:grid;gap:6px;font-size:.95rem}
+.formulario input,.formulario select{
+  font:inherit;color:var(--tinta);background:rgba(255,255,255,.6);
+  border:1px solid var(--linha);border-radius:10px;padding:.7em .9em;
+}
+.formulario .acoes{display:flex;flex-wrap:wrap;gap:12px}
+.formulario .nota{font-size:.85rem;opacity:.8}
+
+/* ---------- galeria ---------- */
+.galeria{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:180px 180px;gap:12px}
+.galeria a{overflow:hidden;background:var(--menta);border-radius:12px}
+.galeria a:first-child{grid-row:1/3}
+.galeria img{width:100%;height:100%;object-fit:cover}
+@media (max-width:860px){.galeria{grid-template-rows:160px 160px}}
+
+/* ---------- rodapé ---------- */
+.rodape{background:var(--petroleo);color:var(--creme);padding:56px var(--margem) 32px}
+.rodape .legenda{color:var(--menta)}
+.rodape .miolo{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px;align-items:start}
+.rodape img{height:52px;width:auto;margin-bottom:18px}
+.rodape .legenda{margin-bottom:12px}
+.rodape p,.rodape li{font-size:.92rem;line-height:1.6;max-width:none}
+.rodape a{border-bottom:1px solid transparent}
+.rodape a:hover{border-bottom-color:var(--linha-clara)}
+.rodape .redes{display:flex;gap:10px;margin-top:12px}
+.rodape .redes a{width:40px;height:40px;border:1px solid rgba(234,232,223,.5);border-radius:50%;display:grid;place-items:center;transition:background .2s}
+.rodape .redes a:hover{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
+.rodape .redes svg{width:18px;height:18px;fill:currentColor}
+.rodape__identificacao{
+  max-width:var(--largura);margin:48px auto 0;padding-top:22px;
+  border-top:1px solid rgba(234,232,223,.25);
+  font-size:.82rem;line-height:1.7;opacity:.85;
+}
+.rodape__identificacao p{max-width:none}
+.rodape__base{max-width:var(--largura);margin:20px auto 0;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.8rem;opacity:.7}
+@media (max-width:860px){.rodape .miolo{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.rodape .miolo{grid-template-columns:1fr}}
+
+/* ---------- WhatsApp flutuante (somente desktop) ---------- */
+.zap-flutuante{
+  position:fixed;right:20px;bottom:20px;z-index:30;
+  width:56px;height:56px;border-radius:50%;
+  background:var(--petroleo);color:var(--creme);
+  display:grid;place-items:center;
+  box-shadow:0 8px 24px rgba(13,40,46,.25);
+  transition:transform .2s,background .2s;
+}
+.zap-flutuante:hover{transform:translateY(-2px);background:var(--menta);color:var(--petroleo)}
+.zap-flutuante svg{width:26px;height:26px;fill:currentColor}
+
+/* ---------- impressão ---------- */
+@media print{
+  .aviso-topo,.topo,.barra-mobile,.zap-flutuante,.banner-cookies,
+  .hero__acoes,.botao,.rodape .redes,.filtros,.nao-imprimir{display:none!important}
+  body{background:#fff;color:#000;padding-bottom:0}
+  .faixa{padding:16px 0}
+  .escuro,.menta{background:#fff!important;color:#000!important}
+  .so-impressao{display:block}
+  .checklist{border-color:#000}
+  .checklist .quadrado{border-color:#000}
+  a[href^="http"]::after{content:""}
+}

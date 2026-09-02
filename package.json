@@ -1,0 +1,10 @@
+{
+  "name": "eixoneuro-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da Eixo — Neurologia Especializada (Brasília-DF). Estático, sem build.",
+  "scripts": {
+    "check-content": "node scripts/check-content.js",
+    "servir": "python3 -m http.server 8080"
+  }
+}

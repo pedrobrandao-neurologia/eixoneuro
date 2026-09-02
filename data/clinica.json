@@ -1,0 +1,82 @@
+{
+  "razao_social": "Eixo Neurologia Especializada Ltda",
+  "nome_fantasia": "Eixo — Neurologia Especializada",
+  "cnpj": "57.649.961/0001-49",
+  "crm_pj": "[PLACEHOLDER — nº de inscrição da pessoa jurídica no CRM-DF]",
+  "diretor_tecnico": {
+    "medico_id": null,
+    "nome": "[PLACEHOLDER — nome do diretor técnico médico]",
+    "crm": "[PLACEHOLDER — CRM-DF do diretor técnico]"
+  },
+  "endereco": {
+    "edificio": "Centro Clínico Lúcio Costa",
+    "bloco": "Bloco 2",
+    "salas": "Salas 136 a 138",
+    "logradouro": "SQAS QI 610, Bloco 02",
+    "bairro": "Asa Sul",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "cep": "70200-700",
+    "resumo": "Centro Clínico Lúcio Costa, Bloco 2 · Asa Sul, Brasília-DF",
+    "completo": "Centro Clínico Lúcio Costa — Bloco 2, Salas 136 a 138, SQAS QI 610, Asa Sul, Brasília-DF, CEP 70200-700"
+  },
+  "como_chegar": {
+    "instrucoes": [
+      "A entrada da clínica é pelo Bloco 2 do Centro Clínico Lúcio Costa (SQAS QI 610, Asa Sul).",
+      "[PLACEHOLDER — onde estacionar: ex.: estacionamento próprio/público em frente ao bloco]",
+      "[PLACEHOLDER — andar, elevador e trajeto até as salas 136 a 138]"
+    ],
+    "acessibilidade_fisica": [
+      "[PLACEHOLDER — rampa de acesso: confirmar]",
+      "[PLACEHOLDER — elevador: confirmar]",
+      "[PLACEHOLDER — banheiro adaptado: confirmar]",
+      "[PLACEHOLDER — vaga PCD/idoso: confirmar]"
+    ]
+  },
+  "telefone_fixo": null,
+  "telefone_exibicao": "(61) 99124-6115",
+  "telefone_e164": "+5561991246115",
+  "whatsapp_e164": "5561991246115",
+  "whatsapp_mensagem_padrao": "Olá! Gostaria de agendar uma consulta na Eixo Neurologia Especializada.",
+  "email": "[PLACEHOLDER — e-mail de contato da clínica]",
+  "horario": [
+    { "dias": "Segunda a sexta", "horas": "7h30 às 18h30" },
+    { "dias": "Sábado", "horas": "8h às 12h" }
+  ],
+  "horario_schema": [
+    { "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:30", "closes": "18:30" },
+    { "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "12:00" }
+  ],
+  "atendimento": {
+    "particular": true,
+    "convenios": false,
+    "aviso": "Atendimento particular. Não atendemos convênios.",
+    "reembolso": "A clínica não atende convênios, mas fornece recibo ou nota fiscal e, quando solicitado, relatório médico para que o paciente peça reembolso ao seu plano de saúde."
+  },
+  "valores": {
+    "consulta": "[PLACEHOLDER — valor da consulta]",
+    "retorno": "[PLACEHOLDER — valor e prazo do retorno]",
+    "formas_pagamento": ["Pix", "Cartão de débito ou crédito", "Dinheiro"]
+  },
+  "coordenadas": { "lat": null, "lng": null },
+  "google_maps_place_url": "https://www.google.com/maps/place/?q=place_id:ChIJCTnkMVE7WpMR7_4ck4y8C7I",
+  "google_maps_embed_url": "https://maps.google.com/maps?q=Eixo%20Neurologia%20Especializada%2C%20SQAS%20QI%20610%20Bloco%2002%2C%20Bras%C3%ADlia&output=embed",
+  "waze_url": "https://waze.com/ul?q=Centro%20Cl%C3%ADnico%20L%C3%BAcio%20Costa%20Bloco%202%20Bras%C3%ADlia",
+  "site_url": "https://eixoneuro.com.br",
+  "redes_sociais": {
+    "instagram": "https://www.instagram.com/eixoneuro/"
+  },
+  "dpo": {
+    "nome": "[PLACEHOLDER — nome do encarregado de dados (DPO)]",
+    "email": "[PLACEHOLDER — e-mail do DPO]"
+  },
+  "politica_cancelamento": {
+    "prazo_cancelamento_sem_custo": "[PLACEHOLDER — ex.: até 24 horas antes da consulta]",
+    "atraso_tolerancia": "[PLACEHOLDER — ex.: 15 minutos de tolerância]",
+    "falta": "[PLACEHOLDER — regra para faltas sem aviso]"
+  },
+  "canal_documentos": {
+    "descricao": "Solicitações de receitas, laudos, relatórios e cópia de prontuário são recebidas pelo WhatsApp da clínica, em horário comercial.",
+    "horario_resposta": "[PLACEHOLDER — ex.: resposta em até 2 dias úteis]"
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "puncao-lombar",
+    "nome": "Punção lombar",
+    "nome_leigo": "Coleta de líquido da espinha (líquor)",
+    "descricao_curta": "Coleta de uma pequena quantidade de líquido cefalorraquidiano (líquor) na região lombar, para análise laboratorial.",
+    "para_que_serve": "O exame do líquor auxilia na investigação de doenças inflamatórias, infecciosas e degenerativas do sistema nervoso, entre outras indicações definidas pelo médico assistente.",
+    "como_e_feito": "Com o paciente sentado ou deitado de lado, a pele da região lombar é limpa e anestesiada. Uma agulha fina é introduzida entre as vértebras, abaixo do término da medula espinhal, e uma pequena quantidade de líquor é coletada. O procedimento dura poucos minutos; o tempo total na clínica é maior por causa do preparo e do repouso.",
+    "duracao": "O procedimento em si dura cerca de 15 a 30 minutos. Programe-se para permanecer mais tempo na clínica, incluindo o repouso após a coleta.",
+    "preparo": [
+      "É necessário pedido ou indicação médica.",
+      "Traga os exames de sangue solicitados previamente pelo médico (ex.: coagulograma e contagem de plaquetas, quando pedidos).",
+      "Alimente-se normalmente, salvo orientação contrária.",
+      "Informe com antecedência todos os medicamentos em uso — alguns podem precisar de ajuste antes do procedimento, a critério médico."
+    ],
+    "o_que_trazer": [
+      "Pedido médico ou encaminhamento",
+      "Documento com foto",
+      "Exames de sangue solicitados",
+      "Lista dos medicamentos em uso",
+      "Acompanhante adulto (obrigatório)"
+    ],
+    "contraindicacoes_avisar": [
+      "Uso de anticoagulantes (ex.: varfarina, rivaroxabana, apixabana, dabigatrana) — avise ao agendar",
+      "Uso de antiagregantes (ex.: AAS, clopidogrel) — avise ao agendar",
+      "Distúrbios de coagulação",
+      "Alergias a anestésicos ou antissépticos",
+      "Gestação ou suspeita de gestação",
+      "Infecção de pele na região lombar"
+    ],
+    "apos_o_exame": [
+      "Repouso deitado conforme orientação da equipe, na clínica e em casa.",
+      "Beba bastante líquido ao longo do dia.",
+      "Evite esforço físico e atividades intensas no dia do procedimento.",
+      "Dor de cabeça leve pode ocorrer nos primeiros dias, principalmente ao ficar em pé, e costuma melhorar com repouso e hidratação.",
+      "Entre em contato com a clínica se apresentar dor de cabeça persistente que não melhora deitado, febre, dor intensa no local, perda de força ou alteração da sensibilidade nas pernas."
+    ],
+    "precisa_acompanhante": true,
+    "precisa_pedido_medico": true,
+    "prazo_laudo": "[PLACEHOLDER — prazo dos resultados e forma de entrega]",
+    "valor": "[PLACEHOLDER — valor do procedimento]",
+    "medicos": ["pedro-brandao"],
+    "revisado": false
+  },
+  {
+    "id": "tap-test",
+    "nome": "Tap test (punção lombar evacuatória)",
+    "nome_leigo": "Teste para hidrocefalia de pressão normal",
+    "descricao_curta": "Punção lombar com retirada de volume maior de líquor, com avaliação da marcha e da cognição antes e após a retirada, usada na investigação da hidrocefalia de pressão normal.",
+    "para_que_serve": "Ajuda a avaliar se sintomas como dificuldade para andar, alteração de memória e perda do controle da urina podem melhorar com a retirada de líquor — informação usada para estimar a resposta a um eventual tratamento cirúrgico da hidrocefalia de pressão normal (derivação).",
+    "como_e_feito": "Antes da punção, a equipe aplica testes de marcha e de cognição. Em seguida é realizada a punção lombar, com retirada de um volume maior de líquor. Após um período de observação, os mesmos testes são repetidos para comparar o desempenho antes e após a retirada.",
+    "duracao": "O processo completo — avaliações, punção, observação e reavaliação — costuma ocupar boa parte do período (algumas horas). Programe-se para permanecer na clínica durante todo o teste.",
+    "preparo": [
+      "É necessário pedido ou indicação médica.",
+      "Traga os exames de sangue e de imagem solicitados previamente.",
+      "Informe com antecedência todos os medicamentos em uso.",
+      "Use roupas e calçados confortáveis, adequados aos testes de caminhada."
+    ],
+    "o_que_trazer": [
+      "Pedido médico ou encaminhamento",
+      "Documento com foto",
+      "Exames de imagem (tomografia ou ressonância) e exames de sangue solicitados",
+      "Lista dos medicamentos em uso",
+      "Óculos e aparelho auditivo, se usar (necessários para os testes cognitivos)",
+      "Acompanhante adulto (obrigatório)"
+    ],
+    "contraindicacoes_avisar": [
+      "Uso de anticoagulantes (ex.: varfarina, rivaroxabana, apixabana, dabigatrana) — avise ao agendar",
+      "Uso de antiagregantes (ex.: AAS, clopidogrel) — avise ao agendar",
+      "Distúrbios de coagulação",
+      "Alergias a anestésicos ou antissépticos",
+      "Infecção de pele na região lombar"
+    ],
+    "apos_o_exame": [
+      "As mesmas orientações da punção lombar: repouso conforme orientação, hidratação e retorno gradual às atividades.",
+      "Entre em contato com a clínica se apresentar dor de cabeça persistente que não melhora deitado, febre ou outros sintomas novos.",
+      "O resultado do teste é discutido com o médico assistente, que orientará os próximos passos."
+    ],
+    "precisa_acompanhante": true,
+    "precisa_pedido_medico": true,
+    "prazo_laudo": "[PLACEHOLDER — prazo do relatório e forma de entrega]",
+    "valor": "[PLACEHOLDER — valor do procedimento]",
+    "medicos": ["pedro-brandao"],
+    "revisado": false
+  }
+]
