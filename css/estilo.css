@@ -174,7 +174,7 @@ p{max-width:62ch}
 }
 
 /* ---------- hero ---------- */
-.hero{position:relative;overflow:hidden;display:flex;align-items:center;min-height:min(78vh,760px)}
+.hero{position:relative;overflow:hidden;display:flex;align-items:center;min-height:min(calc(100vh - 140px),820px)}
 .hero .miolo{position:relative;width:100%;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
 .hero .grafismo{color:var(--petroleo);opacity:.5}
 .hero__texto{position:relative}
@@ -184,11 +184,32 @@ p{max-width:62ch}
 .hero__acoes{display:flex;flex-wrap:wrap;gap:12px}
 .hero__simbolo{position:relative;justify-self:end;width:min(100%,360px);aspect-ratio:1}
 .hero__simbolo img{width:100%;height:100%;object-fit:contain}
+.hero__rodape{position:absolute;left:0;right:0;bottom:0;padding:0 var(--margem) 24px}
+.hero__rodape .miolo{display:flex;justify-content:space-between;gap:16px 24px;flex-wrap:wrap}
 @media (max-width:860px){
-  .hero{min-height:auto;padding-top:56px;padding-bottom:56px}
+  .hero{min-height:auto;padding-top:56px;padding-bottom:96px}
   .hero .miolo{grid-template-columns:1fr}
   .hero__simbolo{display:none}
 }
+
+/* ---------- a clínica (sobre) ---------- */
+.sobre{position:relative;overflow:hidden}
+.sobre .grafismo{color:var(--menta);opacity:.7}
+.sobre .miolo{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.sobre h2{margin:20px 0 0}
+.sobre__texto p+p{margin-top:1.2em}
+.sobre__texto p{font-size:1.05rem;color:var(--menta)}
+.sobre__texto .legenda{display:block;margin-top:40px;color:var(--creme);opacity:.7}
+@media (max-width:860px){.sobre .miolo{grid-template-columns:1fr;gap:32px}}
+
+/* ---------- seção ocre (equipe) ----------
+   O ocre original #938561 não atinge contraste AA com texto creme
+   (≈3:1); esta variante mais profunda mantém o tom terroso da marca
+   com contraste ≥4,5:1 para o creme e ≥4,5:1 para a menta. */
+.ocre{background:var(--ocre-escuro);color:var(--creme)}
+.ocre .legenda{color:var(--menta)}
+.ocre :focus-visible{outline-color:var(--menta)}
+.ocre .botao--vazado:hover{background:var(--creme);color:var(--ocre-escuro);border-color:var(--creme)}
 
 /* faixa de identificação (Res. CFM 2.336/2023) logo após o hero */
 .identificacao-curta{
@@ -251,23 +272,23 @@ p{max-width:62ch}
 .card p{font-size:.98rem}
 .card .card__acao{margin-top:auto;align-self:flex-start}
 
-/* ---------- equipe ---------- */
-.grade-medicos{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+/* ---------- equipe (fileiras com filete, como no layout original) ---------- */
+.grade-medicos{display:grid;grid-template-columns:repeat(3,1fr);gap:0 48px}
 @media (max-width:1000px){.grade-medicos{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:640px){.grade-medicos{grid-template-columns:1fr}}
 .card-medico{
-  border:1px solid var(--linha-clara);border-radius:16px;
-  padding:26px 24px;text-align:left;width:100%;
-  display:flex;flex-direction:column;gap:12px;align-items:flex-start;
-  color:inherit;background:rgba(234,232,223,.05);
-  transition:background .2s,border-color .2s;
+  border:0;border-top:1px solid var(--linha);border-radius:0;
+  padding:24px 0 32px;text-align:left;width:100%;
+  display:flex;flex-direction:column;gap:10px;align-items:flex-start;
+  color:inherit;background:none;
 }
-.card-medico:hover{background:rgba(205,229,207,.12);border-color:var(--menta)}
+.escuro .card-medico,.ocre .card-medico{border-top-color:rgba(234,232,223,.45)}
 .card-medico .registro{font-size:.68rem}
 .card-medico h3{font-size:1.25rem}
 .card-medico .area{font-size:.95rem;opacity:.9;max-width:32ch}
 .card-medico .nao-esp{font-family:var(--f-legenda);font-stretch:125%;letter-spacing:.14em;font-size:.66rem;text-transform:uppercase;opacity:.85}
-.card-medico .ver-cv{margin-top:auto;font-family:var(--f-legenda);font-stretch:125%;font-weight:500;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:2px}
+.card-medico .ver-cv{margin-top:6px;font-family:var(--f-legenda);font-stretch:125%;font-weight:500;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:2px;transition:opacity .2s}
+.card-medico:hover .ver-cv{opacity:.7}
 .avatar{
   width:72px;height:72px;border-radius:50%;overflow:hidden;flex:none;
   background:var(--menta);color:var(--petroleo);
@@ -411,6 +432,43 @@ p{max-width:62ch}
 }
 .formulario .acoes{display:flex;flex-wrap:wrap;gap:12px}
 .formulario .nota{font-size:.85rem;opacity:.8}
+
+/* ---------- blog ---------- */
+.grade-posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card-post{
+  border:1px solid var(--linha);border-radius:16px;
+  padding:26px 24px;display:flex;flex-direction:column;gap:12px;
+  background:rgba(234,232,223,.5);transition:border-color .2s;
+}
+.card-post:hover{border-color:var(--petroleo)}
+.escuro .card-post{border-color:var(--linha-clara);background:rgba(234,232,223,.04)}
+.escuro .card-post:hover{border-color:var(--menta)}
+.card-post .meta{font-size:.8rem;opacity:.75}
+.card-post h3{font-size:1.2rem}
+.card-post p{font-size:.95rem}
+.card-post .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.card-post .tags span{border:1px solid var(--linha);border-radius:999px;padding:.3em .8em;font-size:.75rem}
+.escuro .card-post .tags span{border-color:var(--linha-clara)}
+
+.post-artigo .meta{font-size:.9rem;opacity:.8;margin-top:16px}
+.post-artigo h1{font-size:clamp(1.8rem,4vw,3rem);max-width:24ch}
+.post-corpo{margin-top:36px}
+.post-corpo p{font-size:1.05rem;line-height:1.7}
+.post-corpo p+p,.post-corpo ul+p,.post-corpo p+ul,.post-corpo h2+p{margin-top:1em}
+.post-corpo h2{font-size:clamp(1.3rem,2.2vw,1.7rem);margin:1.6em 0 .4em}
+.post-corpo ul{list-style:disc;padding-left:1.3em;max-width:62ch}
+.post-corpo li+li{margin-top:.4em}
+.autor-caixa{
+  margin-top:48px;border:1px solid var(--linha);border-radius:16px;
+  padding:24px 26px;display:grid;gap:8px;
+}
+.autor-caixa .legenda{color:var(--ocre-escuro)}
+.autor-caixa .nome-autor{font-size:1.15rem;font-weight:500}
+.autor-caixa .registro{font-size:.7rem}
+.aviso-conteudo{
+  margin-top:28px;border-left:4px solid var(--ocre);
+  padding:14px 18px;font-size:.9rem;opacity:.9;background:rgba(147,133,97,.08);
+}
 
 /* ---------- galeria ---------- */
 .galeria{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:180px 180px;gap:12px}

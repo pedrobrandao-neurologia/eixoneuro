@@ -8,16 +8,18 @@ procedimentos (punção lombar, tap test) particulares.
 ## Estrutura
 
 ```
-index.html                    Home (hero, queixas, exames, equipe, como chegar, emergência)
+index.html                    Home: hero · a clínica · especialidades · equipe ·
+                              outras especialidades · blog · exames (ao final) · contato
 equipe.html                   Equipe com filtros por queixa/serviço e modal de mini currículo
 exames-procedimentos.html     ENMG, punção lombar e tap test (renderizados de /data)
 primeira-consulta.html        Guia da primeira consulta + checklist imprimível
 receitas-laudos.html          Perguntas e respostas sobre documentos
+blog.html · post.html         Blog: listagem e artigo (renderizados de data/blog.json)
 contato.html                  Endereço, mapa, instruções do Bloco 2, formulário sem backend
 privacidade.html              LGPD  ·  politica-atendimento.html  CDC
 css/estilo.css                Design system (paleta creme/ocre/menta/petróleo)
 js/comum.js                   Cabeçalho, rodapé (identificação CFM), banner de privacidade, A+
-js/equipe.js  js/exames.js  js/inicio.js  js/contato.js
+js/equipe.js  js/exames.js  js/inicio.js  js/contato.js  js/blog.js
 data/*.json                   TODO o conteúdo variável (nada de médico no HTML)
 scripts/check-content.js      Verificação de conformidade (ver CONTENT-RULES.md)
 sitemap.xml  robots.txt       SEO
@@ -50,7 +52,19 @@ python3 -m http.server 8080        # ou: npx serve .
   (preparo, o que trazer, contraindicações a avisar, pós-exame, prazo do
   laudo, valor, `medicos[]` com ids de `medicos.json`). Enquanto
   `"revisado": false`, a seção mostra o banner “conteúdo em revisão”.
-- **`outros-profissionais.json`** — especialidades parceiras exibidas na home.
+- **`outros-profissionais.json`** — especialidades parceiras exibidas na home
+  (o campo `icone` escolhe o ícone do design system em `js/inicio.js`).
+- **`especialidades.json`** — as áreas neurológicas da home, com descrição e
+  `medicos[]` (ids de `medicos.json`) para a linha "quem atende".
+- **`blog.json`** — artigos do blog. Cada post tem `slug` (vira a URL
+  `post.html?post=slug`), `titulo`, `resumo`, `data` (AAAA-MM-DD), `autor`
+  (id de `medicos.json` — o site exibe o autor com CRM/RQE, como exige o
+  CFM), `tags[]`, `revisado` e `corpo[]`: blocos
+  `{"tipo": "paragrafo"|"subtitulo"|"lista", "texto"|"itens"}`. Escreva em
+  tom informativo e sóbrio — sem promessa de resultado, sem "melhor/cura"
+  (o `check-content` bloqueia) — e rode `npm run check-content` após cada
+  post. Todo artigo recebe automaticamente o aviso "conteúdo informativo,
+  não substitui consulta".
 
 Depois de qualquer edição, rode a verificação:
 

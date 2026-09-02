@@ -83,6 +83,7 @@
     { arquivo: 'exames-procedimentos.html', rotulo: 'Exames e procedimentos' },
     { arquivo: 'primeira-consulta.html', rotulo: 'Primeira consulta' },
     { arquivo: 'receitas-laudos.html', rotulo: 'Receitas e laudos' },
+    { arquivo: 'blog.html', rotulo: 'Blog' },
     { arquivo: 'contato.html', rotulo: 'Contato' }
   ];
 

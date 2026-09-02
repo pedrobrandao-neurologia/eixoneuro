@@ -4,18 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eixo — Neurologia Especializada em Brasília · Atendimento particular</title>
-<meta name="description" content="Clínica de neurologia particular no Centro Clínico Lúcio Costa, Bloco 2, Asa Sul, Brasília-DF. Consultas com neurologistas com RQE, eletroneuromiografia (ENMG), punção lombar e tap test. Não atendemos convênios.">
+<meta name="description" content="Clínica de neurologia particular em Brasília com equipe qualificada em transtornos do movimento, epilepsia, cefaleia, neurologia vascular, cognitiva, neuroimunologia e doenças neuromusculares. Centro Clínico Lúcio Costa, Bloco 2.">
 <link rel="canonical" href="https://eixoneuro.com.br/">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Eixo — Neurologia Especializada em Brasília">
-<meta property="og:description" content="Neurologia particular no Centro Clínico Lúcio Costa, Bloco 2, Brasília-DF. Consultas, ENMG, punção lombar e tap test.">
+<meta property="og:description" content="Precisão, inteligência, cuidado. Neurologia particular no Centro Clínico Lúcio Costa, Bloco 2, Asa Sul.">
 <meta property="og:url" content="https://eixoneuro.com.br/">
 <meta property="og:image" content="https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1.png">
 <link rel="icon" href="https://eixoneuro.com.br/wp-content/uploads/2025/04/cropped-favicon2-32x32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="https://eixoneuro.com.br/wp-content/uploads/2025/04/cropped-favicon2-180x180.png">
 <link rel="stylesheet" href="css/estilo.css">
 <script defer src="js/comum.js"></script>
+<script defer src="js/blog.js"></script>
 <script defer src="js/inicio.js"></script>
 <script defer src="js/equipe.js"></script>
 <script defer src="js/exames.js"></script>
@@ -35,107 +36,73 @@
       <div class="hero__texto">
         <p class="legenda">Neurologia — atendimento particular · Brasília</p>
         <h1 id="titulo-hero">Precisão,<br>inteligência,<br>cuidado.</h1>
-        <p>Clínica de neurologia com médicos qualificados em suas áreas de atuação, no Centro Clínico Lúcio Costa, Bloco 2. Consultas particulares, eletroneuromiografia, punção lombar e tap test.</p>
+        <p>Somos dedicados aos cuidados neurológicos, com médicos qualificados em cada área e atendimento humanizado do primeiro contato ao acompanhamento.</p>
         <div class="hero__acoes">
-          <a class="botao botao--cheio" data-clinica-whats href="#contato">Agendar pelo WhatsApp</a>
-          <a class="botao botao--vazado" data-clinica-tel href="#contato">Ligar para a clínica</a>
+          <a class="botao botao--cheio" data-clinica-whats href="contato.html">Consulta com neurologista</a>
+          <a class="botao botao--vazado" href="#outras">Outras especialidades</a>
         </div>
       </div>
       <div class="hero__simbolo" aria-hidden="true">
         <img src="https://eixoneuro.com.br/wp-content/uploads/2025/04/Eixo_simbolo-6.png" alt="" width="555" height="555" fetchpriority="high">
       </div>
     </div>
+    <div class="hero__rodape">
+      <div class="miolo" id="hero-info"></div>
+    </div>
   </section>
 
   <!-- Identificação obrigatória (Res. CFM 2.336/2023, art. 5º) visível sem rolagem excessiva -->
   <div class="identificacao-curta" id="identificacao-curta"></div>
 
-  <!-- COMO PODEMOS AJUDAR -->
-  <section class="faixa" aria-labelledby="titulo-queixas">
+  <!-- A CLÍNICA -->
+  <section id="clinica" class="sobre faixa escuro">
+    <svg class="grafismo" aria-hidden="true" style="transform:scaleX(-1)"><use href="#eixo-linhas"/></svg>
     <div class="miolo">
-      <div class="cabecalho-secao">
-        <div>
-          <p class="legenda">Como podemos ajudar</p>
-          <h2 id="titulo-queixas">O que trouxe você até aqui?</h2>
-        </div>
-        <p>Escolha a queixa mais próxima da sua. Vamos mostrar os médicos da equipe com registro de qualificação (RQE) na área correspondente.</p>
+      <div>
+        <p class="legenda">A clínica</p>
+        <h2>O eixo entre a técnica e a humanidade.</h2>
       </div>
-      <ul class="lista-queixas" id="lista-queixas"></ul>
+      <div class="sobre__texto">
+        <p>A Eixo nasce com um propósito claro: oferecer atendimento neurológico especializado e humanizado em Brasília, em um ambiente acolhedor.</p>
+        <p>Nossa equipe é formada por médicos com registro de qualificação de especialista (RQE) em suas áreas de atuação, dedicados ao diagnóstico e ao acompanhamento das doenças neurológicas. Cada consulta é feita com atenção e comprometimento.</p>
+        <p>Com raízes firmes na ciência e um olhar voltado para o futuro, somos o ponto de convergência onde técnica e humanidade caminham juntas.</p>
+        <span class="legenda">Inaugurada em 2025 · Asa Sul, Brasília · Atendimento particular</span>
+      </div>
     </div>
   </section>
 
-  <!-- EXAMES E PROCEDIMENTOS -->
-  <section class="faixa escuro" aria-labelledby="titulo-exames">
+  <!-- ESPECIALIDADES NEUROLÓGICAS -->
+  <section id="especialidades" class="faixa" aria-labelledby="titulo-especialidades">
     <div class="miolo">
       <div class="cabecalho-secao">
         <div>
-          <p class="legenda">Na clínica</p>
-          <h2 id="titulo-exames">Exames e procedimentos realizados aqui.</h2>
+          <p class="legenda">Especialidades neurológicas</p>
+          <h2 id="titulo-especialidades">Cada área com quem se dedica a ela.</h2>
         </div>
-        <p>Realizados por médicos da equipe, com orientações claras de preparo. Veja o que trazer e quando avisar antes.</p>
+        <p>Nossos neurologistas têm formação específica na sua subespecialidade. Abaixo, o que cada uma cuida e quem atende — toque no nome para ver o mini currículo.</p>
       </div>
-      <ul class="grade-cards" id="cards-exames"></ul>
+      <ul class="lista-esp" id="lista-especialidades"></ul>
     </div>
   </section>
 
-  <!-- ANTES DA PRIMEIRA CONSULTA -->
-  <section class="faixa menta" aria-labelledby="titulo-primeira">
-    <div class="miolo">
-      <div class="cabecalho-secao">
-        <div>
-          <p class="legenda">Antes da primeira consulta</p>
-          <h2 id="titulo-primeira">Chegue com tudo o que importa.</h2>
-        </div>
-        <p>Uma consulta rende mais quando os exames, os medicamentos e a história dos sintomas vêm junto.</p>
-      </div>
-      <ul class="lista-esp">
-        <li>
-          <div>
-            <h3>Traga seus exames e medicamentos</h3>
-            <p>Exames anteriores (laudos e imagens em CD, pendrive ou link), lista de medicamentos com doses — ou as caixas — e relatórios de outros médicos.</p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h3>Registre os sintomas</h3>
-            <p>Quando começaram, como evoluíram, o que piora ou alivia. Se possível, grave um vídeo do sintoma (tremor, crise, alteração ao caminhar) no celular.</p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h3>Venha acompanhado quando precisar</h3>
-            <p>Acompanhante é recomendado para queixas de memória, tontura, desmaio e crises — e obrigatório em procedimentos.</p>
-          </div>
-        </li>
-        <li>
-          <div>
-            <h3>Atendimento particular</h3>
-            <p>Não atendemos convênios. Fornecemos recibo ou nota fiscal e relatório para você solicitar reembolso ao seu plano de saúde.</p>
-          </div>
-        </li>
-      </ul>
-      <p style="margin-top:32px"><a class="botao botao--cheio" href="primeira-consulta.html">Ver o guia completo da primeira consulta</a></p>
-    </div>
-  </section>
-
-  <!-- EQUIPE -->
-  <section class="faixa escuro" aria-labelledby="titulo-equipe" style="position:relative;overflow:hidden">
-    <svg class="grafismo" aria-hidden="true" style="opacity:.25"><use href="#eixo-linhas"/></svg>
+  <!-- EQUIPE DE NEUROLOGISTAS -->
+  <section id="equipe" class="faixa ocre" style="position:relative;overflow:hidden">
+    <svg class="grafismo" aria-hidden="true" style="opacity:.3"><use href="#eixo-linhas"/></svg>
     <div class="miolo" style="position:relative">
       <div class="cabecalho-secao">
         <div>
-          <p class="legenda">Equipe</p>
-          <h2 id="titulo-equipe">Quem cuida de você.</h2>
+          <p class="legenda">Neurologistas</p>
+          <h2>Quem cuida de você.</h2>
         </div>
-        <p>Neurologistas identificados com CRM e registro de qualificação de especialista (RQE). Toque em um card para ver o mini currículo.</p>
+        <p>Médicos identificados com CRM e registro de qualificação (RQE) nas subespecialidades que atendem. Toque em um nome para ver formação e mini currículo.</p>
       </div>
       <ul class="grade-medicos" id="grade-equipe"></ul>
-      <p style="margin-top:32px"><a class="botao botao--vazado" href="equipe.html">Ver a equipe completa e filtrar por queixa</a></p>
+      <p style="margin-top:28px"><a class="botao botao--vazado" href="equipe.html">Ver a equipe completa e filtrar por queixa</a></p>
     </div>
   </section>
 
   <!-- OUTRAS ESPECIALIDADES -->
-  <section class="faixa" aria-labelledby="titulo-outras">
+  <section id="outras" class="faixa menta" aria-labelledby="titulo-outras">
     <div class="miolo">
       <div class="cabecalho-secao">
         <div>
@@ -148,32 +115,78 @@
     </div>
   </section>
 
-  <div class="filete-ocre" aria-hidden="true"></div>
+  <!-- BLOG -->
+  <section id="blog" class="faixa" aria-labelledby="titulo-blog">
+    <div class="miolo">
+      <div class="cabecalho-secao">
+        <div>
+          <p class="legenda">Blog</p>
+          <h2 id="titulo-blog">Informação de quem cuida.</h2>
+        </div>
+        <p>Artigos escritos pelos médicos da equipe sobre doenças neurológicas, sinais de alerta e novidades da área — em linguagem simples.</p>
+      </div>
+      <ul class="grade-posts" id="posts-recentes"></ul>
+      <p style="margin-top:32px"><a class="botao botao--cheio" href="blog.html">Ver todos os artigos</a></p>
+    </div>
+  </section>
 
-  <!-- COMO CHEGAR -->
-  <section class="faixa" id="contato" aria-labelledby="titulo-chegar">
+  <!-- EXAMES E PROCEDIMENTOS -->
+  <section id="exames" class="faixa escuro" aria-labelledby="titulo-exames">
+    <div class="miolo">
+      <div class="cabecalho-secao">
+        <div>
+          <p class="legenda">Na clínica</p>
+          <h2 id="titulo-exames">Exames e procedimentos.</h2>
+        </div>
+        <p>Realizados por médicos da equipe, com orientações claras de preparo, o que trazer e quando avisar antes.</p>
+      </div>
+      <ul class="grade-cards" id="cards-exames"></ul>
+      <p style="margin-top:28px"><a class="botao botao--vazado" href="exames-procedimentos.html">Preparo completo e orientações</a></p>
+    </div>
+  </section>
+
+  <!-- PREPARE-SE PARA A CONSULTA -->
+  <section class="faixa faixa--curta menta" aria-label="Guias para o paciente">
+    <div class="miolo" style="display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;justify-content:space-between">
+      <p style="font-size:1.05rem;max-width:52ch"><strong>Primeira vez na clínica?</strong> Veja o que trazer, valores e como funciona o atendimento — e como pedir receitas, laudos e relatórios.</p>
+      <span style="display:flex;flex-wrap:wrap;gap:12px">
+        <a class="botao botao--cheio" href="primeira-consulta.html">Guia da primeira consulta</a>
+        <a class="botao botao--vazado" href="receitas-laudos.html">Receitas e laudos</a>
+      </span>
+    </div>
+  </section>
+
+  <!-- CONTATO / AGENDAMENTO -->
+  <section id="contato" class="faixa" aria-labelledby="titulo-contato">
     <div class="miolo grade-contato">
       <div>
-        <p class="legenda">Como chegar</p>
-        <h2 id="titulo-chegar" style="margin:16px 0 24px">Estamos no Bloco 2.</h2>
+        <p class="legenda">Agende sua consulta</p>
+        <h2 id="titulo-contato" style="margin:16px 0 28px">Estamos no Bloco 2.</h2>
         <div class="caixa-destaque" style="margin-bottom:28px">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-5.1-7-11a7 7 0 0 1 14 0c0 5.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-          <p><strong>Atenção: a entrada é pelo Bloco 2 do Centro Clínico Lúcio Costa.</strong><br>
-          <span data-clinica="endereco.salas">Salas 136 a 138</span> · <span data-clinica="endereco.logradouro">SQAS QI 610, Bloco 02</span>, Asa Sul, Brasília-DF.</p>
+          <p><strong>A entrada é pelo Bloco 2 do Centro Clínico Lúcio Costa.</strong><br>
+          <span data-clinica="endereco.salas">Salas 136 a 138</span> · <span data-clinica="endereco.logradouro">SQAS QI 610, Bloco 02</span>, Asa Sul, Brasília-DF · CEP <span data-clinica="endereco.cep">70200-700</span></p>
         </div>
         <dl class="info" id="info-contato"></dl>
-        <a class="botao botao--cheio" data-clinica-whats href="contato.html">Agendar pelo WhatsApp</a>
-        <a class="botao botao--vazado" href="contato.html" style="margin-left:8px">Endereço e instruções completas</a>
+        <div style="display:flex;flex-wrap:wrap;gap:12px">
+          <a class="botao botao--cheio" data-clinica-whats href="contato.html">Agendar pelo WhatsApp</a>
+          <a class="botao botao--vazado" href="contato.html">Como chegar (passo a passo)</a>
+        </div>
       </div>
       <div>
-        <div class="mapa-envoltorio" id="mapa"></div>
+        <div class="galeria" aria-label="Fotos da clínica">
+          <a href="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-36.jpg" target="_blank" rel="noopener"><img src="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-36.jpg" alt="Interior da clínica Eixo" loading="lazy" width="600" height="400"></a>
+          <a href="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-28-1.jpg" target="_blank" rel="noopener"><img src="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-28-1-300x200.jpg" alt="Recepção da clínica Eixo" loading="lazy" width="300" height="200"></a>
+          <a href="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-37.jpg" target="_blank" rel="noopener"><img src="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-37-300x200.jpg" alt="Consultório da clínica Eixo" loading="lazy" width="300" height="200"></a>
+        </div>
+        <div class="mapa-envoltorio" id="mapa" style="margin-top:16px;aspect-ratio:16/9"></div>
         <div class="botoes-mapa" id="botoes-mapa"></div>
       </div>
     </div>
   </section>
 
   <!-- AVISO DE EMERGÊNCIA -->
-  <section class="faixa faixa--curta" aria-label="Aviso importante sobre emergências">
+  <section class="faixa faixa--curta" aria-label="Aviso importante sobre emergências" style="padding-top:0">
     <div class="miolo">
       <div class="banner-emergencia">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3 2.5 20h19L12 3z"/><path d="M12 9.5v5M12 17.2v.3"/></svg>

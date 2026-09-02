@@ -39,7 +39,9 @@
     "precisa_pedido_medico": true,
     "prazo_laudo": "[PLACEHOLDER — prazo dos resultados e forma de entrega]",
     "valor": "[PLACEHOLDER — valor do procedimento]",
-    "medicos": ["pedro-brandao"],
+    "medicos": [
+      "marcia-neiva"
+    ],
     "revisado": false
   },
   {
@@ -80,7 +82,9 @@
     "precisa_pedido_medico": true,
     "prazo_laudo": "[PLACEHOLDER — prazo do relatório e forma de entrega]",
     "valor": "[PLACEHOLDER — valor do procedimento]",
-    "medicos": ["pedro-brandao"],
+    "medicos": [
+      "marcia-neiva"
+    ],
     "revisado": false
   }
 ]

@@ -9,7 +9,11 @@
     "rqe": "13877",
     "areas_atuacao": [],
     "nao_especialista": false,
-    "queixas_leigas": ["Perda de memória e suspeita de demência", "Alterações de comportamento e linguagem", "Doença de Alzheimer"],
+    "queixas_leigas": [
+      "Perda de memória e suspeita de demência",
+      "Alterações de comportamento e linguagem",
+      "Doença de Alzheimer"
+    ],
     "formacao": [
       "Graduação em Medicina — Universidad Industrial de Santander, Colômbia (2004)",
       "Mestrado (2007) e Doutorado (2011) em Ciências da Saúde — Universidade de Brasília (UnB)",
@@ -35,7 +39,10 @@
     "rqe": "11762",
     "areas_atuacao": [],
     "nao_especialista": false,
-    "queixas_leigas": ["AVC (derrame) e ataque isquêmico transitório", "Prevenção de doenças dos vasos do cérebro"],
+    "queixas_leigas": [
+      "AVC (derrame) e ataque isquêmico transitório",
+      "Prevenção de doenças dos vasos do cérebro"
+    ],
     "formacao": [
       "Graduação em Medicina — Universidade Católica de Brasília (2002–2008)",
       "Residência em Neurologia — Hospital de Base do Distrito Federal (2009–2011)",
@@ -62,7 +69,11 @@
     "rqe": "12778",
     "areas_atuacao": [],
     "nao_especialista": false,
-    "queixas_leigas": ["AVC (derrame) e ataque isquêmico transitório", "Prevenção de doenças dos vasos do cérebro", "Consultas de neurologia geral"],
+    "queixas_leigas": [
+      "AVC (derrame) e ataque isquêmico transitório",
+      "Prevenção de doenças dos vasos do cérebro",
+      "Consultas de neurologia geral"
+    ],
     "formacao": [
       "Graduação em Medicina — Universidade Federal de Uberlândia (2001–2007)",
       "Residência em Neurologia — Hospital de Base do Distrito Federal (2011–2013)",
@@ -72,7 +83,10 @@
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
-    "procedimentos_que_realiza": [],
+    "procedimentos_que_realiza": [
+      "puncao-lombar",
+      "tap-test"
+    ],
     "lattes": null,
     "socio": true,
     "diretor_tecnico": false,
@@ -87,10 +101,17 @@
     "especialidade": "Neurologia",
     "rqe": "13416",
     "areas_atuacao": [
-      { "nome": "Neurofisiologia Clínica", "rqe": "14347" }
+      {
+        "nome": "Neurofisiologia Clínica",
+        "rqe": "14347"
+      }
     ],
     "nao_especialista": false,
-    "queixas_leigas": ["Dormência, formigamento e fraqueza", "Doenças dos nervos e dos músculos", "Eletroneuromiografia (ENMG)"],
+    "queixas_leigas": [
+      "Dormência, formigamento e fraqueza",
+      "Doenças dos nervos e dos músculos",
+      "Eletroneuromiografia (ENMG)"
+    ],
     "formacao": [
       "Graduação em Medicina — Escola Superior de Ciências da Saúde (ESCS)",
       "Residência em Neurologia — Hospital de Base do Distrito Federal (2012–2015)",
@@ -101,7 +122,9 @@
     "mini_cv": "Neurologista e neurofisiologista clínico, com atuação em eletroneuromiografia (ENMG), polissonografia e monitorização neurofisiológica intraoperatória. Neurologista do Centro de Referência para Doenças Neuromusculares do DF e do Ambulatório de Bloqueios Neuromusculares do Hospital de Apoio de Brasília. É preceptor voluntário das residências de Neurologia, Neurofisiologia Clínica e Medicina Física e Reabilitação do Hospital de Base e do Hospital de Apoio de Brasília.",
     "foto": null,
     "dias_atendimento": [],
-    "exames_que_realiza": ["enmg"],
+    "exames_que_realiza": [
+      "enmg"
+    ],
     "procedimentos_que_realiza": [],
     "lattes": null,
     "socio": true,
@@ -118,7 +141,11 @@
     "rqe": "11791",
     "areas_atuacao": [],
     "nao_especialista": false,
-    "queixas_leigas": ["Tremor e doença de Parkinson", "Movimentos involuntários (distonia, tiques, coreia)", "Alterações da marcha e quedas"],
+    "queixas_leigas": [
+      "Tremor e doença de Parkinson",
+      "Movimentos involuntários (distonia, tiques, coreia)",
+      "Alterações da marcha e quedas"
+    ],
     "formacao": [
       "Graduação em Medicina — Universidade de Brasília (UnB, 2004–2009)",
       "Residência em Neurologia Clínica — Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto, USP (2010–2012)",
@@ -129,7 +156,7 @@
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
-    "procedimentos_que_realiza": ["puncao-lombar", "tap-test"],
+    "procedimentos_que_realiza": [],
     "lattes": null,
     "socio": true,
     "diretor_tecnico": false,
@@ -144,10 +171,17 @@
     "especialidade": "Neurologia",
     "rqe": "21156",
     "areas_atuacao": [
-      { "nome": "Neurofisiologia Clínica", "rqe": "21157" }
+      {
+        "nome": "Neurofisiologia Clínica",
+        "rqe": "21157"
+      }
     ],
     "nao_especialista": false,
-    "queixas_leigas": ["Crises epilépticas e desmaios", "Dor de cabeça e enxaqueca", "Eletroencefalograma (EEG) e vídeo-EEG"],
+    "queixas_leigas": [
+      "Crises epilépticas e desmaios",
+      "Dor de cabeça e enxaqueca",
+      "Eletroencefalograma (EEG) e vídeo-EEG"
+    ],
     "formacao": [
       "Graduação em Medicina — Universidade de Brasília (UnB)",
       "Residência em Neurologia — Hospital de Base do Distrito Federal, com ano adicional na Universidade Federal de São Paulo (Unifesp)",
@@ -175,7 +209,11 @@
     "rqe": "12943",
     "areas_atuacao": [],
     "nao_especialista": false,
-    "queixas_leigas": ["Esclerose múltipla e doenças desmielinizantes", "Doenças da imunidade do sistema nervoso", "Consultas de neurologia geral"],
+    "queixas_leigas": [
+      "Esclerose múltipla e doenças desmielinizantes",
+      "Doenças da imunidade do sistema nervoso",
+      "Consultas de neurologia geral"
+    ],
     "formacao": [
       "Graduação em Medicina — Universidade Federal do Espírito Santo (UFES, 2004–2010)",
       "Residência em Neurologia — Universidade Federal de São Paulo (Unifesp, 2011–2013)",

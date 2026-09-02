@@ -1,0 +1,58 @@
+[
+  {
+    "id": "transtornos-do-movimento",
+    "nome": "Transtornos do movimento",
+    "icone": "movimento",
+    "descricao": "Doença de Parkinson, tremores, tiques e distonias. Diagnóstico, ajuste de medicamentos e terapias específicas, incluindo avaliação para estimulação cerebral profunda.",
+    "medicos": ["pedro-brandao"]
+  },
+  {
+    "id": "epilepsia",
+    "nome": "Epilepsia",
+    "icone": "epilepsia",
+    "descricao": "Diagnóstico e tratamento das crises epilépticas, com EEG, vídeo-EEG e acompanhamento neurológico contínuo.",
+    "medicos": ["pedro-naves"]
+  },
+  {
+    "id": "neurologia-vascular",
+    "nome": "Neurologia vascular",
+    "icone": "vascular",
+    "descricao": "Prevenção, diagnóstico e tratamento das doenças dos vasos cerebrais, como AVC, aneurismas e isquemias, para proteger a saúde do cérebro.",
+    "medicos": ["leticia-rebello", "marcia-neiva"]
+  },
+  {
+    "id": "neurologia-cognitiva",
+    "nome": "Neurologia cognitiva",
+    "icone": "cognitiva",
+    "descricao": "Alterações de memória, linguagem, atenção e comportamento, comuns na doença de Alzheimer e em outras demências.",
+    "medicos": ["carlos-uribe"]
+  },
+  {
+    "id": "neuroimunologia",
+    "nome": "Neuroimunologia",
+    "icone": "neuroimuno",
+    "descricao": "Doenças em que o sistema imunológico afeta o sistema nervoso, como esclerose múltipla e neuromielite óptica, com atenção ao diagnóstico precoce.",
+    "medicos": ["priscilla-proveti"]
+  },
+  {
+    "id": "neurofisiologia-clinica",
+    "nome": "Neurofisiologia clínica",
+    "icone": "neurofisio",
+    "descricao": "Investiga o funcionamento do sistema nervoso por exames como o EEG e a eletroneuromiografia, apoiando o diagnóstico de doenças neurológicas e musculares.",
+    "medicos": ["murilo-guiotti", "pedro-naves"]
+  },
+  {
+    "id": "cefaleia",
+    "nome": "Cefaleia",
+    "icone": "cefaleia",
+    "descricao": "Investigação e manejo das dores de cabeça, como enxaquecas e cefaleias tensionais, com estratégias individualizadas de tratamento.",
+    "medicos": ["pedro-naves"]
+  },
+  {
+    "id": "doencas-neuromusculares",
+    "nome": "Doenças neuromusculares",
+    "icone": "neuromuscular",
+    "descricao": "Doenças que afetam nervos e músculos, como neuropatias, miopatias e esclerose lateral amiotrófica, com atenção ao diagnóstico precoce e à qualidade de vida.",
+    "medicos": ["murilo-guiotti"]
+  }
+]
