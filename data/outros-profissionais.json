@@ -1,5 +1,23 @@
 [
   {
+    "id": "maria-olivia",
+    "nome": "Dra. Maria Olívia Fernandes de Lima Carneiro de Moraes",
+    "profissao": "Médica",
+    "conselho": "CRM-DF 19.923",
+    "especialidade": "Neurologia pediátrica",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Avaliação e acompanhamento de doenças neurológicas de bebês, crianças e adolescentes, como epilepsia, atrasos do desenvolvimento e cefaleias.",
+    "icone": "neuropediatria",
+    "foto": "img/equipe/maria-olivia.webp",
+    "mini_cv": "Neuropediatra formada pelo Hospital Universitário de Brasília (HUB-UnB), com residência prévia em Pediatria pelo Hospital Regional da Asa Norte (HRAN). Neurologista infantil do Hospital da Criança de Brasília José Alencar, onde responde pelo ambulatório de epilepsia de difícil controle e atua como parecerista da enfermaria de neurologia infantil, e da Secretaria de Saúde do DF, sendo responsável pelo ambulatório de neurologia infantil do Hospital Regional de Sobradinho e responsável técnica colaboradora da área de neurologia pediátrica. Membro da Sociedade Brasileira de Neurologia Infantil, com trabalhos apresentados em congressos sobre epilepsia, doenças neuromusculares e neuroimunologia na infância.",
+    "formacao": [
+      "Graduação em Medicina — Faculdade de Ciências Médicas da Paraíba (2006–2012)",
+      "Residência em Pediatria — Hospital Regional da Asa Norte (HRAN, Brasília, 2013–2015)",
+      "Residência em Neurologia Pediátrica — Hospital Universitário de Brasília (HUB-UnB, 2017–2019)"
+    ],
+    "revisado": false
+  },
+  {
     "id": "ana-paula-avila",
     "nome": "Dra. Ana Paula Ávila de Oliveira",
     "profissao": "Psicóloga",

@@ -110,9 +110,7 @@ incompletos, e lista as pendências (`[PLACEHOLDER]`, `"revisado": false`).
 3. Adicionar fotos reais de fachada, placa do **Bloco 2** e porta da
    clínica em `/img/` — WebP, `loading="lazy"`, `width/height` explícitos e
    `alt` descritivo (ver `img/README.md`). As fotos da equipe já estão em
-   `img/equipe/` (WebP 240×240, exibidas no modal de mini currículo);
-   `img/equipe/maria-olivia.webp` aguarda o cadastro da profissional em
-   `data/outros-profissionais.json` (nome completo, profissão, conselho).
+   `img/equipe/` (WebP 240×240, exibidas no modal de mini currículo).
 4. ORCID: confirmados e publicados os do Dr. Pedro Brandão e da
    Dra. Letícia Rebello (campo `orcid` em `data/medicos.json`). Para os
    demais, nenhum ORCID verificável foi encontrado em fontes públicas —
