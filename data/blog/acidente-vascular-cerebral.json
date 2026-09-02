@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "O acidente vascular cerebral (AVC ou derrame) é a segunda causa de morte no mundo: em 2019 ocorreram cerca de 12,2 milhões de novos casos e 6,5 milhões de mortes, e cerca de 101 milhões de pessoas viviam com sequelas de AVC.¹ Em 62% dos casos ele é isquêmico (entupimento de uma artéria cerebral); nos demais, hemorrágico (rompimento de um vaso, com sangramento dentro do cérebro ou ao seu redor). Os sinais aparecem de repente e podem ser lembrados pela sigla SAMU: Sorriso torto (boca desviada), Abraço fraco (perda de força em um braço), Música/fala embolada (dificuldade para falar ou entender) — diante de qualquer um deles, é Urgente ligar 192. Outros sinais incluem perda súbita de visão, tontura intensa com desequilíbrio e dor de cabeça muito forte e repentina. O tempo é decisivo: o AVC isquêmico pode ser tratado com trombólise endovenosa (alteplase ou tenecteplase) em até 4,5 horas do início dos sintomas, e com trombectomia mecânica (retirada do coágulo por cateterismo) em até 24 horas em casos selecionados."
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "Após o AVC, a reabilitação precoce com fisioterapia, fonoaudiologia e terapia ocupacional é o que mais melhora a recuperação funcional. A prevenção de um novo evento é igualmente importante, pois os principais fatores de risco — hipertensão arterial (presente em mais da metade dos casos), diabetes, colesterol alto, obesidade, tabagismo e sedentarismo — são modificáveis.¹ Isso inclui uso correto dos medicamentos prescritos: anti-hipertensivos, estatinas, antiagregantes (AAS, clopidogrel) no AVC isquêmico comum, e anticoagulantes (varfarina ou os anticoagulantes diretos, como apixabana e rivaroxabana) quando há fibrilação atrial. Parar de fumar, reduzir o álcool e o sal, praticar atividade física e manter acompanhamento regular com o neurologista completam o cuidado."
+      "texto": "O acidente vascular cerebral (AVC ou derrame) é a segunda causa de morte no mundo: em 2019 ocorreram cerca de 12,2 milhões de novos casos e 6,5 milhões de mortes, e cerca de 101 milhões de pessoas viviam com sequelas de AVC.¹ Em 62% dos casos ele é isquêmico (entupimento de uma artéria cerebral); nos demais, hemorrágico (rompimento de um vaso, com sangramento dentro do cérebro ou ao seu redor)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os sinais aparecem de repente e podem ser lembrados pela sigla SAMU: Sorriso torto (boca desviada), Abraço fraco (perda de força em um braço), Música/fala embolada (dificuldade para falar ou entender) — diante de qualquer um deles, é Urgente ligar 192. Outros sinais incluem perda súbita de visão, tontura intensa com desequilíbrio e dor de cabeça muito forte e repentina."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tempo é decisivo: o AVC isquêmico pode ser tratado com trombólise endovenosa (alteplase ou tenecteplase) em até 4,5 horas do início dos sintomas, e com trombectomia mecânica (retirada do coágulo por cateterismo) em até 24 horas em casos selecionados."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Após o AVC, a reabilitação precoce com fisioterapia, fonoaudiologia e terapia ocupacional é o que mais melhora a recuperação funcional."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A prevenção de um novo evento é igualmente importante, pois os principais fatores de risco — hipertensão arterial (presente em mais da metade dos casos), diabetes, colesterol alto, obesidade, tabagismo e sedentarismo — são modificáveis.¹ Isso inclui uso correto dos medicamentos prescritos: anti-hipertensivos, estatinas, antiagregantes (AAS, clopidogrel) no AVC isquêmico comum, e anticoagulantes (varfarina ou os anticoagulantes diretos, como apixabana e rivaroxabana) quando há fibrilação atrial."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Parar de fumar, reduzir o álcool e o sal, praticar atividade física e manter acompanhamento regular com o neurologista completam o cuidado."
     }
   ],
   "referencias": [

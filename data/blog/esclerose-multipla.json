@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "A esclerose múltipla é uma doença inflamatória autoimune em que o sistema de defesa ataca a bainha de mielina do cérebro, da medula espinhal e dos nervos ópticos. Cerca de 2,8 milhões de pessoas vivem com a doença no mundo (35,9 por 100.000 habitantes), com prevalência crescente; ela atinge duas vezes mais mulheres e é tipicamente diagnosticada por volta dos 32 anos.¹ Na forma mais comum (remitente-recorrente), ocorrem surtos: sintomas neurológicos que se instalam ao longo de horas a dias e duram mais de 24 horas — como perda ou embaçamento visual em um olho com dor à movimentação (neurite óptica), dormência ou fraqueza em membros, visão dupla, desequilíbrio, alterações urinárias — seguidos de recuperação parcial ou total. O diagnóstico segue os critérios de McDonald 2017: demonstração de disseminação das lesões no espaço (diferentes regiões do sistema nervoso) e no tempo (lesões novas ou de idades diferentes), por meio da clínica e da ressonância magnética, podendo o exame do líquor (bandas oligoclonais) substituir o critério temporal — o que permite diagnóstico e tratamento cada vez mais precoces.²"
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O tratamento mudou radicalmente o curso da doença. Os surtos são tratados com corticoide em altas doses (metilprednisolona). Para modificar a evolução existem hoje muitas opções, das injetáveis clássicas (interferonas beta, acetato de glatirâmer) aos comprimidos (fumarato de dimetila, teriflunomida, fingolimode, cladribina) e aos anticorpos monoclonais de alta eficácia (natalizumabe, ocrelizumabe, ofatumumabe, alentuzumabe) — quanto mais cedo iniciado o tratamento, menor o acúmulo de incapacidade. Complementam o cuidado: não fumar (o tabagismo piora a doença), manter vitamina D adequada, exercício físico regular, tratamento da fadiga, da depressão e dos sintomas urinários, e reabilitação quando necessária. Com acompanhamento regular e adesão ao tratamento, a maioria das pessoas mantém vida ativa, produtiva e independente."
+      "texto": "A esclerose múltipla é uma doença inflamatória autoimune em que o sistema de defesa ataca a bainha de mielina do cérebro, da medula espinhal e dos nervos ópticos."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Cerca de 2,8 milhões de pessoas vivem com a doença no mundo (35,9 por 100.000 habitantes), com prevalência crescente; ela atinge duas vezes mais mulheres e é tipicamente diagnosticada por volta dos 32 anos.¹ Na forma mais comum (remitente-recorrente), ocorrem surtos: sintomas neurológicos que se instalam ao longo de horas a dias e duram mais de 24 horas — como perda ou embaçamento visual em um olho com dor à movimentação (neurite óptica), dormência ou fraqueza em membros, visão dupla, desequilíbrio, alterações urinárias — seguidos de recuperação parcial ou total."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico segue os critérios de McDonald 2017: demonstração de disseminação das lesões no espaço (diferentes regiões do sistema nervoso) e no tempo (lesões novas ou de idades diferentes), por meio da clínica e da ressonância magnética, podendo o exame do líquor (bandas oligoclonais) substituir o critério temporal — o que permite diagnóstico e tratamento cada vez mais precoces.²"
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento mudou radicalmente o curso da doença. Os surtos são tratados com corticoide em altas doses (metilprednisolona)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Para modificar a evolução existem hoje muitas opções, das injetáveis clássicas (interferonas beta, acetato de glatirâmer) aos comprimidos (fumarato de dimetila, teriflunomida, fingolimode, cladribina) e aos anticorpos monoclonais de alta eficácia (natalizumabe, ocrelizumabe, ofatumumabe, alentuzumabe) — quanto mais cedo iniciado o tratamento, menor o acúmulo de incapacidade."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Complementam o cuidado: não fumar (o tabagismo piora a doença), manter vitamina D adequada, exercício físico regular, tratamento da fadiga, da depressão e dos sintomas urinários, e reabilitação quando necessária. Com acompanhamento regular e adesão ao tratamento, a maioria das pessoas mantém vida ativa, produtiva e independente."
     }
   ],
   "referencias": [

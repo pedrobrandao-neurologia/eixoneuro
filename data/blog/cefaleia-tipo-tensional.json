@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "A cefaleia do tipo tensional é o tipo mais comum de dor de cabeça e o distúrbio neurológico mais prevalente do mundo: o estudo Global Burden of Disease estimou que cerca de 1,9 bilhão de pessoas conviviam com ela em 2016, mais mulheres do que homens.¹ A dor é sentida como pressão ou aperto dos dois lados da cabeça, como uma faixa apertando a testa e a nuca. Pelos critérios da Classificação Internacional das Cefaleias (ICHD-3), as crises duram de 30 minutos a 7 dias, têm intensidade leve a moderada, não pioram com atividades rotineiras como caminhar ou subir escadas e não vêm acompanhadas de enjoo ou vômito (pode haver, no máximo, sensibilidade leve à luz ou ao barulho).² Estresse, tensão muscular no pescoço e ombros, sono irregular, jejum prolongado e má postura são gatilhos frequentes. Ela é classificada como episódica infrequente (menos de 1 dia por mês), episódica frequente (1 a 14 dias por mês) ou crônica (15 ou mais dias por mês)."
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O tratamento das crises é feito com analgésicos simples, como paracetamol, dipirona, ibuprofeno ou naproxeno, mas seu uso deve ficar limitado a poucos dias por semana, pois o excesso pode transformar a dor em crônica. Quando as crises são frequentes (em geral, mais de 8 a 10 dias por mês) ou incapacitantes, o neurologista pode indicar tratamento preventivo diário, sendo a amitriptilina em dose baixa o medicamento mais utilizado. Atividade física regular, horários de sono constantes, alimentação em intervalos regulares, cuidados com a postura, fisioterapia e técnicas de relaxamento e manejo do estresse complementam o tratamento. Manter um diário de cefaleia, anotando quantos dias houve dor e quantos dias houve uso de analgésico, é a ferramenta mais útil para o seu médico ajustar o tratamento."
+      "texto": "A cefaleia do tipo tensional é o tipo mais comum de dor de cabeça e o distúrbio neurológico mais prevalente do mundo: o estudo Global Burden of Disease estimou que cerca de 1,9 bilhão de pessoas conviviam com ela em 2016, mais mulheres do que homens.¹ A dor é sentida como pressão ou aperto dos dois lados da cabeça, como uma faixa apertando a testa e a nuca."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Pelos critérios da Classificação Internacional das Cefaleias (ICHD-3), as crises duram de 30 minutos a 7 dias, têm intensidade leve a moderada, não pioram com atividades rotineiras como caminhar ou subir escadas e não vêm acompanhadas de enjoo ou vômito (pode haver, no máximo, sensibilidade leve à luz ou ao barulho).² Estresse, tensão muscular no pescoço e ombros, sono irregular, jejum prolongado e má postura são gatilhos frequentes."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ela é classificada como episódica infrequente (menos de 1 dia por mês), episódica frequente (1 a 14 dias por mês) ou crônica (15 ou mais dias por mês)."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento das crises é feito com analgésicos simples, como paracetamol, dipirona, ibuprofeno ou naproxeno, mas seu uso deve ficar limitado a poucos dias por semana, pois o excesso pode transformar a dor em crônica."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Quando as crises são frequentes (em geral, mais de 8 a 10 dias por mês) ou incapacitantes, o neurologista pode indicar tratamento preventivo diário, sendo a amitriptilina em dose baixa o medicamento mais utilizado."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Atividade física regular, horários de sono constantes, alimentação em intervalos regulares, cuidados com a postura, fisioterapia e técnicas de relaxamento e manejo do estresse complementam o tratamento. Manter um diário de cefaleia, anotando quantos dias houve dor e quantos dias houve uso de analgésico, é a ferramenta mais útil para o seu médico ajustar o tratamento."
     }
   ],
   "referencias": [

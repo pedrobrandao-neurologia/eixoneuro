@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "Os tumores do sistema nervoso central são crescimentos anormais de células no cérebro ou na medula espinhal. Podem ser primários — originados no próprio sistema nervoso, como os gliomas (do tecido cerebral), os meningiomas (das meninges, em geral benignos e os mais frequentes) e os adenomas de hipófise — ou metastáticos, quando vêm de cânceres de outros órgãos (pulmão, mama, melanoma), sendo estes, no conjunto, os mais comuns. Os sintomas dependem da localização, do tamanho e da velocidade de crescimento: dor de cabeça nova, progressiva, pior ao acordar ou acompanhada de vômitos; primeira crise epiléptica na vida adulta; fraqueza ou dormência de um lado do corpo; alterações de visão, fala, equilíbrio, memória ou comportamento. O diagnóstico é feito por ressonância magnética e, na maioria dos casos, pela análise do tecido tumoral: a classificação da OMS de 2021 (5ª edição) integra a histologia a marcadores moleculares — como as mutações IDH e a codeleção 1p/19q nos gliomas — e gradua os tumores de 1 a 4, o que define com muito mais precisão o prognóstico e o tratamento.¹"
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O tratamento é decidido por equipe multidisciplinar (neurologista, neurocirurgião, oncologista, radioterapeuta) e pode incluir cirurgia (da biópsia à ressecção máxima segura), radioterapia e quimioterapia — como a temozolomida nos gliomas de alto grau —, além de terapias-alvo guiadas pelo perfil molecular; tumores benignos pequenos e assintomáticos, como muitos meningiomas, podem ser apenas acompanhados com exames periódicos.¹ O cuidado de suporte é essencial: medicamentos anticrise quando há epilepsia, corticoides (dexametasona) para o edema cerebral, prevenção de trombose, reabilitação e suporte psicológico ao paciente e à família. Pergunte sempre à equipe o tipo exato e o grau do seu tumor, os objetivos de cada tratamento e as opções disponíveis — inclusive a participação em pesquisas clínicas."
+      "texto": "Os tumores do sistema nervoso central são crescimentos anormais de células no cérebro ou na medula espinhal."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Podem ser primários — originados no próprio sistema nervoso, como os gliomas (do tecido cerebral), os meningiomas (das meninges, em geral benignos e os mais frequentes) e os adenomas de hipófise — ou metastáticos, quando vêm de cânceres de outros órgãos (pulmão, mama, melanoma), sendo estes, no conjunto, os mais comuns."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os sintomas dependem da localização, do tamanho e da velocidade de crescimento: dor de cabeça nova, progressiva, pior ao acordar ou acompanhada de vômitos; primeira crise epiléptica na vida adulta; fraqueza ou dormência de um lado do corpo; alterações de visão, fala, equilíbrio, memória ou comportamento."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico é feito por ressonância magnética e, na maioria dos casos, pela análise do tecido tumoral: a classificação da OMS de 2021 (5ª edição) integra a histologia a marcadores moleculares — como as mutações IDH e a codeleção 1p/19q nos gliomas — e gradua os tumores de 1 a 4, o que define com muito mais precisão o prognóstico e o tratamento.¹"
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento é decidido por equipe multidisciplinar (neurologista, neurocirurgião, oncologista, radioterapeuta) e pode incluir cirurgia (da biópsia à ressecção máxima segura), radioterapia e quimioterapia — como a temozolomida nos gliomas de alto grau —, além de terapias-alvo guiadas pelo perfil molecular; tumores benignos pequenos e assintomáticos, como muitos meningiomas, podem ser apenas acompanhados com exames periódicos.¹ O cuidado de suporte é essencial: medicamentos anticrise quando há epilepsia, corticoides (dexametasona) para o edema cerebral, prevenção de trombose, reabilitação e suporte psicológico ao paciente e à família."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Pergunte sempre à equipe o tipo exato e o grau do seu tumor, os objetivos de cada tratamento e as opções disponíveis — inclusive a participação em pesquisas clínicas."
     }
   ],
   "referencias": [

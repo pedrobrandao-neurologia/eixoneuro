@@ -179,6 +179,7 @@
       '<p>Diretor(a) técnico(a): ' + esc(clinica.diretor_tecnico.nome) + ' — CRM-DF ' + esc(clinica.diretor_tecnico.crm) + '</p>' +
       '<p>' + esc(clinica.endereco.completo) + ' · Telefone: ' + esc(clinica.telefone_exibicao) + '</p>' +
       '<p>' + dpo + 'Canal de atendimento ao consumidor: WhatsApp ' + esc(clinica.telefone_exibicao) + '.</p>' +
+      '<p>As informações deste site têm caráter informativo e não substituem uma consulta médica. Em caso de dúvidas ou sintomas, procure um médico.</p>' +
       '<p><a href="privacidade.html">Política de privacidade</a> · <a href="politica-atendimento.html">Política de atendimento, cancelamento e reembolso</a></p>' +
       '</div>' +
       '<div class="rodape__base"><span>© <span id="ano-rodape"></span> ' + esc(clinica.nome_fantasia) + '</span>' +

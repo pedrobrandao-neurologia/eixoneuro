@@ -1,12 +1,32 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "O traumatismo cranioencefálico (TCE) tem a maior incidência entre todas as doenças neurológicas comuns: estima-se que dezenas de milhões de pessoas o sofram a cada ano no mundo, causado principalmente por quedas (sobretudo em idosos) e acidentes de trânsito (especialmente motociclistas e pedestres em países de renda média, como o Brasil).¹ Mais de 90% dos casos que chegam ao hospital são classificados como leves (escala de coma de Glasgow 13–15), mas o TCE leve não deve ser subestimado: cerca de metade dos pacientes ainda não recuperou plenamente sua saúde prévia 6 meses após o trauma.¹ As sequelas variam com a gravidade e a região afetada: dores de cabeça persistentes, tontura, fadiga, dificuldades de memória, atenção e velocidade de raciocínio, irritabilidade, ansiedade, depressão, alterações do sono e, nos casos moderados e graves, déficits motores, de fala e de equilíbrio, além de epilepsia pós-traumática. O TCE é hoje reconhecido não apenas como evento agudo, mas como condição crônica, com risco aumentado de neurodegeneração tardia."
+      "tipo": "subtitulo",
+      "texto": "O que são e como se manifestam"
     },
     {
       "tipo": "paragrafo",
-      "texto": "A reabilitação multiprofissional é a base do tratamento — fisioterapia, fonoaudiologia, terapia ocupacional, neuropsicologia e psicologia — junto com o manejo médico de sintomas específicos: profilaxia adequada das cefaleias, medicamentos anticrise quando há epilepsia, tratamento da depressão e da insônia. O retorno às atividades (estudo, trabalho, exercício) deve ser gradual e orientado, respeitando a fadiga; após concussões, recomenda-se repouso relativo breve seguido de retomada progressiva, evitando novo trauma antes da recuperação completa. A recuperação pode continuar por meses a anos, e o acompanhamento estruturado após a alta — infelizmente ainda pouco oferecido — melhora os resultados.¹ Prevenção é essencial: capacete, cinto de segurança, não dirigir após beber e prevenção de quedas em idosos."
+      "texto": "O traumatismo cranioencefálico (TCE) tem a maior incidência entre todas as doenças neurológicas comuns: estima-se que dezenas de milhões de pessoas o sofram a cada ano no mundo, causado principalmente por quedas (sobretudo em idosos) e acidentes de trânsito (especialmente motociclistas e pedestres em países de renda média, como o Brasil).¹ Mais de 90% dos casos que chegam ao hospital são classificados como leves (escala de coma de Glasgow 13–15), mas o TCE leve não deve ser subestimado: cerca de metade dos pacientes ainda não recuperou plenamente sua saúde prévia 6 meses após o trauma.¹ As sequelas variam com a gravidade e a região afetada: dores de cabeça persistentes, tontura, fadiga, dificuldades de memória, atenção e velocidade de raciocínio, irritabilidade, ansiedade, depressão, alterações do sono e, nos casos moderados e graves, déficits motores, de fala e de equilíbrio, além de epilepsia pós-traumática."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O TCE é hoje reconhecido não apenas como evento agudo, mas como condição crônica, com risco aumentado de neurodegeneração tardia."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Reabilitação e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A reabilitação multiprofissional é a base do tratamento — fisioterapia, fonoaudiologia, terapia ocupacional, neuropsicologia e psicologia — junto com o manejo médico de sintomas específicos: profilaxia adequada das cefaleias, medicamentos anticrise quando há epilepsia, tratamento da depressão e da insônia."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O retorno às atividades (estudo, trabalho, exercício) deve ser gradual e orientado, respeitando a fadiga; após concussões, recomenda-se repouso relativo breve seguido de retomada progressiva, evitando novo trauma antes da recuperação completa."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A recuperação pode continuar por meses a anos, e o acompanhamento estruturado após a alta — infelizmente ainda pouco oferecido — melhora os resultados.¹ Prevenção é essencial: capacete, cinto de segurança, não dirigir após beber e prevenção de quedas em idosos."
     }
   ],
   "referencias": [

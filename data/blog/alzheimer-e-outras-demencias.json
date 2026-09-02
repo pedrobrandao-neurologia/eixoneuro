@@ -1,8 +1,24 @@
 {
   "corpo": [
     {
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
+    },
+    {
       "tipo": "paragrafo",
-      "texto": "Demência é o nome dado a um conjunto de doenças que causam declínio progressivo da memória e de outras funções mentais — linguagem, raciocínio, orientação, comportamento — a ponto de comprometer as atividades do dia a dia. Estima-se que cerca de 57 milhões de pessoas viviam com demência no mundo em 2019, número que deve quase triplicar até 2050 com o envelhecimento populacional.¹ A doença de Alzheimer é a causa mais comum e costuma começar com esquecimento de fatos recentes, repetição de perguntas e dificuldade para encontrar palavras; outras formas incluem a demência vascular (ligada a AVCs e à doença dos pequenos vasos), a demência com corpos de Lewy (com alucinações visuais, flutuações e parkinsonismo) e a demência frontotemporal (com mudanças precoces de comportamento ou de linguagem). O diagnóstico é clínico, apoiado em testes cognitivos, exames de sangue e neuroimagem (ressonância magnética), para caracterizar o padrão e excluir causas tratáveis; nem todo esquecimento é demência."
+      "texto": "Demência é o nome dado a um conjunto de doenças que causam declínio progressivo da memória e de outras funções mentais — linguagem, raciocínio, orientação, comportamento — a ponto de comprometer as atividades do dia a dia."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Estima-se que cerca de 57 milhões de pessoas viviam com demência no mundo em 2019, número que deve quase triplicar até 2050 com o envelhecimento populacional.¹ A doença de Alzheimer é a causa mais comum e costuma começar com esquecimento de fatos recentes, repetição de perguntas e dificuldade para encontrar palavras; outras formas incluem a demência vascular (ligada a AVCs e à doença dos pequenos vasos), a demência com corpos de Lewy (com alucinações visuais, flutuações e parkinsonismo) e a demência frontotemporal (com mudanças precoces de comportamento ou de linguagem)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico é clínico, apoiado em testes cognitivos, exames de sangue e neuroimagem (ressonância magnética), para caracterizar o padrão e excluir causas tratáveis; nem todo esquecimento é demência."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
     },
     {
       "tipo": "paragrafo",

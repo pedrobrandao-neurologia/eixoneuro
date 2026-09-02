@@ -1,12 +1,36 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "As doenças do neurônio motor afetam as células nervosas que comandam os músculos voluntários. A mais importante é a esclerose lateral amiotrófica (ELA), doença neurodegenerativa progressiva em que degeneram tanto os neurônios motores superiores (do cérebro) quanto os inferiores (da medula), combinando fraqueza e atrofia muscular com fasciculações (tremeliques sob a pele), cãibras, rigidez e reflexos exaltados.¹ Cerca de 90% dos casos são esporádicos e 10% familiares — os genes mais envolvidos são C9orf72 e SOD1 —, e há sobreposição biológica com a demência frontotemporal, presente em parte dos pacientes.¹ O início pode ser nos membros (uma mão ou um pé que enfraquecem) ou bulbar (fala arrastada e dificuldade para engolir), com progressão para outras regiões e, por fim, para os músculos respiratórios; sensibilidade, visão, audição, movimentos oculares e controle esfincteriano costumam ser preservados. O diagnóstico é clínico e eletroneuromiográfico, exigindo a exclusão cuidadosa de condições que imitam a ELA — algumas tratáveis, como a neuropatia motora multifocal."
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "Ainda não há cura, mas o cuidado correto prolonga e melhora a vida. O riluzol aumenta modestamente a sobrevida e a edaravona pode retardar a progressão em pacientes selecionados; para a forma familiar por mutação no gene SOD1 existe hoje o tofersen, terapia gênica antisenso.¹ O acompanhamento deve ser feito em clínica multidisciplinar — comprovadamente associado a melhor sobrevida e qualidade de vida — incluindo: suporte respiratório com ventilação não invasiva (BiPAP) quando a capacidade respiratória cai; suporte nutricional, com gastrostomia no momento oportuno para garantir alimentação e hidratação seguras; fonoaudiologia para fala, deglutição e comunicação alternativa; fisioterapia e terapia ocupacional; e tratamento de sintomas como sialorreia, cãibras, espasticidade, labilidade emocional e dor. Conversar cedo com a equipe sobre valores e preferências de cuidado, com apoio psicológico e social ao paciente e à família, é parte essencial do tratamento."
+      "texto": "As doenças do neurônio motor afetam as células nervosas que comandam os músculos voluntários."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A mais importante é a esclerose lateral amiotrófica (ELA), doença neurodegenerativa progressiva em que degeneram tanto os neurônios motores superiores (do cérebro) quanto os inferiores (da medula), combinando fraqueza e atrofia muscular com fasciculações (tremeliques sob a pele), cãibras, rigidez e reflexos exaltados.¹ Cerca de 90% dos casos são esporádicos e 10% familiares — os genes mais envolvidos são C9orf72 e SOD1 —, e há sobreposição biológica com a demência frontotemporal, presente em parte dos pacientes.¹ O início pode ser nos membros (uma mão ou um pé que enfraquecem) ou bulbar (fala arrastada e dificuldade para engolir), com progressão para outras regiões e, por fim, para os músculos respiratórios; sensibilidade, visão, audição, movimentos oculares e controle esfincteriano costumam ser preservados."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O diagnóstico é clínico e eletroneuromiográfico, exigindo a exclusão cuidadosa de condições que imitam a ELA — algumas tratáveis, como a neuropatia motora multifocal."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Ainda não há cura, mas o cuidado correto prolonga e melhora a vida."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O riluzol aumenta modestamente a sobrevida e a edaravona pode retardar a progressão em pacientes selecionados; para a forma familiar por mutação no gene SOD1 existe hoje o tofersen, terapia gênica antisenso.¹ O acompanhamento deve ser feito em clínica multidisciplinar — comprovadamente associado a melhor sobrevida e qualidade de vida — incluindo: suporte respiratório com ventilação não invasiva (BiPAP) quando a capacidade respiratória cai; suporte nutricional, com gastrostomia no momento oportuno para garantir alimentação e hidratação seguras; fonoaudiologia para fala, deglutição e comunicação alternativa; fisioterapia e terapia ocupacional; e tratamento de sintomas como sialorreia, cãibras, espasticidade, labilidade emocional e dor."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Conversar cedo com a equipe sobre valores e preferências de cuidado, com apoio psicológico e social ao paciente e à família, é parte essencial do tratamento."
     }
   ],
   "referencias": [

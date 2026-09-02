@@ -10,7 +10,8 @@
       "Doença de Parkinson"
     ],
     "condicao": null,
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "dor-de-cabeca-quando-investigar",
@@ -23,7 +24,8 @@
       "Enxaqueca"
     ],
     "condicao": null,
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "avc-cada-minuto-conta",
@@ -36,11 +38,12 @@
       "AVC"
     ],
     "condicao": null,
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "cefaleia-tipo-tensional",
-    "titulo": "Cefaleia do tipo tensional",
+    "titulo": "Cefaleia do tipo tensional: sintomas, diagnóstico e tratamento",
     "resumo": "A cefaleia do tipo tensional é o tipo mais comum de dor de cabeça e o distúrbio neurológico mais prevalente do mundo: o estudo Global Burden of Disease…",
     "data": "2026-09-02",
     "autor": "pedro-naves",
@@ -48,11 +51,12 @@
       "Cefaleia"
     ],
     "condicao": "Cefaleia do tipo tensional",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "enxaqueca-migranea",
-    "titulo": "Enxaqueca (Migrânea)",
+    "titulo": "Enxaqueca: sintomas, diagnóstico e tratamento",
     "resumo": "A enxaqueca (migrânea) é uma doença neurológica que afeta cerca de 1 bilhão de pessoas no mundo — aproximadamente 1 em cada 7 — sendo duas a três vezes…",
     "data": "2026-09-02",
     "autor": "pedro-naves",
@@ -61,11 +65,12 @@
       "Enxaqueca"
     ],
     "condicao": "Enxaqueca",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "neuropatia-diabetica",
-    "titulo": "Neuropatia diabética",
+    "titulo": "Neuropatia diabética: sintomas, diagnóstico e tratamento",
     "resumo": "A neuropatia diabética é a complicação neurológica mais comum do diabetes: até metade das pessoas com a doença desenvolve algum grau de lesão dos nervos…",
     "data": "2026-09-02",
     "autor": "murilo-guiotti",
@@ -73,11 +78,12 @@
       "Doenças neuromusculares"
     ],
     "condicao": "Neuropatia diabética",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "acidente-vascular-cerebral",
-    "titulo": "Acidente vascular cerebral (AVC)",
+    "titulo": "Acidente vascular cerebral: sintomas, diagnóstico e tratamento",
     "resumo": "O acidente vascular cerebral (AVC ou derrame) é a segunda causa de morte no mundo: em 2019 ocorreram cerca de 12,2 milhões de novos casos e 6,5 milhões de…",
     "data": "2026-09-02",
     "autor": "leticia-rebello",
@@ -86,11 +92,12 @@
       "AVC"
     ],
     "condicao": "Acidente vascular cerebral",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "cefaleia-uso-excessivo-medicamentos",
-    "titulo": "Cefaleia por uso excessivo de medicamentos",
+    "titulo": "Cefaleia por uso excessivo de medicamentos: como identificar e tratar",
     "resumo": "Quem sofre de dores de cabeça frequentes pode, sem perceber, entrar em um ciclo em que o próprio remédio para dor passa a perpetuar a dor.",
     "data": "2026-09-02",
     "autor": "pedro-naves",
@@ -98,11 +105,12 @@
       "Cefaleia"
     ],
     "condicao": "Cefaleia por uso excessivo de medicamentos",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "alzheimer-e-outras-demencias",
-    "titulo": "Doença de Alzheimer e outras demências",
+    "titulo": "Doença de Alzheimer e outras demências: sintomas, diagnóstico e tratamento",
     "resumo": "Demência é o nome dado a um conjunto de doenças que causam declínio progressivo da memória e de outras funções mentais — linguagem, raciocínio…",
     "data": "2026-09-02",
     "autor": "carlos-uribe",
@@ -111,11 +119,12 @@
       "Demências"
     ],
     "condicao": "Doença de Alzheimer e outras demências",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "epilepsia",
-    "titulo": "Epilepsia",
+    "titulo": "Epilepsia: sintomas, diagnóstico e tratamento",
     "resumo": "A epilepsia é uma das doenças neurológicas crônicas mais comuns: a prevalência de epilepsia ativa é de cerca de 6,4 por 1.000 pessoas e surgem…",
     "data": "2026-09-02",
     "autor": "pedro-naves",
@@ -123,11 +132,12 @@
       "Epilepsia"
     ],
     "condicao": "Epilepsia",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "transtorno-espectro-autista",
-    "titulo": "Transtorno do espectro autista",
+    "titulo": "Transtorno do espectro autista: sinais, diagnóstico e intervenção precoce",
     "resumo": "O transtorno do espectro autista (TEA) é uma condição do neurodesenvolvimento que afeta cerca de 1 em cada 100 crianças no mundo, sendo cerca de 4 vezes…",
     "data": "2026-09-02",
     "autor": null,
@@ -135,11 +145,12 @@
       "Neurodesenvolvimento"
     ],
     "condicao": "Transtorno do espectro autista",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "doenca-de-parkinson",
-    "titulo": "Doença de Parkinson",
+    "titulo": "Doença de Parkinson: sintomas, diagnóstico e tratamento",
     "resumo": "A doença de Parkinson é a segunda doença neurodegenerativa mais comum e a que mais cresce no mundo: o número de pessoas afetadas mais que dobrou em uma…",
     "data": "2026-09-02",
     "autor": "pedro-brandao",
@@ -148,11 +159,12 @@
       "Doença de Parkinson"
     ],
     "condicao": "Doença de Parkinson",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "sindrome-das-pernas-inquietas",
-    "titulo": "Síndrome das pernas inquietas",
+    "titulo": "Síndrome das pernas inquietas: sintomas, diagnóstico e tratamento",
     "resumo": "A síndrome das pernas inquietas (doença de Willis-Ekbom) afeta, em suas formas clinicamente relevantes, cerca de 2% a 3% dos adultos, sendo mais comum em…",
     "data": "2026-09-02",
     "autor": "pedro-brandao",
@@ -161,11 +173,12 @@
       "Sono"
     ],
     "condicao": "Síndrome das pernas inquietas",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "tremor-essencial",
-    "titulo": "Tremor essencial",
+    "titulo": "Tremor essencial: sintomas, diagnóstico e tratamento",
     "resumo": "O tremor essencial é o distúrbio do movimento mais comum do adulto: uma metanálise mundial estimou prevalência de 0,9% na população geral, subindo para…",
     "data": "2026-09-02",
     "autor": "pedro-brandao",
@@ -173,11 +186,12 @@
       "Transtornos do movimento"
     ],
     "condicao": "Tremor essencial",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "radiculopatias-e-compressoes-nervos-perifericos",
-    "titulo": "Radiculopatias e compressões de nervos periféricos",
+    "titulo": "Radiculopatias e compressões de nervos periféricos: sintomas, diagnóstico e tratamento",
     "resumo": "Os nervos podem ser comprimidos em dois pontos principais: na saída da coluna vertebral (radiculopatia) ou ao longo de seu trajeto pelos membros…",
     "data": "2026-09-02",
     "autor": "murilo-guiotti",
@@ -185,11 +199,12 @@
       "Doenças neuromusculares"
     ],
     "condicao": "Radiculopatias e compressões de nervos periféricos",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "sequelas-traumatismo-cranioencefalico",
-    "titulo": "Sequelas neurológicas de traumatismo cranioencefálico (TCE)",
+    "titulo": "Sequelas neurológicas de traumatismo cranioencefálico: cuidados e reabilitação",
     "resumo": "O traumatismo cranioencefálico (TCE) tem a maior incidência entre todas as doenças neurológicas comuns: estima-se que dezenas de milhões de pessoas o…",
     "data": "2026-09-02",
     "autor": null,
@@ -197,11 +212,12 @@
       "Reabilitação neurológica"
     ],
     "condicao": "Sequelas neurológicas de traumatismo cranioencefálico",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "sequelas-meningite",
-    "titulo": "Sequelas neurológicas de meningite",
+    "titulo": "Sequelas neurológicas de meningite: cuidados e reabilitação",
     "resumo": "A meningite é a inflamação das membranas que envolvem o cérebro e a medula, causada mais frequentemente por vírus (formas em geral benignas) ou bactérias…",
     "data": "2026-09-02",
     "autor": null,
@@ -210,11 +226,12 @@
       "Reabilitação neurológica"
     ],
     "condicao": "Sequelas neurológicas de meningite",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "encefalopatia-neonatal",
-    "titulo": "Encefalopatia neonatal",
+    "titulo": "Encefalopatia neonatal: cuidados e reabilitação",
     "resumo": "A encefalopatia neonatal é a alteração da função cerebral do recém-nascido a termo (ou quase a termo) nos primeiros dias de vida, manifestada por…",
     "data": "2026-09-02",
     "autor": null,
@@ -222,11 +239,12 @@
       "Neurodesenvolvimento"
     ],
     "condicao": "Encefalopatia neonatal",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "sequelas-nascimento-prematuro",
-    "titulo": "Sequelas neurológicas do nascimento prematuro",
+    "titulo": "Sequelas neurológicas do nascimento prematuro: cuidados e reabilitação",
     "resumo": "A prematuridade (nascimento antes de 37 semanas de gestação) é muito frequente: cerca de 15 milhões de bebês nascem prematuros a cada ano no mundo —…",
     "data": "2026-09-02",
     "autor": null,
@@ -234,11 +252,12 @@
       "Neurodesenvolvimento"
     ],
     "condicao": "Sequelas neurológicas do nascimento prematuro",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "esclerose-multipla",
-    "titulo": "Esclerose múltipla",
+    "titulo": "Esclerose múltipla: sintomas, diagnóstico e tratamento",
     "resumo": "A esclerose múltipla é uma doença inflamatória autoimune em que o sistema de defesa ataca a bainha de mielina do cérebro, da medula espinhal e dos nervos…",
     "data": "2026-09-02",
     "autor": "priscilla-proveti",
@@ -247,11 +266,12 @@
       "Esclerose múltipla"
     ],
     "condicao": "Esclerose múltipla",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "paralisia-cerebral",
-    "titulo": "Paralisia cerebral",
+    "titulo": "Paralisia cerebral: cuidados e reabilitação",
     "resumo": "A paralisia cerebral é a deficiência física mais comum da infância, ocorrendo em cerca de 1 a cada 500 nascidos vivos.¹ Pela definição internacional, é um…",
     "data": "2026-09-02",
     "autor": null,
@@ -259,11 +279,12 @@
       "Neurodesenvolvimento"
     ],
     "condicao": "Paralisia cerebral",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "distonias-primarias",
-    "titulo": "Distonias primárias",
+    "titulo": "Distonias primárias: sintomas, diagnóstico e tratamento",
     "resumo": "A distonia é definida, pelo consenso internacional de 2013, como um distúrbio do movimento caracterizado por contrações musculares sustentadas ou…",
     "data": "2026-09-02",
     "autor": "pedro-brandao",
@@ -271,11 +292,12 @@
       "Transtornos do movimento"
     ],
     "condicao": "Distonias primárias",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "sequelas-traumatismo-raquimedular",
-    "titulo": "Sequelas neurológicas de traumatismo raquimedular (TRM)",
+    "titulo": "Sequelas neurológicas de traumatismo raquimedular: cuidados e reabilitação",
     "resumo": "O traumatismo raquimedular é a lesão da medula espinhal por trauma — quedas e acidentes de trânsito são as duas principais causas no mundo, seguidos de…",
     "data": "2026-09-02",
     "autor": null,
@@ -283,11 +305,12 @@
       "Reabilitação neurológica"
     ],
     "condicao": "Sequelas neurológicas de traumatismo raquimedular",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "neurocisticercose-e-infeccoes-parasitarias-snc",
-    "titulo": "Neurocisticercose e infecções parasitárias do SNC",
+    "titulo": "Neurocisticercose e infecções parasitárias do SNC: sintomas, diagnóstico e tratamento",
     "resumo": "A neurocisticercose é a infecção parasitária mais comum do sistema nervoso central e uma das principais causas de epilepsia adquirida nas regiões…",
     "data": "2026-09-02",
     "autor": null,
@@ -295,11 +318,12 @@
       "Infecções do sistema nervoso"
     ],
     "condicao": "Neurocisticercose e infecções parasitárias do SNC",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "sequelas-encefalite",
-    "titulo": "Sequelas neurológicas de encefalite",
+    "titulo": "Sequelas neurológicas de encefalite: cuidados e reabilitação",
     "resumo": "A encefalite é a inflamação do próprio tecido cerebral.",
     "data": "2026-09-02",
     "autor": null,
@@ -308,11 +332,12 @@
       "Reabilitação neurológica"
     ],
     "condicao": "Sequelas neurológicas de encefalite",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "tumores-sistema-nervoso-central",
-    "titulo": "Tumores do sistema nervoso central",
+    "titulo": "Tumores do sistema nervoso central: sintomas, diagnóstico e tratamento",
     "resumo": "Os tumores do sistema nervoso central são crescimentos anormais de células no cérebro ou na medula espinhal.",
     "data": "2026-09-02",
     "autor": null,
@@ -320,11 +345,12 @@
       "Tumores do sistema nervoso"
     ],
     "condicao": "Tumores do sistema nervoso central",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "transtornos-de-tiques-e-sindrome-de-tourette",
-    "titulo": "Transtornos de tiques e Síndrome de Tourette",
+    "titulo": "Transtornos de tiques e Síndrome de Tourette: sintomas, diagnóstico e tratamento",
     "resumo": "Tiques são movimentos ou vocalizações súbitos, rápidos, recorrentes e não ritmados — piscar, fazer caretas, encolher os ombros, pigarrear, fungar, emitir…",
     "data": "2026-09-02",
     "autor": "pedro-brandao",
@@ -332,11 +358,12 @@
       "Transtornos do movimento"
     ],
     "condicao": "Transtornos de tiques e Síndrome de Tourette",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "miastenia-gravis",
-    "titulo": "Miastenia gravis",
+    "titulo": "Miastenia gravis: sintomas, diagnóstico e tratamento",
     "resumo": "A miastenia gravis é a doença autoimune mais comum da junção neuromuscular: anticorpos — na maioria dos casos contra o receptor de acetilcolina (AChR) e…",
     "data": "2026-09-02",
     "autor": "murilo-guiotti",
@@ -344,11 +371,12 @@
       "Doenças neuromusculares"
     ],
     "condicao": "Miastenia gravis",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "sindrome-de-guillain-barre",
-    "titulo": "Síndrome de Guillain-Barré",
+    "titulo": "Síndrome de Guillain-Barré: sintomas, diagnóstico e tratamento",
     "resumo": "A síndrome de Guillain-Barré é a causa mais comum de paralisia flácida aguda no mundo.",
     "data": "2026-09-02",
     "autor": "murilo-guiotti",
@@ -356,11 +384,12 @@
       "Doenças neuromusculares"
     ],
     "condicao": "Síndrome de Guillain-Barré",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "cidp",
-    "titulo": "Polineuropatia desmielinizante inflamatória crônica (CIDP)",
+    "titulo": "Polineuropatia desmielinizante inflamatória crônica: sintomas, diagnóstico e tratamento",
     "resumo": "A CIDP é uma doença autoimune crônica dos nervos periféricos, na qual o sistema imunológico ataca a bainha de mielina das raízes e dos nervos.",
     "data": "2026-09-02",
     "autor": "murilo-guiotti",
@@ -368,11 +397,12 @@
       "Doenças neuromusculares"
     ],
     "condicao": "Polineuropatia desmielinizante inflamatória crônica",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "doenca-de-charcot-marie-tooth",
-    "titulo": "Neuropatias hereditárias (Doença de Charcot-Marie-Tooth)",
+    "titulo": "Neuropatias hereditárias: sintomas, diagnóstico e tratamento",
     "resumo": "A doença de Charcot-Marie-Tooth (CMT) é a doença neuromuscular hereditária mais comum, com prevalência estimada em cerca de 1 para cada 2.500 pessoas, e…",
     "data": "2026-09-02",
     "autor": "murilo-guiotti",
@@ -380,11 +410,12 @@
       "Doenças neuromusculares"
     ],
     "condicao": "Neuropatias hereditárias",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "doencas-do-neuronio-motor-ela",
-    "titulo": "Doenças do neurônio motor (incluindo Esclerose Lateral Amiotrófica)",
+    "titulo": "Doenças do neurônio motor: sintomas, diagnóstico e tratamento",
     "resumo": "As doenças do neurônio motor afetam as células nervosas que comandam os músculos voluntários.",
     "data": "2026-09-02",
     "autor": "murilo-guiotti",
@@ -392,11 +423,12 @@
       "Doenças neuromusculares"
     ],
     "condicao": "Doenças do neurônio motor",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   },
   {
     "slug": "doenca-de-huntington",
-    "titulo": "Doença de Huntington",
+    "titulo": "Doença de Huntington: sintomas, diagnóstico e tratamento",
     "resumo": "A doença de Huntington é uma doença neurodegenerativa hereditária causada pela expansão de repetições CAG no gene HTT, que produz a proteína huntingtina…",
     "data": "2026-09-02",
     "autor": "pedro-brandao",
@@ -404,6 +436,7 @@
       "Transtornos do movimento"
     ],
     "condicao": "Doença de Huntington",
-    "revisado": false
+    "revisado": false,
+    "atualizado": "2026-09-02"
   }
 ]

@@ -1,12 +1,28 @@
 {
   "corpo": [
     {
-      "tipo": "paragrafo",
-      "texto": "Quem sofre de dores de cabeça frequentes pode, sem perceber, entrar em um ciclo em que o próprio remédio para dor passa a perpetuar a dor. Essa condição, chamada cefaleia por uso excessivo de medicamentos, atinge cerca de 1% da população geral, sendo bem mais comum em quem já tem enxaqueca, especialmente a forma crônica.¹ Pelos critérios da ICHD-3, ela é diagnosticada quando a pessoa tem dor de cabeça em 15 ou mais dias por mês, já tinha uma cefaleia prévia (geralmente enxaqueca ou cefaleia tensional) e vem usando, por mais de 3 meses, analgésicos simples (paracetamol, dipirona, anti-inflamatórios) em 15 ou mais dias por mês, ou triptanos, opioides, ergotamínicos ou analgésicos combinados (com cafeína, por exemplo) em 10 ou mais dias por mês.² A dor torna-se quase diária, costuma estar presente já ao acordar, e o remédio traz alívio cada vez menor e mais curto."
+      "tipo": "subtitulo",
+      "texto": "O que é, sintomas e diagnóstico"
     },
     {
       "tipo": "paragrafo",
-      "texto": "O tratamento tem três pilares, conforme revisão de Diener e colaboradores: educação do paciente sobre a relação entre o uso frequente de analgésicos e a cronificação da dor; início de um tratamento preventivo eficaz para a cefaleia de base — como topiramato ou toxina botulínica (onabotulinumtoxinA) na enxaqueca crônica, além dos anticorpos anti-CGRP; e a retirada (desintoxicação) do medicamento em excesso, que pode ser feita ambulatorialmente na maioria dos casos, com piora temporária da dor nas primeiras 1 a 2 semanas.¹ As taxas de sucesso ficam em torno de 50% a 70%, com maior risco de recaída quando o medicamento em excesso é opioide. Como regra prática de prevenção, procure não usar remédios para dor de cabeça em mais de 2 dias por semana e registre em um diário os dias de dor e de medicação."
+      "texto": "Quem sofre de dores de cabeça frequentes pode, sem perceber, entrar em um ciclo em que o próprio remédio para dor passa a perpetuar a dor."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Essa condição, chamada cefaleia por uso excessivo de medicamentos, atinge cerca de 1% da população geral, sendo bem mais comum em quem já tem enxaqueca, especialmente a forma crônica.¹ Pelos critérios da ICHD-3, ela é diagnosticada quando a pessoa tem dor de cabeça em 15 ou mais dias por mês, já tinha uma cefaleia prévia (geralmente enxaqueca ou cefaleia tensional) e vem usando, por mais de 3 meses, analgésicos simples (paracetamol, dipirona, anti-inflamatórios) em 15 ou mais dias por mês, ou triptanos, opioides, ergotamínicos ou analgésicos combinados (com cafeína, por exemplo) em 10 ou mais dias por mês.² A dor torna-se quase diária, costuma estar presente já ao acordar, e o remédio traz alívio cada vez menor e mais curto."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Tratamento e acompanhamento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O tratamento tem três pilares, conforme revisão de Diener e colaboradores: educação do paciente sobre a relação entre o uso frequente de analgésicos e a cronificação da dor; início de um tratamento preventivo eficaz para a cefaleia de base — como topiramato ou toxina botulínica (onabotulinumtoxinA) na enxaqueca crônica, além dos anticorpos anti-CGRP; e a retirada (desintoxicação) do medicamento em excesso, que pode ser feita ambulatorialmente na maioria dos casos, com piora temporária da dor nas primeiras 1 a 2 semanas.¹ As taxas de sucesso ficam em torno de 50% a 70%, com maior risco de recaída quando o medicamento em excesso é opioide."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Como regra prática de prevenção, procure não usar remédios para dor de cabeça em mais de 2 dias por semana e registre em um diário os dias de dor e de medicação."
     }
   ],
   "referencias": [
