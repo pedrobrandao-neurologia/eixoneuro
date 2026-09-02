@@ -20,6 +20,7 @@
     neurofisio: '<path d="M4 20c4 0 4-8 8-8s4 12 8 12 4-8 8-8h4"/>',
     cefaleia: '<path d="M18 6c-6 0-10 4-10 10 0 4 2 6 4 8v6h12v-6c2-2 4-4 4-8 0-6-4-10-10-10z"/><path d="M14 30h8"/>',
     neuromuscular: '<path d="M8 28c0-4 3-6 6-8s3-6 2-10M28 28c0-4-3-6-6-8s-3-6-2-10M12 8h12"/>',
+    neuropediatria: '<circle cx="18" cy="12" r="6"/><path d="M14.5 12h2l1.5-2.5 1.5 2.5h2"/><path d="M9 30c0-5 4-8 9-8s9 3 9 8"/>',
     neuropsico: '<path d="M10 26c-3-4-3-10 0-14 4-5 12-5 16 0 3 4 3 10 0 14"/><path d="M14 18h8M18 14v8"/>',
     neurocirurgia: '<path d="M12 6v10c0 6-4 8-4 14M24 6v10c0 6 4 8 4 14M12 16h12"/>',
     neurorradio: '<circle cx="18" cy="18" r="3"/><path d="M18 6v6M18 24v6M6 18h6M24 18h6M9 9l4 4M23 23l4 4M27 9l-4 4M13 23l-4 4"/>',
