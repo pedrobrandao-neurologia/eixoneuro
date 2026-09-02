@@ -79,18 +79,18 @@ incompletos, e lista as pendências (`[PLACEHOLDER]`, `"revisado": false`).
 
 `npm run check-content` deve terminar **sem erros e sem pendências**:
 
-1. Preencher todos os `[PLACEHOLDER — …]` (CRM-PJ, **diretor técnico**, DPO,
-   e-mail, valores, prazos, políticas, RQE dos profissionais parceiros,
-   duração da consulta, instruções de estacionamento/acessibilidade física).
-2. Definir `"diretor_tecnico": true` em exatamente um médico.
-3. Validar currículos e textos de exames com os médicos e trocar
+1. Preencher todos os `[PLACEHOLDER — …]` (DPO, e-mail, valores, prazos,
+   políticas, RQE dos profissionais parceiros, duração da consulta,
+   instruções de estacionamento/acessibilidade física). CRM-PJ (8637) e
+   diretora técnica (Dra. Márcia Neiva) já vêm do certificado do CRM-DF.
+2. Validar currículos e textos de exames com os médicos e trocar
    `"revisado": false` para `true`.
-4. Adicionar fotos reais (equipe, fachada e placa do **Bloco 2**, porta da
+3. Adicionar fotos reais (equipe, fachada e placa do **Bloco 2**, porta da
    clínica) em `/img/` — WebP com fallback, `loading="lazy"`, `width/height`
    explícitos e `alt` descritivo (ver `img/README.md`).
-5. Hospedar as fontes licenciadas (Aspekta, Ultra System Sans) em `/fonts/` e
+4. Hospedar as fontes licenciadas (Aspekta, Ultra System Sans) em `/fonts/` e
    descomentar os `@font-face` no topo de `css/estilo.css` (sem CDN).
-6. Rodar Lighthouse mobile: meta ≥ 90 em Performance, Acessibilidade,
+5. Rodar Lighthouse mobile: meta ≥ 90 em Performance, Acessibilidade,
    Boas práticas e SEO.
 
 ## Checklist final de conformidade
