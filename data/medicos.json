@@ -11,10 +11,11 @@
     "nao_especialista": false,
     "queixas_leigas": ["Perda de memória e suspeita de demência", "Alterações de comportamento e linguagem", "Doença de Alzheimer"],
     "formacao": [
-      "Residência em Neurologia — Hospital de Base do Distrito Federal",
-      "Mestrado e Doutorado em Neurociências"
+      "Graduação em Medicina — Universidad Industrial de Santander, Colômbia (2004)",
+      "Mestrado (2007) e Doutorado (2011) em Ciências da Saúde — Universidade de Brasília (UnB)",
+      "Residência em Neurologia — Hospital de Base do Distrito Federal (2013–2016)"
     ],
-    "mini_cv": "Neurologista com atuação em neurologia cognitiva e do comportamento: avaliação de queixas de memória, linguagem, atenção e comportamento, como as observadas na doença de Alzheimer e em outras demências. Atua também em hospitais de Brasília, no atendimento e no ensino em neurologia.",
+    "mini_cv": "Neurologista com atuação em neurologia cognitiva e do comportamento: avaliação de queixas de memória, linguagem, atenção e comportamento, como as observadas na doença de Alzheimer, em outras demências e nas doenças cerebrovasculares. Doutor em Ciências da Saúde pela UnB, com tese sobre correlatos eletroencefalográficos da memória emocional; foi professor de Neurofisiologia Médica e Fisiologia na UnB e professor de Fisiologia na Universidad Industrial de Santander. Tem publicações sobre EEG, potenciais relacionados a eventos e estimulação transcraniana. Atende em português, espanhol e inglês.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
@@ -36,11 +37,12 @@
     "nao_especialista": false,
     "queixas_leigas": ["AVC (derrame) e ataque isquêmico transitório", "Prevenção de doenças dos vasos do cérebro"],
     "formacao": [
-      "Residência em Neurologia",
+      "Graduação em Medicina — Universidade Católica de Brasília (2002–2008)",
+      "Residência em Neurologia — Hospital de Base do Distrito Federal (2009–2011)",
       "Aprimoramento em neurologia vascular — Hospital de Clínicas de Porto Alegre",
-      "Formação complementar em neurologia vascular e pesquisa clínica — Grady Memorial Hospital / Emory University (Atlanta, EUA)"
+      "Formação complementar em neurologia vascular e pesquisa clínica — Grady Memorial Hospital / Emory University (Atlanta, EUA, 2015)"
     ],
-    "mini_cv": "Neurologista com atuação em neurologia vascular: prevenção, diagnóstico e acompanhamento de AVC e de outras doenças dos vasos do cérebro. Coordena serviço de neurologia hospitalar em Brasília, é membro efetivo da Sociedade Brasileira de Doenças Cerebrovasculares e participou da diretoria da entidade (2021–2023), com artigos e capítulos publicados na área.",
+    "mini_cv": "Neurologista com atuação em neurologia vascular: prevenção, diagnóstico e acompanhamento do AVC e de outras doenças dos vasos do cérebro. Neurologista do Hospital de Base do DF desde 2016, onde é preceptora de residentes de medicina de emergência e apoia a residência de neurologia, além de investigadora principal de estudos clínicos nacionais e internacionais. Foi coordenadora de Neurologia do Hospital Sírio-Libanês de Brasília, com atuação no atendimento de pacientes internados e no gerenciamento do protocolo de AVC. Membro efetivo da Sociedade Brasileira de Doenças Cerebrovasculares, cuja diretoria integrou em 2021–2023, com artigos científicos, capítulos de livro e atividade como revisora.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
@@ -62,11 +64,11 @@
     "nao_especialista": false,
     "queixas_leigas": ["AVC (derrame) e ataque isquêmico transitório", "Prevenção de doenças dos vasos do cérebro", "Consultas de neurologia geral"],
     "formacao": [
-      "Graduação em Medicina — Universidade Federal de Uberlândia (UFU)",
-      "Residência em Neurologia — Hospital de Base do Distrito Federal",
-      "Formação em neurologia vascular — Hospital Moinhos de Vento (Porto Alegre)"
+      "Graduação em Medicina — Universidade Federal de Uberlândia (2001–2007)",
+      "Residência em Neurologia — Hospital de Base do Distrito Federal (2011–2013)",
+      "Formação complementar em neurologia vascular (360 h) — Hospital Moinhos de Vento, Porto Alegre (2015–2016)"
     ],
-    "mini_cv": "Neurologista com atuação em neurologia geral e vascular. Coordena a Unidade de AVC do Hospital Universitário de Brasília (HUB-UnB) e serviço de neurologia em rede hospitalar de Brasília, com experiência no atendimento agudo e no acompanhamento ambulatorial de pacientes com doenças cerebrovasculares.",
+    "mini_cv": "Neurologista com atuação em neurologia geral e vascular. Neurologista do Hospital Universitário de Brasília (HUB-UnB) desde 2014, como servidora pública. Lidera a Neurologia dos hospitais da Rede D'Or em Brasília (DF Star, Santa Luzia, Santa Helena e Hospital do Coração do Brasil), coordenando equipes médicas. Tem publicações sobre trombólise no AVC, neuropatias e hanseníase neural.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
@@ -90,11 +92,13 @@
     "nao_especialista": false,
     "queixas_leigas": ["Dormência, formigamento e fraqueza", "Doenças dos nervos e dos músculos", "Eletroneuromiografia (ENMG)"],
     "formacao": [
-      "Residência em Neurologia",
-      "Formação em Neurofisiologia Clínica",
-      "Preceptoria de programas de residência médica em Neurologia, Neurofisiologia Clínica e Medicina Física e Reabilitação"
+      "Graduação em Medicina — Escola Superior de Ciências da Saúde (ESCS)",
+      "Residência em Neurologia — Hospital de Base do Distrito Federal (2012–2015)",
+      "Residência em Neurofisiologia Clínica — Hospital de Base do Distrito Federal",
+      "Título de especialista em Neurofisiologia Clínica — Sociedade Brasileira de Neurofisiologia Clínica",
+      "Formação complementar em uso terapêutico de toxina botulínica (Rede Lucy Montoro/IMREA), incluindo bloqueios guiados por ultrassom e eletromiografia, distonia e dor"
     ],
-    "mini_cv": "Neurologista e neurofisiologista clínico. Atua no diagnóstico e no acompanhamento de doenças neuromusculares — neuropatias, miopatias e doenças do neurônio motor — e realiza eletroneuromiografia (ENMG). Participa da formação de novos especialistas como preceptor de residência médica.",
+    "mini_cv": "Neurologista e neurofisiologista clínico, com atuação em eletroneuromiografia (ENMG), polissonografia e monitorização neurofisiológica intraoperatória. Neurologista do Centro de Referência para Doenças Neuromusculares do DF e do Ambulatório de Bloqueios Neuromusculares do Hospital de Apoio de Brasília. É preceptor voluntário das residências de Neurologia, Neurofisiologia Clínica e Medicina Física e Reabilitação do Hospital de Base e do Hospital de Apoio de Brasília.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": ["enmg"],
@@ -116,12 +120,12 @@
     "nao_especialista": false,
     "queixas_leigas": ["Tremor e doença de Parkinson", "Movimentos involuntários (distonia, tiques, coreia)", "Alterações da marcha e quedas"],
     "formacao": [
-      "Graduação em Medicina — Universidade de Brasília (UnB)",
-      "Residência em Neurologia — Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto (USP)",
-      "Fellowship em Transtornos do Movimento — Hospital de Base do Distrito Federal",
-      "Doutorado em Ciências da Saúde (Neurociências) — Universidade de Brasília (UnB)"
+      "Graduação em Medicina — Universidade de Brasília (UnB, 2004–2009)",
+      "Residência em Neurologia Clínica — Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto, USP (2010–2012)",
+      "Fellowship em Doença de Parkinson e Distúrbios do Movimento — Hospital de Base do Distrito Federal (2013)",
+      "Doutorado em Ciências da Saúde (Neurociências) — Universidade de Brasília (UnB, 2021)"
     ],
-    "mini_cv": "Neurologista com atuação em transtornos do movimento: doença de Parkinson, tremores, distonias e outros movimentos involuntários, incluindo avaliação para estimulação cerebral profunda (DBS). Coordenou centro público de transtornos do movimento no DF, é membro titular da Academia Brasileira de Neurologia e presidiu o capítulo do Distrito Federal da entidade (2018–2019). Atua também em pesquisa clínica em neurociências.",
+    "mini_cv": "Neurologista com atuação em transtornos do movimento: doença de Parkinson, tremores, distonias e outros movimentos involuntários, incluindo avaliação para estimulação cerebral profunda (DBS). Foi neurologista do Hospital de Base do DF (2013–2016), onde coordenou o Centro de Referência em Transtornos do Movimento (2014–2016). É neurologista do Departamento Médico da Câmara dos Deputados e do corpo clínico do Hospital Sírio-Libanês (Brasília). Membro titular da Academia Brasileira de Neurologia, presidiu o capítulo do Distrito Federal da entidade (2018–2019); é membro fundador do GETMov e colaborador do Núcleo de Estudos de Grandes Temas da UnB, com experiência científica em neurociência cognitiva, neuroimagem e transtornos do movimento, com ênfase em doença de Parkinson.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
@@ -146,11 +150,12 @@
     "queixas_leigas": ["Crises epilépticas e desmaios", "Dor de cabeça e enxaqueca", "Eletroencefalograma (EEG) e vídeo-EEG"],
     "formacao": [
       "Graduação em Medicina — Universidade de Brasília (UnB)",
-      "Residência em Neurologia — Hospital de Base do Distrito Federal",
-      "Ano adicional de residência em Neurologia — Universidade Federal de São Paulo (Unifesp)",
-      "Especialização em epilepsia, eletroencefalografia e vídeo-EEG — Universidade Federal de São Paulo (Unifesp)"
+      "Residência em Neurologia — Hospital de Base do Distrito Federal, com ano adicional na Universidade Federal de São Paulo (Unifesp)",
+      "Especialização em Epilepsia, EEG e vídeo-EEG — Universidade Federal de São Paulo (Unifesp)",
+      "Mestrado em Neurologia/Neurociências — Universidade Federal de São Paulo (Unifesp)",
+      "Doutorado em Ciências da Saúde — Instituto Israelita de Ensino e Pesquisa Albert Einstein"
     ],
-    "mini_cv": "Neurologista e neurofisiologista clínico, com atuação em epilepsia e cefaleias. Realiza a investigação diagnóstica de crises epilépticas com EEG e vídeo-EEG e o acompanhamento clínico do tratamento. É membro titular da Academia Brasileira de Neurologia e da Sociedade Brasileira de Neurofisiologia Clínica.",
+    "mini_cv": "Neurologista e neurofisiologista clínico, com atuação principal em epilepsia e cefaleias. Realiza a investigação diagnóstica de crises epilépticas com EEG e vídeo-EEG e o acompanhamento clínico do tratamento; atende também distúrbios cognitivos e do sono. Integra o corpo clínico do Hospital Israelita Albert Einstein (São Paulo) e do Hospital Sírio-Libanês (Brasília). É membro titular da Academia Brasileira de Neurologia e da Sociedade Brasileira de Neurofisiologia Clínica.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
@@ -172,11 +177,12 @@
     "nao_especialista": false,
     "queixas_leigas": ["Esclerose múltipla e doenças desmielinizantes", "Doenças da imunidade do sistema nervoso", "Consultas de neurologia geral"],
     "formacao": [
-      "Formação em Neurologia — Universidade Federal de São Paulo (Unifesp)",
-      "Pós-graduação em neuroimunologia e doenças desmielinizantes — Universidade Federal de São Paulo (Unifesp)",
-      "Pós-graduação em neuroimunologia — Universitat Autònoma de Barcelona (em curso)"
+      "Graduação em Medicina — Universidade Federal do Espírito Santo (UFES, 2004–2010)",
+      "Residência em Neurologia — Universidade Federal de São Paulo (Unifesp, 2011–2013)",
+      "Especialização em Neuroimunologia — Universidade Federal de São Paulo (Unifesp, 2014–2015)",
+      "Título de especialista em Neurologia — Academia Brasileira de Neurologia"
     ],
-    "mini_cv": "Neurologista com atuação em neuroimunologia: esclerose múltipla, neuromielite óptica e outras doenças em que o sistema imunológico afeta o sistema nervoso. É neurologista do Hospital Universitário de Brasília (HUB-UnB), onde atua como preceptora de residência médica e coordena o ambulatório de doenças desmielinizantes.",
+    "mini_cv": "Neurologista com atuação em neuroimunologia: esclerose múltipla, neuromielite óptica e outras doenças em que o sistema imunológico afeta o sistema nervoso. Chefe do ambulatório de doenças desmielinizantes do Hospital Universitário de Brasília (HUB-UnB) e professora da disciplina de Neurologia da UnB; integrou o Núcleo de Neurologia do Hospital Sírio-Libanês de Brasília. Membro titular da Academia Brasileira de Neurologia, atende também cefaleias e doenças neuromusculares, com experiência em aplicação de toxina botulínica para enxaqueca crônica e bloqueios de nervos periféricos.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
@@ -198,11 +204,11 @@
     "nao_especialista": true,
     "queixas_leigas": [],
     "formacao": [
-      "Formação em Neurologia",
-      "Fellowship em neuroimunologia — Hospital de Base do Distrito Federal (em curso)",
-      "Experiência em atendimento hospitalar de emergência e enfermaria de neurologia"
+      "Graduação em Medicina — Universidade de Brasília (UnB, 2016)",
+      "Formação em Neurologia — Hospital de Base do Distrito Federal",
+      "Mestrado em Ciências Médicas — Universidade de Brasília (UnB)"
     ],
-    "mini_cv": "Médico com formação na área de neurologia e fellowship em neuroimunologia em andamento no Hospital de Base do Distrito Federal. Tem experiência em atendimento hospitalar de urgência e enfermaria de neurologia em Brasília.",
+    "mini_cv": "Médico com formação na área de neurologia pelo Hospital de Base do Distrito Federal e mestrado em Ciências Médicas pela Universidade de Brasília. Integra o corpo clínico da Marinha do Brasil e do Hospital de Base do DF, com experiência em atendimento hospitalar de urgência e enfermaria de neurologia.",
     "foto": null,
     "dias_atendimento": [],
     "exames_que_realiza": [],
