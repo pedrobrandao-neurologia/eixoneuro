@@ -44,7 +44,6 @@
       ? '<p class="nao-esp">Não especialista</p>' : '';
     return '<li><button type="button" class="card-medico" data-medico="' + E.esc(medico.id) + '" ' +
       'aria-haspopup="dialog" aria-label="Ver mini currículo de ' + E.esc(medico.nome) + '">' +
-      avatarHTML(medico, false) +
       '<h3>' + E.esc(medico.nome) + '</h3>' +
       '<p class="registro legenda">' + E.linhaRegistro(medico) + '</p>' +
       linhas + naoEsp +
