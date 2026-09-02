@@ -68,6 +68,25 @@
   var ICONE_WHATS = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.7a11.9 11.9 0 0 0 5.7 1.5c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 0 1-1.5-5.3c0-5.4 4.4-9.9 9.9-9.9 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.4-4.5 9.9-10 9.9zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>';
   var ICONE_TEL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 5c0-1 .8-2 1.9-2h2.4c.9 0 1.6.6 1.9 1.4l.9 2.8c.2.8 0 1.6-.7 2.1l-1.2 1a14.5 14.5 0 0 0 5.5 5.5l1-1.2c.5-.7 1.3-.9 2.1-.7l2.8.9c.8.3 1.4 1 1.4 1.9v2.4c0 1.1-1 1.9-2 1.9C10.6 21 3 13.4 4 5z"/></svg>';
 
+  /* Ícone da Plataforma Lattes: disco em currentColor com o glifo
+     (cometa + elipse) vazado via máscara, para se adaptar a qualquer
+     fundo do site. */
+  var ICONE_LATTES = '<svg viewBox="0 0 24 24" class="icone-lattes" aria-hidden="true">' +
+    '<defs><mask id="mascara-lattes">' +
+    '<rect width="24" height="24" fill="#fff"/>' +
+    '<circle cx="11" cy="13" r="5.7" fill="#000"/>' +
+    '<circle cx="13.4" cy="10.8" r="4.9" fill="#000"/>' +
+    '<circle cx="16.7" cy="8" r="2.1" fill="#000"/>' +
+    '<ellipse cx="12.6" cy="11.4" rx="2.7" ry="2" transform="rotate(-32 12.6 11.4)" fill="#fff"/>' +
+    '</mask></defs>' +
+    '<circle cx="12" cy="12" r="11" fill="currentColor" mask="url(#mascara-lattes)"/></svg>';
+
+  function linkLattes(url) {
+    if (!url) { return ''; }
+    return '<a class="link-lattes" href="' + esc(url) + '" target="_blank" rel="noopener">' +
+      ICONE_LATTES + '<span>Currículo Lattes</span></a>';
+  }
+
   var SIMBOLO_GRAFISMO =
     '<svg width="0" height="0" style="position:absolute" aria-hidden="true">' +
     '<symbol id="eixo-linhas" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">' +
@@ -310,6 +329,7 @@
     linhaRegistro: linhaRegistro,
     linhasEspecialidade: linhasEspecialidade,
     generoMedico: generoMedico,
+    linkLattes: linkLattes,
     ICONE_WHATS: ICONE_WHATS,
     ICONE_TEL: ICONE_TEL
   };
