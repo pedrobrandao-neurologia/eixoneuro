@@ -63,7 +63,9 @@ Termos de revisão manual (aviso): `excelência`, `eficaz`, `líder`,
 
 > Nota: o script ignora código (`<script>`, `<style>`, atributos `style=`);
 > “melhora” (evolução de sintoma) e “procure um pronto-socorro” não disparam
-> os padrões, que usam limite de palavra.
+> os padrões, que usam limite de palavra. “Centro de Referência …” (nome
+> próprio de instituição pública em que o médico atua) é permitido e não
+> dispara o padrão de “referência”.
 
 ## 4. Outras obrigações
 - **LGPD**: política de privacidade com DPO identificado; dados de saúde são

@@ -37,7 +37,9 @@ const PROIBIDOS = [
   [/\bcura(r|s|do|da|dos|das)?\b/gi, 'promessa de cura — vedada'],
   [/garant/gi, 'garantia de resultado — vedada'],
   [/definitiv/gi, '"definitivo" sugere promessa de resultado — vedado'],
-  [/\brefer[êe]ncia(s)?\b/gi, '"referência em..." — autopromoção vedada'],
+  // Exceção: "Centro de Referência …" é nome próprio de instituição pública
+  // (permitido); a vedação é a autopromoção ("referência em Brasília").
+  [/(?<!centro de )\brefer[êe]ncia(s)?\b/gi, '"referência em..." — autopromoção vedada'],
   [/pr[êe]mi/gi, 'prêmios/selos promocionais — vedados'],
   [/\btop\b/gi, 'ranking/"top" — vedado'],
   [/\branking(s)?\b/gi, 'rankings — vedados'],
