@@ -1,16 +1,17 @@
 # Eixo — Neurologia Especializada · Site institucional
 
 Site estático (HTML5 + CSS + JavaScript vanilla, sem build) da clínica
-neurológica particular **Eixo**, no Centro Clínico Lúcio Costa, Bloco 2,
-Asa Sul, Brasília-DF. Não atende convênios: consultas, exames (ENMG) e
-procedimentos (punção lombar, tap test) particulares.
+neurológica **Eixo**, no Centro Clínico Lúcio Costa, Bloco 2, Asa Sul,
+Brasília-DF: consultas, exames (ENMG) e procedimentos (punção lombar,
+tap test). Por opção da clínica, valores não são publicados no site —
+são informados pela secretaria no agendamento.
 
 ## Estrutura
 
 ```
 index.html                    Home: hero · a clínica · especialidades · equipe ·
                               outras especialidades · blog · exames (ao final) · contato
-equipe.html                   Equipe com filtros por queixa/serviço e modal de mini currículo
+equipe.html                   Equipe completa (neurologistas + demais especialistas) com modal de mini currículo
 exames-procedimentos.html     ENMG, punção lombar e tap test (renderizados de /data)
 primeira-consulta.html        Guia da primeira consulta + checklist imprimível
 receitas-laudos.html          Perguntas e respostas sobre documentos
@@ -117,7 +118,7 @@ incompletos, e lista as pendências (`[PLACEHOLDER]`, `"revisado": false`).
 ## Checklist final de conformidade
 
 - [ ] Identificação obrigatória (razão social, CRM-PJ, diretor técnico,
-      endereço, telefone, CNPJ) em toda página — rodapé + faixa na home
+      endereço, telefone, CNPJ) em toda página — no rodapé
 - [ ] Um único diretor técnico
 - [ ] Nenhum médico sem CRM/RQE ou sem “NÃO ESPECIALISTA”
 - [ ] Modal da equipe navegável por teclado (Tab preso, Esc fecha, foco volta)

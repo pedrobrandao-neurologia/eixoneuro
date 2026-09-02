@@ -31,8 +31,10 @@
     "precisa_acompanhante": false,
     "precisa_pedido_medico": true,
     "prazo_laudo": "[PLACEHOLDER — prazo de entrega do laudo]",
-    "valor": "[PLACEHOLDER — valor do exame]",
-    "medicos": ["murilo-guiotti"],
+    "valor": null,
+    "medicos": [
+      "murilo-guiotti"
+    ],
     "revisado": false
   }
 ]

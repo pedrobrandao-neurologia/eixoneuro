@@ -4,18 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Equipe médica · Eixo — Neurologia Especializada, Brasília</title>
-<meta name="description" content="Conheça os neurologistas da Eixo, em Brasília-DF: identificação com CRM e RQE, mini currículo, áreas de atendimento e agendamento particular pelo WhatsApp.">
+<meta name="description" content="Conheça os neurologistas da Eixo, em Brasília-DF: identificação com CRM e RQE, mini currículo, áreas de atendimento e agendamento pelo WhatsApp.">
 <link rel="canonical" href="https://eixoneuro.com.br/equipe.html">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Equipe médica · Eixo — Neurologia Especializada">
-<meta property="og:description" content="Neurologistas com CRM e RQE em Brasília-DF. Filtre por queixa ou por exame e veja o mini currículo de cada médico.">
+<meta property="og:description" content="Neurologistas com CRM e RQE em Brasília-DF. Veja o mini currículo de cada médico e dos demais especialistas da clínica.">
 <meta property="og:url" content="https://eixoneuro.com.br/equipe.html">
 <meta property="og:image" content="https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1.png">
 <link rel="icon" href="https://eixoneuro.com.br/wp-content/uploads/2025/04/cropped-favicon2-32x32.png" sizes="32x32">
 <link rel="stylesheet" href="css/estilo.css">
 <script defer src="js/comum.js"></script>
 <script defer src="js/equipe.js"></script>
+<script defer src="js/outros.js"></script>
 </head>
 <body data-pagina="equipe">
 
@@ -36,23 +37,21 @@
   <section class="faixa escuro" aria-label="Lista de médicos">
     <div class="miolo">
       <p class="banner-revisao" id="aviso-revisao-equipe" hidden>Os currículos abaixo estão em revisão pela equipe médica.</p>
-
-      <div class="filtros">
-        <label for="filtro-queixa">Filtrar por queixa
-          <select id="filtro-queixa">
-            <option value="">Todas as queixas</option>
-          </select>
-        </label>
-        <label for="filtro-servico">Filtrar por exame ou procedimento
-          <select id="filtro-servico">
-            <option value="">Todos os exames e procedimentos</option>
-          </select>
-        </label>
-        <button type="button" class="limpar" id="limpar-filtros">Limpar filtros</button>
-      </div>
-
+      <p style="margin-bottom:28px;max-width:62ch">Todos os neurologistas da equipe atendem as doenças neurológicas em geral; as áreas indicadas em cada card são focos de dedicação especial.</p>
       <ul class="grade-medicos" id="grade-equipe"></ul>
-      <p id="sem-resultados" hidden style="margin-top:24px">Nenhum médico corresponde aos filtros escolhidos. <button type="button" class="limpar" onclick="document.getElementById('limpar-filtros').click()" style="border-bottom:1px solid currentColor">Limpar filtros</button> para ver toda a equipe.</p>
+    </div>
+  </section>
+
+  <section class="faixa menta" aria-labelledby="titulo-outras-equipe">
+    <div class="miolo">
+      <div class="cabecalho-secao">
+        <div>
+          <p class="legenda">Outras especialidades</p>
+          <h2 id="titulo-outras-equipe">Cuidado integrado, no mesmo lugar.</h2>
+        </div>
+        <p>Especialistas de áreas que dialogam com a neurologia e completam o acompanhamento do paciente. Toque em "ver mini currículo" para conhecer a formação de cada um.</p>
+      </div>
+      <ul class="lista-esp" id="lista-outras"></ul>
     </div>
   </section>
 

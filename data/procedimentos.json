@@ -38,7 +38,7 @@
     "precisa_acompanhante": true,
     "precisa_pedido_medico": true,
     "prazo_laudo": "[PLACEHOLDER — prazo dos resultados e forma de entrega]",
-    "valor": "[PLACEHOLDER — valor do procedimento]",
+    "valor": null,
     "medicos": [
       "marcia-neiva"
     ],
@@ -81,7 +81,7 @@
     "precisa_acompanhante": true,
     "precisa_pedido_medico": true,
     "prazo_laudo": "[PLACEHOLDER — prazo do relatório e forma de entrega]",
-    "valor": "[PLACEHOLDER — valor do procedimento]",
+    "valor": null,
     "medicos": [
       "marcia-neiva"
     ],
