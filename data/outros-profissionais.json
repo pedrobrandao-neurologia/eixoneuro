@@ -7,7 +7,12 @@
     "especialidade": "Neuropsicologia",
     "rqe": null,
     "descricao": "Avaliação das funções cognitivas, emocionais e comportamentais, auxiliando no diagnóstico e no acompanhamento de condições neurológicas e psiquiátricas.",
-    "icone": "neuropsico"
+    "icone": "neuropsico",
+    "mini_cv": "Psicóloga com atuação em neuropsicologia e psicopatologia: avaliação de funções cognitivas e apoio ao diagnóstico de transtornos mentais e do neurodesenvolvimento.",
+    "formacao": [
+      "[PLACEHOLDER — formação acadêmica a confirmar com a profissional]"
+    ],
+    "revisado": false
   },
   {
     "id": "fabio-fernandes",
@@ -17,17 +22,36 @@
     "especialidade": "Neurocirurgia",
     "rqe": "[PLACEHOLDER — RQE]",
     "descricao": "Avaliação e tratamento cirúrgico de doenças do sistema nervoso, em conjunto com a equipe clínica de neurologia.",
-    "icone": "neurocirurgia"
+    "icone": "neurocirurgia",
+    "mini_cv": "Neurocirurgião com atuação em neuro-oncologia e cirurgia de coluna, incluindo técnicas endoscópicas. Neurocirurgião do Hospital Universitário de Brasília (HUB-UnB) desde 2014, com publicação na área (International Journal of Women's Health, 2018).",
+    "formacao": [
+      "Graduação em Medicina — Universidade de Brasília (UnB, 2004)",
+      "Residência em Neurocirurgia — Hospital Municipal Prof. Dr. Alípio Correa Netto, São Paulo (2011)",
+      "Título de especialista — Sociedade Brasileira de Neurocirurgia (2012)",
+      "Estágio em neurocirurgia de tumores do sistema nervoso central (862 h) — Hospital A.C. Camargo (SP)",
+      "Curso de cirurgia endonasal endoscópica da base do crânio — University of Pittsburgh (2012)",
+      "Pós-graduação em Neuro-Oncologia — IEP do Hospital Sírio-Libanês (2013)",
+      "Mestrado — Universidade de Brasília (UnB, 2016)",
+      "Fellowship em tumores de coluna vertebral — MD Anderson Cancer Center, Houston (2019)",
+      "MBA em Gestão em Saúde — FGV (2022)",
+      "Pós-graduação em cirurgia endoscópica de coluna — USP-Ribeirão Preto (2023)"
+    ],
+    "revisado": true
   },
   {
     "id": "bruno-parente",
     "nome": "Dr. Bruno Parente",
     "profissao": "Médico",
-    "conselho": "CRM-DF 16.510",
+    "conselho": "[PLACEHOLDER — CRM-DF a confirmar com o médico (fontes divergentes)]",
     "especialidade": "Neurorradiologia intervencionista",
     "rqe": "[PLACEHOLDER — RQE]",
     "descricao": "Diagnóstico por imagem e tratamento minimamente invasivo de doenças dos vasos do cérebro e da coluna, como aneurismas e malformações.",
-    "icone": "neurorradio"
+    "icone": "neurorradio",
+    "mini_cv": "[PLACEHOLDER — mini currículo a fornecer pelo médico. Registrado como orientador de especialização em Neurorradiologia Intervencionista; graduação, residência e CRM aguardam confirmação.]",
+    "formacao": [
+      "[PLACEHOLDER — formação a confirmar com o médico]"
+    ],
+    "revisado": false
   },
   {
     "id": "victor-nogueira",
@@ -37,7 +61,15 @@
     "especialidade": "Cardiologia",
     "rqe": "[PLACEHOLDER — RQE]",
     "descricao": "Prevenção, diagnóstico e tratamento de doenças do coração e dos vasos, como hipertensão e arritmias — fatores diretamente ligados à saúde do cérebro.",
-    "icone": "cardio"
+    "icone": "cardio",
+    "mini_cv": "Cardiologista com formação em imagem cardiovascular pelo InCor (HC-FMUSP) e experiência em medicina interna, emergência, terapia intensiva e radiologia cardiovascular. Atuou em UTI cardiológica nos hospitais Vila Nova Star e São Luiz Itaim (SP), com coautoria de publicação no Journal of Cardiovascular Magnetic Resonance (2024).",
+    "formacao": [
+      "Graduação em Medicina — Universidade de Fortaleza (2011–2017)",
+      "Residência em Clínica Médica — Hospital do Servidor Público Estadual de São Paulo (2018–2020)",
+      "Residência em Cardiologia — InCor, Hospital das Clínicas da FMUSP (2021–2023)",
+      "Fellowship em Imagem Cardiovascular — InCor, Hospital das Clínicas da FMUSP (2023–2025)"
+    ],
+    "revisado": true
   },
   {
     "id": "larissa-abreu",
@@ -47,36 +79,48 @@
     "especialidade": "Geriatria",
     "rqe": "[PLACEHOLDER — RQE]",
     "descricao": "Saúde da pessoa idosa, com foco na prevenção, no diagnóstico e no acompanhamento das condições relacionadas ao envelhecimento.",
-    "icone": "geriatria"
-  },
-  {
-    "id": "angelica-cappelleso",
-    "nome": "Dra. Angelica Bruschi Cappelleso",
-    "profissao": "Médica",
-    "conselho": "CRM 28.501",
-    "especialidade": "Psiquiatria",
-    "rqe": "[PLACEHOLDER — RQE]",
-    "descricao": "Diagnóstico e acompanhamento de transtornos mentais e emocionais, como depressão, ansiedade e transtorno bipolar.",
-    "icone": "psiquiatria"
+    "icone": "geriatria",
+    "mini_cv": "Geriatra com residência médica pelo Hospital Universitário de Brasília (HUB-UnB/Ebserh), concluída em 2024, com trabalho de conclusão sobre estimulantes de apetite em idosos (revisão sistemática com metanálise).",
+    "formacao": [
+      "Residência em Geriatria — Hospital Universitário de Brasília (HUB-UnB/Ebserh, 2024)",
+      "[PLACEHOLDER — graduação e demais titulações a confirmar]"
+    ],
+    "revisado": false
   },
   {
     "id": "roseana-netto",
-    "nome": "Dra. Roseana Netto",
+    "nome": "Dra. Roseana Netto Pereira",
     "profissao": "Médica",
     "conselho": "CRM-DF 25.239",
     "especialidade": "Otoneurologia",
-    "rqe": "[PLACEHOLDER — RQE]",
+    "rqe": "[PLACEHOLDER — RQE de Otorrinolaringologia]",
     "descricao": "Distúrbios do equilíbrio e da audição relacionados ao sistema nervoso, como tonturas, vertigens e zumbido.",
-    "icone": "otoneuro"
+    "icone": "otoneuro",
+    "mini_cv": "Otorrinolaringologista com atuação dedicada à otoneurologia: distúrbios do equilíbrio e da audição, como tontura, vertigem e zumbido. Membro da Associação Brasileira de Otorrinolaringologia e Cirurgia Cérvico-Facial (ABORL-CCF).",
+    "formacao": [
+      "Graduação em Medicina — Universidade Federal de Goiás (UFG)",
+      "Residência em Otorrinolaringologia — Faculdade de Medicina de Jundiaí",
+      "Fellowship em Otoneurologia — Universidade Federal de São Paulo (Unifesp)"
+    ],
+    "revisado": true
   },
   {
     "id": "izaura-guedes",
     "nome": "Dra. Izaura Tereza Silva Guedes",
     "profissao": "Médica",
-    "conselho": "[PLACEHOLDER — CRM-DF]",
+    "conselho": "CRM-DF 34.159",
     "especialidade": "Reumatologia",
-    "rqe": "[PLACEHOLDER — RQE]",
+    "rqe": "25200",
     "descricao": "Prevenção, diagnóstico e acompanhamento de doenças que afetam articulações, músculos e ossos, como artrite, lúpus e fibromialgia.",
-    "icone": "reumato"
+    "icone": "reumato",
+    "mini_cv": "Reumatologista com atuação em artrite reumatoide, espondiloartrites, lúpus, doença de Behçet, osteoartrite e fibromialgia, incluindo ultrassonografia articular. Atende também no Hospital Santa Helena (Rede D'Or), em Brasília, com trabalhos apresentados em congressos da Sociedade Brasileira de Reumatologia e publicação sobre efeitos cutâneos do rituximabe (Revista Científica do IAMSPE, 2020).",
+    "formacao": [
+      "Graduação em Medicina — Universidade Potiguar (2017)",
+      "Residência em Clínica Médica — IAMSPE, São Paulo (2018–2020) — RQE nº 25148",
+      "Residência em Reumatologia — Universidade Federal de São Paulo (Unifesp, 2021–2023)",
+      "Título de especialista — Sociedade Brasileira de Reumatologia (2023) — RQE nº 25200",
+      "Pós-graduação em ultrassonografia aplicada à reumatologia — Cetrus (em curso)"
+    ],
+    "revisado": true
   }
 ]

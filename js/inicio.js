@@ -83,6 +83,12 @@
     }).join('');
   }
 
+  function tituloProfissional(p) {
+    return /médic/i.test(p.profissao)
+      ? (p.profissao === 'Médica' ? 'MÉDICA' : 'MÉDICO')
+      : p.profissao.toUpperCase();
+  }
+
   function montarOutras(profissionais) {
     var alvo = document.getElementById('lista-outras');
     if (!alvo) { return; }
@@ -91,15 +97,42 @@
       if (p.profissao !== 'Psicóloga' && p.profissao !== 'Psicólogo') {
         rqe = ' · RQE nº ' + E.esc(p.rqe || '[PLACEHOLDER — RQE]');
       }
-      var titulo = /médic/i.test(p.profissao)
-        ? (p.profissao === 'Médica' ? 'MÉDICA' : 'MÉDICO')
-        : E.esc(p.profissao).toUpperCase();
+      var botao = p.mini_cv
+        ? '<button type="button" class="ver-cv" data-outro="' + E.esc(p.id) + '" aria-haspopup="dialog" aria-label="Ver mini currículo de ' + E.esc(p.nome) + '">Ver mini currículo</button>'
+        : '';
       return '<li>' +
         icone(p.icone) +
         '<div><h3>' + E.esc(p.especialidade) + '</h3><p>' + E.esc(p.descricao) + '</p></div>' +
-        '<span class="quem legenda">' + E.esc(p.nome) + ' · ' + E.esc(p.conselho) + ' — ' + titulo + rqe + '</span>' +
+        '<span class="quem legenda">' + E.esc(p.nome) + ' · ' + E.esc(p.conselho) + ' — ' + E.esc(tituloProfissional(p)) + rqe + '</span>' +
+        botao +
         '</li>';
     }).join('');
+
+    alvo.addEventListener('click', function (e) {
+      var botao = e.target.closest('[data-outro]');
+      if (!botao || !window.EIXO_MODAL) { return; }
+      var p = profissionais.find(function (x) { return x.id === botao.getAttribute('data-outro'); });
+      if (p) { window.EIXO_MODAL.abrir(modalOutroHTML(p)); }
+    });
+  }
+
+  function modalOutroHTML(p) {
+    var rqe = (p.profissao !== 'Psicóloga' && p.profissao !== 'Psicólogo')
+      ? '<p class="registro legenda">' + E.esc(p.especialidade) + ' — RQE nº ' + E.esc(p.rqe || '[PLACEHOLDER — RQE]') + '</p>'
+      : '<p class="registro legenda">' + E.esc(p.especialidade) + '</p>';
+    var formacao = (p.formacao && p.formacao.length)
+      ? '<h3>Formação e titulação</h3><ul>' + p.formacao.map(function (f) {
+          return '<li>' + E.esc(f) + '</li>';
+        }).join('') + '</ul>'
+      : '';
+    var revisao = p.revisado === false
+      ? '<p class="banner-revisao" style="margin-top:20px;margin-bottom:0">Conteúdo em revisão pela equipe.</p>'
+      : '';
+    return '<h2 id="modal-medico-titulo">' + E.esc(p.nome) + '</h2>' +
+      '<p class="registro legenda">' + E.esc(p.conselho) + ' — ' + E.esc(tituloProfissional(p)) + '</p>' +
+      rqe +
+      '<h3>Mini currículo</h3><p>' + E.esc(p.mini_cv) + '</p>' +
+      formacao + revisao;
   }
 
   function montarPostsRecentes(posts, medicos) {
