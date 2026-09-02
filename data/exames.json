@@ -1,0 +1,38 @@
+[
+  {
+    "id": "enmg",
+    "nome": "Eletroneuromiografia (ENMG)",
+    "nome_leigo": "Exame dos nervos e dos músculos",
+    "descricao_curta": "Exame que avalia o funcionamento dos nervos e dos músculos, usado na investigação de dormência, formigamento, fraqueza e dor.",
+    "para_que_serve": "Ajuda a diagnosticar doenças dos nervos periféricos (neuropatias), das raízes nervosas (como as compressões por hérnia de disco), da junção entre nervo e músculo (como a miastenia) e dos músculos (miopatias).",
+    "como_e_feito": "O exame tem duas etapas. Na primeira, pequenos estímulos elétricos são aplicados na pele para medir a condução dos nervos. Na segunda, uma agulha fina descartável registra a atividade elétrica de alguns músculos. Pode causar desconforto leve e passageiro, mas a maioria das pessoas tolera bem o exame.",
+    "duracao": "Em média, de 30 a 60 minutos, conforme a região avaliada.",
+    "preparo": [
+      "Não é necessário jejum. Alimente-se normalmente e tome seus medicamentos habituais, salvo orientação contrária do médico.",
+      "No dia do exame, não aplique cremes, óleos ou hidratantes na pele das regiões que serão examinadas.",
+      "Prefira roupas confortáveis, que facilitem o acesso a braços e pernas."
+    ],
+    "o_que_trazer": [
+      "Pedido médico do exame",
+      "Documento com foto",
+      "Exames anteriores relacionados (ENMG prévias, ressonâncias, tomografias, exames de sangue)",
+      "Lista dos medicamentos em uso"
+    ],
+    "contraindicacoes_avisar": [
+      "Uso de anticoagulantes ou antiagregantes (ex.: varfarina, rivaroxabana, apixabana, AAS, clopidogrel)",
+      "Uso de marcapasso cardíaco ou outros dispositivos eletrônicos implantados",
+      "Distúrbios de coagulação",
+      "Gestação ou suspeita de gestação"
+    ],
+    "apos_o_exame": [
+      "Não há restrições: é possível dirigir e retomar as atividades normalmente.",
+      "Pequeno desconforto local pode ocorrer e costuma desaparecer no mesmo dia."
+    ],
+    "precisa_acompanhante": false,
+    "precisa_pedido_medico": true,
+    "prazo_laudo": "[PLACEHOLDER — prazo de entrega do laudo]",
+    "valor": "[PLACEHOLDER — valor do exame]",
+    "medicos": ["murilo-guiotti"],
+    "revisado": false
+  }
+]

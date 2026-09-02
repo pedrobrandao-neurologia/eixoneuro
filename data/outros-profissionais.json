@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ana-paula-avila",
+    "nome": "Dra. Ana Paula Ávila de Oliveira",
+    "profissao": "Psicóloga",
+    "conselho": "CRP 01/15128",
+    "especialidade": "Neuropsicologia",
+    "rqe": null,
+    "descricao": "Avaliação das funções cognitivas, emocionais e comportamentais, auxiliando no diagnóstico e no acompanhamento de condições neurológicas e psiquiátricas."
+  },
+  {
+    "id": "fabio-fernandes",
+    "nome": "Dr. Fábio Simões Fernandes",
+    "profissao": "Médico",
+    "conselho": "CRM-DF 13.592",
+    "especialidade": "Neurocirurgia",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Avaliação e tratamento cirúrgico de doenças do sistema nervoso, em conjunto com a equipe clínica de neurologia."
+  },
+  {
+    "id": "bruno-parente",
+    "nome": "Dr. Bruno Parente",
+    "profissao": "Médico",
+    "conselho": "CRM-DF 16.510",
+    "especialidade": "Neurorradiologia intervencionista",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Diagnóstico por imagem e tratamento minimamente invasivo de doenças dos vasos do cérebro e da coluna, como aneurismas e malformações."
+  },
+  {
+    "id": "victor-nogueira",
+    "nome": "Dr. Victor Gurgel Freire Nogueira",
+    "profissao": "Médico",
+    "conselho": "CRM-DF 33.824",
+    "especialidade": "Cardiologia",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Prevenção, diagnóstico e tratamento de doenças do coração e dos vasos, como hipertensão e arritmias — fatores diretamente ligados à saúde do cérebro."
+  },
+  {
+    "id": "larissa-abreu",
+    "nome": "Dra. Larissa de Freitas do Lago e Abreu",
+    "profissao": "Médica",
+    "conselho": "CRM-DF 29.636",
+    "especialidade": "Geriatria",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Saúde da pessoa idosa, com foco na prevenção, no diagnóstico e no acompanhamento das condições relacionadas ao envelhecimento."
+  },
+  {
+    "id": "angelica-cappelleso",
+    "nome": "Dra. Angelica Bruschi Cappelleso",
+    "profissao": "Médica",
+    "conselho": "CRM 28.501",
+    "especialidade": "Psiquiatria",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Diagnóstico e acompanhamento de transtornos mentais e emocionais, como depressão, ansiedade e transtorno bipolar."
+  },
+  {
+    "id": "roseana-netto",
+    "nome": "Dra. Roseana Netto",
+    "profissao": "Médica",
+    "conselho": "CRM-DF 25.239",
+    "especialidade": "Otoneurologia",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Distúrbios do equilíbrio e da audição relacionados ao sistema nervoso, como tonturas, vertigens e zumbido."
+  },
+  {
+    "id": "izaura-guedes",
+    "nome": "Dra. Izaura Tereza Silva Guedes",
+    "profissao": "Médica",
+    "conselho": "[PLACEHOLDER — CRM-DF]",
+    "especialidade": "Reumatologia",
+    "rqe": "[PLACEHOLDER — RQE]",
+    "descricao": "Prevenção, diagnóstico e acompanhamento de doenças que afetam articulações, músculos e ossos, como artrite, lúpus e fibromialgia."
+  }
+]

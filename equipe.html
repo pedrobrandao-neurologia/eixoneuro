@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equipe médica · Eixo — Neurologia Especializada, Brasília</title>
+<meta name="description" content="Conheça os neurologistas da Eixo, em Brasília-DF: identificação com CRM e RQE, mini currículo, áreas de atendimento e agendamento particular pelo WhatsApp.">
+<link rel="canonical" href="https://eixoneuro.com.br/equipe.html">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Equipe médica · Eixo — Neurologia Especializada">
+<meta property="og:description" content="Neurologistas com CRM e RQE em Brasília-DF. Filtre por queixa ou por exame e veja o mini currículo de cada médico.">
+<meta property="og:url" content="https://eixoneuro.com.br/equipe.html">
+<meta property="og:image" content="https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1.png">
+<link rel="icon" href="https://eixoneuro.com.br/wp-content/uploads/2025/04/cropped-favicon2-32x32.png" sizes="32x32">
+<link rel="stylesheet" href="css/estilo.css">
+<script defer src="js/comum.js"></script>
+<script defer src="js/equipe.js"></script>
+</head>
+<body data-pagina="equipe">
+
+<a class="pular-link" href="#conteudo">Pular para o conteúdo</a>
+<div id="cabecalho-site"></div>
+
+<main id="conteudo">
+
+  <section class="cabeca-pagina faixa faixa--curta" aria-labelledby="titulo-pagina">
+    <svg class="grafismo" aria-hidden="true"><use href="#eixo-linhas"/></svg>
+    <div class="miolo">
+      <p class="legenda">Equipe</p>
+      <h1 id="titulo-pagina">Quem cuida de você.</h1>
+      <p class="resumo">Cada médico é identificado com nome completo, CRM-DF e registro de qualificação de especialista (RQE), como exige o Conselho Federal de Medicina. Toque em um card para ver formação, titulação e o que cada um atende.</p>
+    </div>
+  </section>
+
+  <section class="faixa escuro" aria-label="Lista de médicos">
+    <div class="miolo">
+      <p class="banner-revisao" id="aviso-revisao-equipe" hidden>Os currículos abaixo estão em revisão pela equipe médica.</p>
+
+      <div class="filtros">
+        <label for="filtro-queixa">Filtrar por queixa
+          <select id="filtro-queixa">
+            <option value="">Todas as queixas</option>
+          </select>
+        </label>
+        <label for="filtro-servico">Filtrar por exame ou procedimento
+          <select id="filtro-servico">
+            <option value="">Todos os exames e procedimentos</option>
+          </select>
+        </label>
+        <button type="button" class="limpar" id="limpar-filtros">Limpar filtros</button>
+      </div>
+
+      <ul class="grade-medicos" id="grade-equipe"></ul>
+      <p id="sem-resultados" hidden style="margin-top:24px">Nenhum médico corresponde aos filtros escolhidos. <button type="button" class="limpar" onclick="document.getElementById('limpar-filtros').click()" style="border-bottom:1px solid currentColor">Limpar filtros</button> para ver toda a equipe.</p>
+    </div>
+  </section>
+
+  <section class="faixa faixa--curta" aria-label="Agendamento">
+    <div class="miolo">
+      <p style="font-size:1.05rem;max-width:60ch">Em dúvida sobre qual médico procurar? Fale com a recepção pelo WhatsApp e descreva brevemente a sua necessidade — indicamos o profissional adequado.</p>
+      <p style="margin-top:20px"><a class="botao botao--cheio" data-clinica-whats href="contato.html">Agendar pelo WhatsApp</a></p>
+    </div>
+  </section>
+
+</main>
+
+<div id="rodape-site"></div>
+
+<noscript>
+  <div style="padding:24px;max-width:800px;margin:0 auto;font-family:system-ui,sans-serif">
+    <p><strong>Eixo — Neurologia Especializada</strong> · Centro Clínico Lúcio Costa — Bloco 2, Salas 136 a 138, SQAS QI 610, Asa Sul, Brasília-DF. Telefone: <a href="tel:+5561991246115">(61) 99124-6115</a>.</p>
+    <p>Este site precisa de JavaScript para exibir a equipe médica.</p>
+  </div>
+</noscript>
+
+</body>
+</html>

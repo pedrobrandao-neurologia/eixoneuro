@@ -3,696 +3,197 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eixo — Neurologia Especializada em Brasília</title>
-<meta name="description" content="Clínica de neurologia em Brasília com equipe especializada em transtornos do movimento, epilepsia, cefaleia, neurologia vascular, cognitiva, neuroimunologia e doenças neuromusculares.">
+<title>Eixo — Neurologia Especializada em Brasília · Atendimento particular</title>
+<meta name="description" content="Clínica de neurologia particular no Centro Clínico Lúcio Costa, Bloco 2, Asa Sul, Brasília-DF. Consultas com neurologistas com RQE, eletroneuromiografia (ENMG), punção lombar e tap test. Não atendemos convênios.">
 <link rel="canonical" href="https://eixoneuro.com.br/">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Eixo — Neurologia Especializada em Brasília">
-<meta property="og:description" content="Precisão, inteligência, cuidado. Neurologia especializada com atendimento humanizado, no Plano Piloto.">
+<meta property="og:description" content="Neurologia particular no Centro Clínico Lúcio Costa, Bloco 2, Brasília-DF. Consultas, ENMG, punção lombar e tap test.">
+<meta property="og:url" content="https://eixoneuro.com.br/">
 <meta property="og:image" content="https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1.png">
 <link rel="icon" href="https://eixoneuro.com.br/wp-content/uploads/2025/04/cropped-favicon2-32x32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="https://eixoneuro.com.br/wp-content/uploads/2025/04/cropped-favicon2-180x180.png">
-
-<!--
-  TIPOGRAFIA
-  O manual usa Aspekta (textos) e Ultra System Sans (legendas em caixa alta, estendida).
-  Como são fontes licenciadas, o site carrega alternativas próximas via Google Fonts
-  e deixa as originais como primeira opção na pilha. Para usar as originais,
-  hospede os arquivos em /fonts e descomente os @font-face abaixo.
--->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Archivo:wdth,wght@125,500&display=swap" rel="stylesheet">
-
-<style>
-/*
-@font-face{font-family:"Aspekta";src:url("fonts/Aspekta-300.woff2") format("woff2");font-weight:300;font-display:swap}
-@font-face{font-family:"Aspekta";src:url("fonts/Aspekta-400.woff2") format("woff2");font-weight:400;font-display:swap}
-@font-face{font-family:"Ultra System Sans";src:url("fonts/UltraSystemSans-Regular.woff2") format("woff2");font-weight:500;font-display:swap}
-*/
-
-:root{
-  --creme:#EAE8DF;
-  --ocre:#938561;
-  --menta:#CDE5CF;
-  --petroleo:#0D282E;
-  --tinta:#0D282E;
-  --linha:rgba(13,40,46,.28);
-
-  --f-texto:"Aspekta","Instrument Sans",system-ui,sans-serif;
-  --f-legenda:"Ultra System Sans","Archivo",system-ui,sans-serif;
-
-  --margem:clamp(20px,5vw,72px);
-  --largura:1280px;
-}
-
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{
-  font-family:var(--f-texto);
-  font-weight:400;
-  color:var(--tinta);
-  background:var(--creme);
-  line-height:1.5;
-  -webkit-font-smoothing:antialiased;
-}
-img{display:block;max-width:100%}
-a{color:inherit;text-decoration:none}
-ul{list-style:none}
-:focus-visible{outline:2px solid var(--petroleo);outline-offset:4px}
-.escuro :focus-visible{outline-color:var(--menta)}
-
-/* ---------- tipografia ---------- */
-.legenda{
-  font-family:var(--f-legenda);
-  font-stretch:125%;
-  font-weight:500;
-  font-size:.68rem;
-  letter-spacing:.22em;
-  text-transform:uppercase;
-  line-height:1.6;
-}
-h1,h2,h3{font-weight:300;letter-spacing:-.02em;line-height:1.05}
-h1{font-size:clamp(2.6rem,7vw,5.6rem)}
-h2{font-size:clamp(2rem,4.2vw,3.4rem)}
-h3{font-size:clamp(1.25rem,1.8vw,1.55rem);letter-spacing:-.01em;line-height:1.2}
-p{max-width:58ch}
-
-/* ---------- estrutura ---------- */
-.faixa{padding:clamp(72px,9vw,128px) var(--margem)}
-.miolo{max-width:var(--largura);margin:0 auto}
-.escuro{background:var(--petroleo);color:var(--creme)}
-.escuro .legenda{color:var(--menta)}
-.ocre{background:var(--ocre);color:var(--creme)}
-.menta{background:var(--menta);color:var(--petroleo)}
-
-.grafismo{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-.grafismo path,.grafismo line{fill:none;stroke:currentColor;stroke-width:1;vector-effect:non-scaling-stroke}
-
-/* ---------- botões ---------- */
-.botao{
-  display:inline-flex;align-items:center;gap:.6em;
-  font-family:var(--f-legenda);font-stretch:125%;font-weight:500;
-  font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;
-  padding:1.05em 1.8em;border:1px solid currentColor;border-radius:999px;
-  transition:background .2s,color .2s;
-}
-.botao svg{width:16px;height:16px}
-.botao--cheio{background:var(--petroleo);color:var(--creme);border-color:var(--petroleo)}
-.botao--cheio:hover{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
-.botao--vazado:hover{background:var(--petroleo);color:var(--creme)}
-.escuro .botao--vazado:hover{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
-
-/* ---------- cabeçalho ---------- */
-.topo{
-  position:sticky;top:0;z-index:20;
-  background:rgba(234,232,223,.92);backdrop-filter:blur(10px);
-  border-bottom:1px solid var(--linha);
-}
-.topo .miolo{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px var(--margem)}
-.topo .logo img{height:44px;width:auto}
-.topo nav ul{display:flex;gap:clamp(18px,3vw,40px)}
-.topo nav a{
-  font-family:var(--f-legenda);font-stretch:125%;font-weight:500;
-  font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;
-  padding:6px 0;border-bottom:1px solid transparent;
-}
-.topo nav a:hover,.topo nav a[aria-current]{border-bottom-color:var(--petroleo)}
-.topo .botao{padding:.85em 1.4em}
-.hamb{display:none;background:none;border:0;cursor:pointer;padding:8px;color:var(--petroleo)}
-.hamb svg{width:24px;height:24px}
-@media (max-width:860px){
-  .topo nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--creme);border-bottom:1px solid var(--linha);padding:20px var(--margem) 28px}
-  .topo nav.aberto{display:block}
-  .topo nav ul{flex-direction:column;gap:14px}
-  .topo .botao{display:none}
-  .hamb{display:block}
-}
-
-/* ---------- hero ---------- */
-.hero{position:relative;overflow:hidden;min-height:calc(100vh - 73px);display:flex;align-items:center}
-.hero .miolo{position:relative;width:100%;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
-.hero .grafismo{color:var(--petroleo);opacity:.55}
-.hero__texto{position:relative}
-.hero__texto .legenda{margin-bottom:28px}
-.hero__texto h1{margin-bottom:28px}
-.hero__texto p{font-size:clamp(1.05rem,1.4vw,1.25rem);margin-bottom:40px;max-width:40ch}
-.hero__acoes{display:flex;flex-wrap:wrap;gap:12px}
-.hero__simbolo{position:relative;justify-self:end;width:min(100%,380px);aspect-ratio:1}
-.hero__simbolo img{width:100%;height:100%;object-fit:contain}
-.hero__rodape{
-  position:absolute;left:0;right:0;bottom:0;
-  display:flex;justify-content:space-between;gap:24px;
-  padding:0 var(--margem) 28px;
-}
-.hero__rodape .miolo{display:flex;justify-content:space-between;width:100%;gap:24px;flex-wrap:wrap}
-@media (max-width:860px){
-  .hero{min-height:auto;padding-top:72px;padding-bottom:110px}
-  .hero .miolo{grid-template-columns:1fr}
-  .hero__simbolo{display:none}
-}
-
-/* ---------- sobre ---------- */
-.sobre{position:relative;overflow:hidden}
-.sobre .grafismo{color:var(--menta);opacity:.7}
-.sobre .miolo{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
-.sobre h2{margin:20px 0 0}
-.sobre__texto p+p{margin-top:1.2em}
-.sobre__texto p{font-size:1.05rem;color:var(--menta)}
-.sobre__texto .legenda{display:block;margin-top:40px;color:var(--creme);opacity:.7}
-@media (max-width:860px){.sobre .miolo{grid-template-columns:1fr;gap:32px}}
-
-/* ---------- especialidades ---------- */
-.cabecalho-secao{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;margin-bottom:clamp(40px,6vw,72px)}
-.cabecalho-secao h2{margin-top:18px}
-.cabecalho-secao p{justify-self:end;max-width:44ch;font-size:1.05rem}
-@media (max-width:860px){.cabecalho-secao{grid-template-columns:1fr}.cabecalho-secao p{justify-self:start}}
-
-.lista-esp{display:grid;grid-template-columns:repeat(2,1fr);column-gap:64px}
-.lista-esp li{border-top:1px solid var(--linha);padding:28px 0 32px;display:grid;grid-template-columns:auto 1fr;gap:16px 24px;align-items:start}
-.lista-esp .quem{grid-column:1/-1;margin-bottom:-6px}
-.lista-esp h3{margin-bottom:10px}
-.lista-esp p{font-size:.98rem;opacity:.85}
-.lista-esp .icone{width:36px;height:36px;color:var(--ocre);flex:none;margin-top:6px}
-.lista-esp .icone svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
-@media (max-width:860px){.lista-esp{grid-template-columns:1fr}}
-
-/* ---------- equipe ---------- */
-.equipe .miolo{position:relative}
-.equipe .grafismo{color:var(--creme);opacity:.35}
-.equipe .cabecalho-secao p{color:var(--creme)}
-.grade-medicos{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:0 48px}
-.medico{border-top:1px solid rgba(234,232,223,.45);padding:24px 0 36px}
-.medico .legenda{color:var(--creme);opacity:.75;margin-bottom:12px}
-.medico h3{margin-bottom:8px;font-size:1.3rem}
-.medico .area{font-size:.98rem;max-width:30ch;color:var(--creme);opacity:.9}
-@media (max-width:1000px){.grade-medicos{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:640px){.grade-medicos{grid-template-columns:1fr}}
-
-/* ---------- outras especialidades (menta) ---------- */
-.outras .lista-esp .icone{color:var(--petroleo)}
-.outras .lista-esp li{border-top-color:rgba(13,40,46,.3)}
-
-/* ---------- contato ---------- */
-.contato{position:relative;overflow:hidden}
-.contato .miolo{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.contato h2{margin:18px 0 36px}
-.info{display:grid;gap:24px;margin-bottom:40px}
-.info dt{margin-bottom:6px;opacity:.75}
-.info dd{font-size:1.05rem;line-height:1.45}
-.info dd a{border-bottom:1px solid var(--linha)}
-.galeria{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:180px 180px;gap:12px}
-.galeria a{overflow:hidden;background:var(--menta)}
-.galeria a:first-child{grid-row:1/3}
-.galeria img{width:100%;height:100%;object-fit:cover}
-@media (max-width:860px){
-  .contato .miolo{grid-template-columns:1fr}
-  .galeria{grid-template-rows:160px 160px}
-}
-
-/* ---------- avaliações ---------- */
-.avaliacoes .miolo{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
-.avaliacoes h2{margin-top:18px}
-.avaliacoes .placar{display:flex;align-items:baseline;gap:16px;margin-bottom:24px}
-.avaliacoes .placar strong{font-weight:300;font-size:clamp(3rem,6vw,5rem);letter-spacing:-.03em;line-height:1}
-.avaliacoes .placar span{font-size:1.1rem;opacity:.8}
-#google-reviews:empty{display:none}
-@media (max-width:860px){.avaliacoes .miolo{grid-template-columns:1fr}}
-
-/* ---------- rodapé ---------- */
-.rodape{padding:56px var(--margem) 32px}
-.rodape .miolo{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:40px;align-items:start}
-.rodape img{height:56px;width:auto;margin-bottom:20px}
-.rodape .legenda{margin-bottom:12px;opacity:.75}
-.rodape p,.rodape li{font-size:.95rem;line-height:1.55}
-.rodape .redes{display:flex;gap:10px;margin-top:8px}
-.rodape .redes a{width:40px;height:40px;border:1px solid rgba(234,232,223,.5);border-radius:50%;display:grid;place-items:center;transition:background .2s}
-.rodape .redes a:hover{background:var(--menta);color:var(--petroleo);border-color:var(--menta)}
-.rodape .redes svg{width:18px;height:18px;fill:currentColor}
-.rodape__base{max-width:var(--largura);margin:56px auto 0;padding-top:20px;border-top:1px solid rgba(234,232,223,.25);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.8rem;opacity:.7}
-@media (max-width:860px){.rodape .miolo{grid-template-columns:1fr 1fr}}
-@media (max-width:520px){.rodape .miolo{grid-template-columns:1fr}}
-
-/* ---------- WhatsApp flutuante ---------- */
-.zap-flutuante{
-  position:fixed;right:20px;bottom:20px;z-index:30;
-  width:56px;height:56px;border-radius:50%;
-  background:var(--petroleo);color:var(--creme);
-  display:grid;place-items:center;
-  box-shadow:0 8px 24px rgba(13,40,46,.25);
-  transition:transform .2s,background .2s;
-}
-.zap-flutuante:hover{transform:translateY(-2px);background:var(--menta);color:var(--petroleo)}
-.zap-flutuante svg{width:26px;height:26px;fill:currentColor}
-</style>
+<link rel="stylesheet" href="css/estilo.css">
+<script defer src="js/comum.js"></script>
+<script defer src="js/inicio.js"></script>
+<script defer src="js/equipe.js"></script>
+<script defer src="js/exames.js"></script>
+<script defer src="js/contato.js"></script>
 </head>
-<body>
+<body data-pagina="index">
 
-<!-- Grafismo reutilizável: linhas que convergem num eixo curvo -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="eixo-linhas" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
-    <path d="M540 260 C 540 240, 560 220, 600 190 L 800 40"/>
-    <path d="M540 260 L 540 -20"/>
-    <path d="M540 260 L 260 -20"/>
-    <path d="M540 260 L 40 340"/>
-    <path d="M540 260 L 360 620"/>
-    <path d="M540 260 L 560 620"/>
-    <path d="M540 260 L 820 300"/>
-    <path d="M540 260 L 760 560"/>
-  </symbol>
-</svg>
+<a class="pular-link" href="#conteudo">Pular para o conteúdo</a>
+<div id="cabecalho-site"></div>
 
-<header class="topo">
-  <div class="miolo">
-    <a class="logo" href="#inicio" aria-label="Eixo — página inicial">
-      <img src="https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1-300x101.png" alt="Eixo — Neurologia Especializada" width="300" height="101">
-    </a>
-    <nav id="nav-principal" aria-label="Principal">
-      <ul>
-        <li><a href="#clinica">A clínica</a></li>
-        <li><a href="#especialidades">Especialidades</a></li>
-        <li><a href="#equipe">Equipe</a></li>
-        <li><a href="#outras">Outras áreas</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    <a class="botao botao--cheio" href="https://wa.me/5561991246115" target="_blank" rel="noopener">Agendar consulta</a>
-    <button class="hamb" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-principal">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
-    </button>
-  </div>
-</header>
-
-<main id="inicio">
+<main id="conteudo">
 
   <!-- HERO -->
-  <section class="hero faixa">
+  <section class="hero faixa" aria-labelledby="titulo-hero">
     <svg class="grafismo" aria-hidden="true"><use href="#eixo-linhas"/></svg>
     <div class="miolo">
       <div class="hero__texto">
-        <p class="legenda">Neurologia especializada · Brasília</p>
-        <h1>Precisão,<br>inteligência,<br>cuidado.</h1>
-        <p>Somos especializados em cuidados neurológicos, com uma equipe de referência em cada área e atendimento humanizado do primeiro contato ao acompanhamento.</p>
+        <p class="legenda">Neurologia — atendimento particular · Brasília</p>
+        <h1 id="titulo-hero">Precisão,<br>inteligência,<br>cuidado.</h1>
+        <p>Clínica de neurologia com médicos qualificados em suas áreas de atuação, no Centro Clínico Lúcio Costa, Bloco 2. Consultas particulares, eletroneuromiografia, punção lombar e tap test.</p>
         <div class="hero__acoes">
-          <a class="botao botao--cheio" href="https://wa.me/5561991246115" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.7a11.9 11.9 0 0 0 5.7 1.5c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 0 1-1.5-5.3c0-5.4 4.4-9.9 9.9-9.9 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.4-4.5 9.9-10 9.9zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>
-            Consulta com neurologista
-          </a>
-          <a class="botao botao--vazado" href="#outras">Outras especialidades</a>
+          <a class="botao botao--cheio" data-clinica-whats href="#contato">Agendar pelo WhatsApp</a>
+          <a class="botao botao--vazado" data-clinica-tel href="#contato">Ligar para a clínica</a>
         </div>
       </div>
       <div class="hero__simbolo" aria-hidden="true">
         <img src="https://eixoneuro.com.br/wp-content/uploads/2025/04/Eixo_simbolo-6.png" alt="" width="555" height="555" fetchpriority="high">
       </div>
     </div>
-    <div class="hero__rodape">
-      <div class="miolo">
-        <span class="legenda">Centro Médico Lúcio Costa · Plano Piloto</span>
-        <span class="legenda">Seg–sex 7h30–18h30 · Sáb 8h–12h</span>
-      </div>
-    </div>
   </section>
 
-  <!-- A CLÍNICA -->
-  <section id="clinica" class="sobre faixa escuro">
-    <svg class="grafismo" aria-hidden="true" style="transform:scaleX(-1)"><use href="#eixo-linhas"/></svg>
-    <div class="miolo">
-      <div>
-        <p class="legenda">A clínica</p>
-        <h2>O eixo entre a técnica e a humanidade.</h2>
-      </div>
-      <div class="sobre__texto">
-        <p>A Eixo nasce com um propósito claro: oferecer o melhor atendimento neurológico em Brasília, unindo conhecimento especializado e humanizado em um ambiente acolhedor.</p>
-        <p>Nossa equipe é formada por médicos de referência em suas áreas, preparados para diagnosticar e tratar doenças neurológicas com excelência. Cada consulta é feita com atenção e comprometimento, porque sua saúde merece o melhor.</p>
-        <p>Com raízes firmes na ciência e um olhar voltado para o futuro, somos o ponto de convergência onde técnica e humanidade caminham juntas, com precisão e confiança.</p>
-        <span class="legenda">Inaugurada em 2025 · Asa Sul, Brasília</span>
-      </div>
-    </div>
-  </section>
+  <!-- Identificação obrigatória (Res. CFM 2.336/2023, art. 5º) visível sem rolagem excessiva -->
+  <div class="identificacao-curta" id="identificacao-curta"></div>
 
-  <!-- ESPECIALIDADES NEUROLÓGICAS -->
-  <section id="especialidades" class="faixa">
+  <!-- COMO PODEMOS AJUDAR -->
+  <section class="faixa" aria-labelledby="titulo-queixas">
     <div class="miolo">
       <div class="cabecalho-secao">
         <div>
-          <p class="legenda">Especialidades neurológicas</p>
-          <h2>Cada área com quem se dedica a ela.</h2>
+          <p class="legenda">Como podemos ajudar</p>
+          <h2 id="titulo-queixas">O que trouxe você até aqui?</h2>
         </div>
-        <p>Nossos neurologistas têm formação específica na sua subespecialidade. Abaixo, o que cada uma cuida e quem atende.</p>
+        <p>Escolha a queixa mais próxima da sua. Vamos mostrar os médicos da equipe com registro de qualificação (RQE) na área correspondente.</p>
       </div>
+      <ul class="lista-queixas" id="lista-queixas"></ul>
+    </div>
+  </section>
 
+  <!-- EXAMES E PROCEDIMENTOS -->
+  <section class="faixa escuro" aria-labelledby="titulo-exames">
+    <div class="miolo">
+      <div class="cabecalho-secao">
+        <div>
+          <p class="legenda">Na clínica</p>
+          <h2 id="titulo-exames">Exames e procedimentos realizados aqui.</h2>
+        </div>
+        <p>Realizados por médicos da equipe, com orientações claras de preparo. Veja o que trazer e quando avisar antes.</p>
+      </div>
+      <ul class="grade-cards" id="cards-exames"></ul>
+    </div>
+  </section>
+
+  <!-- ANTES DA PRIMEIRA CONSULTA -->
+  <section class="faixa menta" aria-labelledby="titulo-primeira">
+    <div class="miolo">
+      <div class="cabecalho-secao">
+        <div>
+          <p class="legenda">Antes da primeira consulta</p>
+          <h2 id="titulo-primeira">Chegue com tudo o que importa.</h2>
+        </div>
+        <p>Uma consulta rende mais quando os exames, os medicamentos e a história dos sintomas vêm junto.</p>
+      </div>
       <ul class="lista-esp">
         <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M18 5v26M18 5c-4 0-7 3-7 7v0M18 5c4 0 7 3 7 7v0M11 12c-2 0-4 2-4 4s2 4 4 4M25 12c2 0 4 2 4 4s-2 4-4 4M11 20c-2 1-3 3-2 5M25 20c2 1 3 3 2 5"/></svg></span>
           <div>
-            <h3>Transtornos do movimento</h3>
-            <p>Doença de Parkinson, tremores, tiques e distonias. Diagnóstico preciso, ajuste medicamentoso e terapias específicas, incluindo avaliação para estimulação cerebral profunda.</p>
+            <h3>Traga seus exames e medicamentos</h3>
+            <p>Exames anteriores (laudos e imagens em CD, pendrive ou link), lista de medicamentos com doses — ou as caixas — e relatórios de outros médicos.</p>
           </div>
-          <span class="quem legenda">Dr. Pedro Brandão</span>
         </li>
         <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M4 18h6l3-9 4 18 4-14 3 5h8"/></svg></span>
           <div>
-            <h3>Epilepsia</h3>
-            <p>Diagnóstico e tratamento das crises epilépticas, com EEG, vídeo-EEG e acompanhamento neurológico contínuo para controle eficaz.</p>
+            <h3>Registre os sintomas</h3>
+            <p>Quando começaram, como evoluíram, o que piora ou alivia. Se possível, grave um vídeo do sintoma (tremor, crise, alteração ao caminhar) no celular.</p>
           </div>
-          <span class="quem legenda">Dr. Pedro Naves</span>
         </li>
         <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M18 31c-5 0-9-4-9-9 0-6 9-16 9-16s9 10 9 16c0 5-4 9-9 9zM14 21c0 3 2 5 4 5"/></svg></span>
           <div>
-            <h3>Neurologia vascular</h3>
-            <p>Prevenção, diagnóstico e tratamento das doenças dos vasos cerebrais, como AVC, aneurismas e isquemias, para proteger a saúde do cérebro.</p>
+            <h3>Venha acompanhado quando precisar</h3>
+            <p>Acompanhante é recomendado para queixas de memória, tontura, desmaio e crises — e obrigatório em procedimentos.</p>
           </div>
-          <span class="quem legenda">Dra. Letícia Rebello · Dra. Márcia Neiva</span>
         </li>
         <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="12"/><path d="M18 10v8l5 3M10 6l-3 3M26 6l3 3"/></svg></span>
           <div>
-            <h3>Neurologia cognitiva</h3>
-            <p>Alterações de memória, linguagem, atenção e comportamento, comuns na doença de Alzheimer e outras demências. Diagnóstico e cuidado especializado.</p>
+            <h3>Atendimento particular</h3>
+            <p>Não atendemos convênios. Fornecemos recibo ou nota fiscal e relatório para você solicitar reembolso ao seu plano de saúde.</p>
           </div>
-          <span class="quem legenda">Dr. Carlos Uribe</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M18 4l12 5v8c0 8-5 13-12 15C11 30 6 25 6 17V9z"/><path d="M13 18l3 3 7-7"/></svg></span>
-          <div>
-            <h3>Neuroimunologia</h3>
-            <p>Doenças neurológicas causadas por alterações do sistema imunológico, como esclerose múltipla e neuromielite óptica, com foco em diagnóstico precoce e tratamento eficaz.</p>
-          </div>
-          <span class="quem legenda">Dra. Priscilla Proveti</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M4 20c4 0 4-8 8-8s4 12 8 12 4-8 8-8h4"/></svg></span>
-          <div>
-            <h3>Neurofisiologia clínica</h3>
-            <p>Investiga o funcionamento do sistema nervoso por exames como EEG e eletroneuromiografia, apoiando o diagnóstico de distúrbios neurológicos e musculares.</p>
-          </div>
-          <span class="quem legenda">Dr. Murilo Guiotti · Dr. Pedro Naves</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M18 6c-6 0-10 4-10 10 0 4 2 6 4 8v6h12v-6c2-2 4-4 4-8 0-6-4-10-10-10z"/><path d="M14 30h8"/></svg></span>
-          <div>
-            <h3>Cefaleia</h3>
-            <p>Investigação e manejo das dores de cabeça, como enxaquecas e cefaleias tensionais, com diagnóstico preciso e estratégias personalizadas de tratamento.</p>
-          </div>
-          <span class="quem legenda">Dr. Pedro Naves</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M8 28c0-4 3-6 6-8s3-6 2-10M28 28c0-4-3-6-6-8s-3-6-2-10M12 8h12"/></svg></span>
-          <div>
-            <h3>Doenças neuromusculares</h3>
-            <p>Enfermidades que afetam nervos e músculos, como miopatias, neuropatias e esclerose lateral amiotrófica, com foco em diagnóstico precoce e qualidade de vida.</p>
-          </div>
-          <span class="quem legenda">Dr. Murilo Guiotti</span>
         </li>
       </ul>
+      <p style="margin-top:32px"><a class="botao botao--cheio" href="primeira-consulta.html">Ver o guia completo da primeira consulta</a></p>
     </div>
   </section>
 
-  <!-- EQUIPE DE NEUROLOGISTAS -->
-  <section id="equipe" class="equipe faixa ocre">
-    <div class="miolo">
-      <svg class="grafismo" aria-hidden="true"><use href="#eixo-linhas"/></svg>
+  <!-- EQUIPE -->
+  <section class="faixa escuro" aria-labelledby="titulo-equipe" style="position:relative;overflow:hidden">
+    <svg class="grafismo" aria-hidden="true" style="opacity:.25"><use href="#eixo-linhas"/></svg>
+    <div class="miolo" style="position:relative">
       <div class="cabecalho-secao">
         <div>
-          <p class="legenda">Neurologistas</p>
-          <h2>Quem cuida de você.</h2>
+          <p class="legenda">Equipe</p>
+          <h2 id="titulo-equipe">Quem cuida de você.</h2>
         </div>
-        <p>Médicos com registro de qualificação (RQE) nas subespecialidades que atendem.</p>
+        <p>Neurologistas identificados com CRM e registro de qualificação de especialista (RQE). Toque em um card para ver o mini currículo.</p>
       </div>
-
-      <ul class="grade-medicos">
-        <li class="medico">
-          <p class="legenda">CRM-DF 19.069 · RQE 13.877</p>
-          <h3>Dr. Carlos Enrique Uribe Valencia</h3>
-          <p class="area">Neurologia geral e neurologia cognitiva</p>
-        </li>
-        <li class="medico">
-          <p class="legenda">CRM-DF 16.180 · RQE 11.762</p>
-          <h3>Dra. Letícia Costa Rebello</h3>
-          <p class="area">Neurologia vascular</p>
-        </li>
-        <li class="medico">
-          <p class="legenda">CRM-DF 17.876 · RQE 12.778</p>
-          <h3>Dra. Márcia Silva Silva Neiva</h3>
-          <p class="area">Neurologia geral e neurologia vascular</p>
-        </li>
-        <li class="medico">
-          <p class="legenda">CRM-DF 18.697 · RQE 13.416 e 14.347</p>
-          <h3>Dr. Murilo Galvão Guiotti</h3>
-          <p class="area">Neurologia e neurofisiologia clínica</p>
-        </li>
-        <li class="medico">
-          <p class="legenda">CRM-DF 18.853 · RQE 11.791</p>
-          <h3>Dr. Pedro Brandão</h3>
-          <p class="area">Transtornos do movimento</p>
-        </li>
-        <li class="medico">
-          <p class="legenda">CRM-DF 16.586 · RQE 21.156 e 21.157</p>
-          <h3>Dr. Pedro Naves</h3>
-          <p class="area">Epilepsia, cefaleia e neurofisiologia clínica (EEG e vídeo-EEG)</p>
-        </li>
-        <li class="medico">
-          <p class="legenda">CRM-DF 20.966 · RQE 12.943</p>
-          <h3>Dra. Priscilla Mara Proveti de Lima</h3>
-          <p class="area">Neuroimunologia e neurologia geral</p>
-        </li>
-        <li class="medico">
-          <p class="legenda">CRM-DF 23.576</p>
-          <h3>Dr. Nicolas Philippe Balduino Nogueira</h3>
-          <p class="area">Neurologia</p>
-        </li>
-      </ul>
+      <ul class="grade-medicos" id="grade-equipe"></ul>
+      <p style="margin-top:32px"><a class="botao botao--vazado" href="equipe.html">Ver a equipe completa e filtrar por queixa</a></p>
     </div>
   </section>
 
   <!-- OUTRAS ESPECIALIDADES -->
-  <section id="outras" class="outras faixa menta">
+  <section class="faixa" aria-labelledby="titulo-outras">
     <div class="miolo">
       <div class="cabecalho-secao">
         <div>
           <p class="legenda">Outras especialidades</p>
-          <h2>Cuidado integrado, no mesmo lugar.</h2>
+          <h2 id="titulo-outras">Cuidado integrado, no mesmo lugar.</h2>
         </div>
         <p>Áreas que dialogam com a neurologia e completam o acompanhamento do paciente.</p>
       </div>
-
-      <ul class="lista-esp">
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M10 26c-3-4-3-10 0-14 4-5 12-5 16 0 3 4 3 10 0 14"/><path d="M14 18h8M18 14v8"/></svg></span>
-          <div>
-            <h3>Neuropsicologia</h3>
-            <p>Avaliação das funções cognitivas, emocionais e comportamentais, auxiliando no diagnóstico e no tratamento de distúrbios neurológicos e psiquiátricos.</p>
-          </div>
-          <span class="quem legenda">Dra. Ana Paula Ávila de Oliveira · CRP 01/15128</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M12 6v10c0 6-4 8-4 14M24 6v10c0 6 4 8 4 14M12 16h12"/></svg></span>
-          <div>
-            <h3>Neurocirurgia</h3>
-            <p>Avaliação e tratamento cirúrgico de doenças do sistema nervoso, em conjunto com a equipe clínica de neurologia.</p>
-          </div>
-          <span class="quem legenda">Dr. Fábio Simões Fernandes · CRM-DF 13.592</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="3"/><path d="M18 6v6M18 24v6M6 18h6M24 18h6M9 9l4 4M23 23l4 4M27 9l-4 4M13 23l-4 4"/></svg></span>
-          <div>
-            <h3>Neurorradiologia intervencionista</h3>
-            <p>Diagnóstico por imagem e tratamento minimamente invasivo de doenças dos vasos do cérebro e da coluna, como aneurismas e malformações.</p>
-          </div>
-          <span class="quem legenda">Dr. Bruno Parente · CRM-DF 16.510</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M18 30s-10-6-10-14a5 5 0 0 1 10-2 5 5 0 0 1 10 2c0 8-10 14-10 14z"/></svg></span>
-          <div>
-            <h3>Cardiologia</h3>
-            <p>Prevenção, diagnóstico e tratamento de doenças do coração e dos vasos, como hipertensão, infarto e arritmias — fatores diretamente ligados à saúde cerebral.</p>
-          </div>
-          <span class="quem legenda">Dr. Victor Gurgel Freire Nogueira · CRM-DF 33.824</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M10 30V16a8 8 0 0 1 16 0v14M14 30v-6M22 30v-6M6 30h24"/></svg></span>
-          <div>
-            <h3>Geriatria</h3>
-            <p>Saúde da pessoa idosa, com foco na prevenção, no diagnóstico e no tratamento das condições relacionadas ao envelhecimento.</p>
-          </div>
-          <span class="quem legenda">Dra. Larissa de Freitas do Lago e Abreu · CRM-DF 29.636</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><circle cx="18" cy="14" r="6"/><path d="M8 30c0-5 4-8 10-8s10 3 10 8"/></svg></span>
-          <div>
-            <h3>Psiquiatria</h3>
-            <p>Diagnóstico e tratamento de transtornos mentais e emocionais, como depressão, ansiedade, transtorno bipolar e esquizofrenia.</p>
-          </div>
-          <span class="quem legenda">Dra. Angelica Bruschi Cappelleso · CRM 28.501</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M8 18a10 10 0 0 1 20 0"/><path d="M8 18v6a3 3 0 0 0 6 0v-6zM22 18v6a3 3 0 0 0 6 0v-6z"/></svg></span>
-          <div>
-            <h3>Otoneurologia</h3>
-            <p>Distúrbios do equilíbrio e da audição relacionados ao sistema nervoso, como tonturas, vertigens e zumbido.</p>
-          </div>
-          <span class="quem legenda">Dra. Roseana Netto · CRM-DF 25.239</span>
-        </li>
-        <li>
-          <span class="icone" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M12 6v12a6 6 0 0 0 12 0V6M12 6h4M20 6h4M18 24v6M14 30h8"/></svg></span>
-          <div>
-            <h3>Reumatologia</h3>
-            <p>Prevenção, diagnóstico e tratamento de doenças que afetam articulações, músculos e ossos, como artrite, lúpus e fibromialgia.</p>
-          </div>
-          <span class="quem legenda">Dra. Izaura Tereza Silva Guedes · CRM-DF (confirmar)</span>
-        </li>
-      </ul>
+      <ul class="lista-esp" id="lista-outras"></ul>
     </div>
   </section>
 
-  <!-- CONTATO / AGENDAMENTO -->
-  <section id="contato" class="contato faixa">
-    <div class="miolo">
-      <div>
-        <p class="legenda">Agende sua consulta</p>
-        <h2>Estamos no Plano Piloto.</h2>
-        <dl class="info">
-          <div>
-            <dt class="legenda">Horário</dt>
-            <dd>Segunda a sexta, 7h30 às 18h30<br>Sábado, 8h às 12h</dd>
-          </div>
-          <div>
-            <dt class="legenda">Telefone e WhatsApp</dt>
-            <dd><a href="tel:+5561991246115">(61) 99124-6115</a></dd>
-          </div>
-          <div>
-            <dt class="legenda">Endereço</dt>
-            <dd>
-              <a href="https://www.google.com/maps/search/?api=1&query=Centro+M%C3%A9dico+L%C3%BAcio+Costa+SQAS+610+Bloco+02+Bras%C3%ADlia" target="_blank" rel="noopener">SQAS QI 610, Bloco 02, salas 136 a 138</a><br>
-              Centro Médico Lúcio Costa · Asa Sul<br>
-              Brasília – DF · CEP 70200-700
-            </dd>
-          </div>
-        </dl>
-        <a class="botao botao--cheio" href="https://wa.me/5561991246115" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
-      </div>
-      <div class="galeria" aria-label="Fotos da clínica">
-        <a href="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-36.jpg" target="_blank" rel="noopener"><img src="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-36.jpg" alt="Interior da clínica Eixo" loading="lazy"></a>
-        <a href="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-28-1.jpg" target="_blank" rel="noopener"><img src="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-28-1-300x200.jpg" alt="Recepção da clínica Eixo" loading="lazy"></a>
-        <a href="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-37.jpg" target="_blank" rel="noopener"><img src="https://eixoneuro.com.br/wp-content/uploads/2025/06/inauguracaoClinicaEixo-37-300x200.jpg" alt="Consultório da clínica Eixo" loading="lazy"></a>
-      </div>
-    </div>
-  </section>
+  <div class="filete-ocre" aria-hidden="true"></div>
 
-  <!-- AVALIAÇÕES -->
-  <section class="avaliacoes faixa escuro">
-    <div class="miolo">
+  <!-- COMO CHEGAR -->
+  <section class="faixa" id="contato" aria-labelledby="titulo-chegar">
+    <div class="miolo grade-contato">
       <div>
-        <p class="legenda">Avaliações</p>
-        <h2>A opinião de quem já conhece a Eixo.</h2>
-      </div>
-      <div>
-        <div class="placar">
-          <strong>5,0</strong>
-          <span>no Google, com mais de 100 avaliações</span>
+        <p class="legenda">Como chegar</p>
+        <h2 id="titulo-chegar" style="margin:16px 0 24px">Estamos no Bloco 2.</h2>
+        <div class="caixa-destaque" style="margin-bottom:28px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-5.1-7-11a7 7 0 0 1 14 0c0 5.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <p><strong>Atenção: a entrada é pelo Bloco 2 do Centro Clínico Lúcio Costa.</strong><br>
+          <span data-clinica="endereco.salas">Salas 136 a 138</span> · <span data-clinica="endereco.logradouro">SQAS QI 610, Bloco 02</span>, Asa Sul, Brasília-DF.</p>
         </div>
-        <!-- Se mantiver o WordPress, cole aqui o shortcode do WP Social Ninja: [wp_social_ninja id="643" platform="google_reviews"] -->
-        <div id="google-reviews"></div>
-        <a class="botao botao--vazado" href="https://search.google.com/local/reviews?placeid=ChIJCTnkMVE7WpMR7_4ck4y8C7I" target="_blank" rel="noopener">Ler avaliações no Google</a>
+        <dl class="info" id="info-contato"></dl>
+        <a class="botao botao--cheio" data-clinica-whats href="contato.html">Agendar pelo WhatsApp</a>
+        <a class="botao botao--vazado" href="contato.html" style="margin-left:8px">Endereço e instruções completas</a>
+      </div>
+      <div>
+        <div class="mapa-envoltorio" id="mapa"></div>
+        <div class="botoes-mapa" id="botoes-mapa"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVISO DE EMERGÊNCIA -->
+  <section class="faixa faixa--curta" aria-label="Aviso importante sobre emergências">
+    <div class="miolo">
+      <div class="banner-emergencia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3 2.5 20h19L12 3z"/><path d="M12 9.5v5M12 17.2v.3"/></svg>
+        <p><strong>A clínica não atende urgências.</strong> Em caso de sintomas neurológicos agudos — fraqueza súbita, dificuldade para falar, convulsão, dor de cabeça súbita e intensa — ligue <strong><a href="tel:192" style="border-bottom:1px solid currentColor">192 (SAMU)</a></strong> ou procure imediatamente um pronto-socorro.</p>
       </div>
     </div>
   </section>
 
 </main>
 
-<footer class="rodape escuro">
-  <div class="miolo">
-    <div>
-      <img src="https://eixoneuro.com.br/wp-content/uploads/2025/04/favicon2-150x150.png" alt="Símbolo Eixo" width="150" height="150" loading="lazy">
-      <p>Eixo — Neurologia Especializada<br>Brasília, DF</p>
-    </div>
-    <div>
-      <p class="legenda">Horário</p>
-      <p>Seg a sex, 7h30–18h30<br>Sáb, 8h–12h</p>
-    </div>
-    <div>
-      <p class="legenda">Contato</p>
-      <p><a href="tel:+5561991246115">(61) 99124-6115</a></p>
-      <div class="redes">
-        <a href="https://www.instagram.com/eixoneuro/" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm6.4-8.4a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0zM21.9 8c-.1-1.6-.4-3-1.6-4.2S17.6 2.3 16 2.2C14.4 2.1 9.6 2.1 8 2.2 6.4 2.3 5 2.6 3.8 3.8S2.3 6.4 2.2 8c-.1 1.6-.1 6.4 0 8 .1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.6.1 6.4.1 8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.6.1-6.4 0-8zm-2.1 9.7c-.3.9-1 1.5-1.9 1.9-1.3.5-4.4.4-5.9.4s-4.6.1-5.9-.4c-.9-.3-1.5-1-1.9-1.9-.5-1.3-.4-4.4-.4-5.9s-.1-4.6.4-5.9c.3-.9 1-1.5 1.9-1.9 1.3-.5 4.4-.4 5.9-.4s4.6-.1 5.9.4c.9.3 1.5 1 1.9 1.9.5 1.3.4 4.4.4 5.9s.1 4.6-.4 5.9z"/></svg>
-        </a>
-        <a href="https://wa.me/5561991246115" target="_blank" rel="noopener" aria-label="WhatsApp">
-          <svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.7a11.9 11.9 0 0 0 5.7 1.5c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 0 1-1.5-5.3c0-5.4 4.4-9.9 9.9-9.9 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.4-4.5 9.9-10 9.9zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>
-        </a>
-      </div>
-    </div>
-    <div>
-      <p class="legenda">Endereço</p>
-      <p>SQAS QI 610, Bloco 02<br>Salas 136 a 138<br>Centro Médico Lúcio Costa<br>CEP 70200-700</p>
-    </div>
+<div id="rodape-site"></div>
+
+<noscript>
+  <div style="padding:24px;max-width:800px;margin:0 auto;font-family:system-ui,sans-serif">
+    <p><strong>Eixo — Neurologia Especializada</strong> · Atendimento particular (não atendemos convênios).</p>
+    <p>Centro Clínico Lúcio Costa — Bloco 2, Salas 136 a 138, SQAS QI 610, Asa Sul, Brasília-DF, CEP 70200-700.</p>
+    <p>Telefone e WhatsApp: <a href="tel:+5561991246115">(61) 99124-6115</a>. Segunda a sexta, 7h30–18h30; sábado, 8h–12h.</p>
+    <p>Este site precisa de JavaScript para exibir a equipe médica e os demais conteúdos.</p>
   </div>
-  <div class="rodape__base">
-    <span>© <span id="ano"></span> Eixo Neurologia Especializada</span>
-    <a href="#inicio">Voltar ao topo</a>
-  </div>
-</footer>
+</noscript>
 
-<a class="zap-flutuante" href="https://wa.me/5561991246115" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
-  <svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.7a11.9 11.9 0 0 0 5.7 1.5c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 0 1-1.5-5.3c0-5.4 4.4-9.9 9.9-9.9 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.4-4.5 9.9-10 9.9zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>
-</a>
-
-<!-- Dados estruturados (mantém o SEO local do Yoast) -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"MedicalClinic",
-  "name":"Eixo — Neurologia Especializada",
-  "url":"https://eixoneuro.com.br/",
-  "image":"https://eixoneuro.com.br/wp-content/uploads/2025/03/Eixo_logotipo-tag-1.png",
-  "telephone":"+55-61-99124-6115",
-  "medicalSpecialty":"Neurology",
-  "address":{"@type":"PostalAddress","streetAddress":"SQAS QI 610, Bloco 02, Salas 136 a 138 — Centro Médico Lúcio Costa","addressLocality":"Brasília","addressRegion":"DF","postalCode":"70200-700","addressCountry":"BR"},
-  "openingHoursSpecification":[
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:30","closes":"18:30"},
-    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:00"}
-  ],
-  "sameAs":["https://www.instagram.com/eixoneuro/"]
-}
-</script>
-
-<script>
-(function(){
-  document.getElementById('ano').textContent = new Date().getFullYear();
-
-  // menu mobile
-  var btn = document.querySelector('.hamb');
-  var nav = document.getElementById('nav-principal');
-  btn.addEventListener('click', function(){
-    var aberto = nav.classList.toggle('aberto');
-    btn.setAttribute('aria-expanded', aberto);
-    btn.setAttribute('aria-label', aberto ? 'Fechar menu' : 'Abrir menu');
-  });
-  nav.addEventListener('click', function(e){
-    if (e.target.tagName === 'A') { nav.classList.remove('aberto'); btn.setAttribute('aria-expanded','false'); }
-  });
-
-  // marca a seção visível no menu
-  var links = nav.querySelectorAll('a[href^="#"]');
-  var secoes = Array.prototype.map.call(links, function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
-  if ('IntersectionObserver' in window) {
-    var obs = new IntersectionObserver(function(entries){
-      entries.forEach(function(en){
-        if (en.isIntersecting) {
-          links.forEach(function(a){
-            if (a.getAttribute('href') === '#' + en.target.id) a.setAttribute('aria-current','true');
-            else a.removeAttribute('aria-current');
-          });
-        }
-      });
-    }, {rootMargin:'-40% 0px -55% 0px'});
-    secoes.forEach(function(s){ obs.observe(s); });
-  }
-})();
-</script>
 </body>
 </html>
